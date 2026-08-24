@@ -1,0 +1,18 @@
+@"
+chunking:
+  chunk_size: null
+  chunk_overlap: null
+
+retrieval:
+  top_k: null
+  similarity_threshold: null
+
+hybrid_search:
+  enabled: false
+  dense_weight: null
+  lexical_weight: null
+
+reranking:
+  enabled: false
+  top_n: null
+"@ | Set-Content configs\retrieval.yaml

@@ -1,0 +1,19 @@
+@"
+llm:
+  provider: ollama
+  model: ""
+  temperature: 0.0
+
+embedding:
+  provider: huggingface
+  model: ""
+
+reranker:
+  enabled: false
+  model: ""
+
+model_runtime:
+  context_window: null
+  quantization: null
+  hardware: null
+"@ | Set-Content configs\models.yaml

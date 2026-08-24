@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Q1",
+    "question": "What are the common treatments for Type 2 diabetes?",
+    "category": "general_biomedical",
+    "answer": "Common treatments for Type 2 diabetes include lifestyle changes such as diet modification and increased physical activity. Medications such as metformin are often prescribed to help manage blood sugar levels. Other medications like sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, and GLP-1 receptor agonists are also used. In some cases, insulin therapy may be necessary, either as a supplement to other medications or as a primary treatment."
+  },
+  {
+    "id": "Q2",
+    "question": "What is the role of GLP-1 receptor agonists in Type 2 diabetes treatment?",
+    "category": "general_biomedical",
+    "answer": "GLP-1 receptor agonists are medications that mimic the action of glucagon-like peptide-1 (GLP-1), a hormone produced by the intestines that helps regulate blood sugar levels. They are used in the treatment of Type 2 diabetes to help lower blood sugar levels by promoting insulin secretion from the pancreas and by slowing the absorption of glucose from the intestines. These medications can also help reduce body weight and improve blood sugar control. They are typically administered through injections or as a nasal spray."
+  },
+  {
+    "id": "Q3",
+    "question": "What are common side effects associated with metformin?",
+    "category": "drug_information",
+    "answer": "Common side effects associated with metformin include gastrointestinal issues such as nausea, diarrhea, and abdominal pain. Some users may also experience fatigue or a metallic taste in the mouth. Rare but more serious side effects can include lactic acidosis, which is a condition where there is too much lactic acid in the body, potentially leading to organ damage. It is important to consult a healthcare provider if experiencing severe side effects."
+  },
+  {
+    "id": "Q4",
+    "question": "What are the major risk factors for cardiovascular disease?",
+    "category": "general_biomedical",
+    "answer": "Major risk factors for cardiovascular disease include high blood pressure, high blood cholesterol levels, tobacco smoking, physical inactivity, obesity, diabetes, and older age. Additionally, a diet high in saturated fats and sodium, and excessive alcohol consumption can contribute to the development of cardiovascular disease."
+  },
+  {
+    "id": "Q5",
+    "question": "What is the relationship between hypertension and kidney disease?",
+    "category": "general_biomedical",
+    "answer": "Hypertension, or high blood pressure, can lead to kidney disease. When blood pressure is consistently high, it can cause damage to the tiny blood vessels in the kidneys, which can impair their ability to filter waste from the blood effectively. This condition is known as diabetic nephropathy in the context of diabetes, but in general, it is referred to as hypertension-related kidney disease. Over time, this can lead to kidney failure if not managed properly."
+  },
+  {
+    "id": "Q6",
+    "question": "What clinical trials are available for Type 2 diabetes?",
+    "category": "clinical_trials",
+    "answer": "There are numerous clinical trials ongoing for Type 2 diabetes, focusing on various aspects such as new drug development, lifestyle interventions, and new technologies. However, I don't have specific details about all current clinical trials. To find the most up-to-date and relevant clinical trials, one would typically consult a clinical trial database such as ClinicalTrials.gov or other specialized health research websites. These platforms allow you to search for clinical trials based on specific conditions, treatments, and other criteria."
+  }
+]

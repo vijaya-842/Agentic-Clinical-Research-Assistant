@@ -1,7 +1,6 @@
-@"
 llm:
   provider: ollama
-  model: ""
+  model: qwen2.5:3b
   temperature: 0.0
 
 embedding:
@@ -13,7 +12,7 @@ reranker:
   model: ""
 
 model_runtime:
+  parameter_size: "3B"
   context_window: null
-  quantization: null
-  hardware: null
-"@ | Set-Content configs\models.yaml
+  quantization: "Ollama default"
+  hardware: "Intel i5-1235U, 16 GB RAM, Intel Iris Xe"

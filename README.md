@@ -35,7 +35,7 @@ git clone https://github.com/vijaya-842/Agentic-Clinical-Research-Assistant.git
 cd Agentic-Clinical-Research-Assistant
 py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+pip install -r requirements-lock.txt
 ollama pull qwen2.5:3b
 ```
 

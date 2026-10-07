@@ -32,3 +32,4 @@ data/processed/*
 # Model and cache files
 models/
 cache/
+.pytest_cache/

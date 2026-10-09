@@ -5,7 +5,10 @@ llm:
 
 embedding:
   provider: huggingface
-  model: ""
+  model: BAAI/bge-base-en-v1.5
+  batch_size: 32
+  # BGE models work best when search questions (not documents) get this prefix.
+  query_instruction: "Represent this sentence for searching relevant passages: "
 
 reranker:
   enabled: false

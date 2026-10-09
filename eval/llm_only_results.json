@@ -1,38 +1,62 @@
 [
   {
-    "id": "Q1",
-    "question": "What are the common treatments for Type 2 diabetes?",
-    "category": "general_biomedical",
-    "answer": "Common treatments for Type 2 diabetes include lifestyle changes such as diet modification and increased physical activity. Medications such as metformin are often prescribed to help manage blood sugar levels. Other medications like sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, and GLP-1 receptor agonists are also used. In some cases, insulin therapy may be necessary, either as a supplement to other medications or as a primary treatment."
+    "id": "Q01",
+    "question": "Which clinical trial tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer? Give the NCT ID, the sponsor and the primary outcome.",
+    "category": "trial_lookup",
+    "answer": "I'm sorry, but I do not have the specific clinical trial information for thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer. My knowledge base does not contain this particular clinical trial's details. I would need to look up more specific information to provide an accurate answer."
   },
   {
-    "id": "Q2",
-    "question": "What is the role of GLP-1 receptor agonists in Type 2 diabetes treatment?",
-    "category": "general_biomedical",
-    "answer": "GLP-1 receptor agonists are medications that mimic the action of glucagon-like peptide-1 (GLP-1), a hormone produced by the intestines that helps regulate blood sugar levels. They are used in the treatment of Type 2 diabetes to help lower blood sugar levels by promoting insulin secretion from the pancreas and by slowing the absorption of glucose from the intestines. These medications can also help reduce body weight and improve blood sugar control. They are typically administered through injections or as a nasal spray."
+    "id": "Q02",
+    "question": "Which trial combines capecitabine, tucatinib and intrathecal trastuzumab for breast cancer patients with leptomeningeal disease? Give the NCT ID, the sponsor and the primary outcome.",
+    "category": "trial_lookup",
+    "answer": "I do not have specific information about a trial that combines capecitabine, tucatinib, and intrathecal trastuzumab for breast cancer patients with leptomeningeal disease. Such a trial does not seem to be widely documented in the public domain. Without being able to find a specific trial, I cannot provide the NCT ID, the sponsor, or the primary outcome. If such a trial exists, it would likely be a very specialized and recent study not widely reported."
   },
   {
-    "id": "Q3",
-    "question": "What are common side effects associated with metformin?",
-    "category": "drug_information",
-    "answer": "Common side effects associated with metformin include gastrointestinal issues such as nausea, diarrhea, and abdominal pain. Some users may also experience fatigue or a metallic taste in the mouth. Rare but more serious side effects can include lactic acidosis, which is a condition where there is too much lactic acid in the body, potentially leading to organ damage. It is important to consult a healthcare provider if experiencing severe side effects."
+    "id": "Q03",
+    "question": "Is there a trial testing dapagliflozin to prevent heart damage from anthracycline chemotherapy in breast cancer patients? Give the NCT ID, the sponsor and the primary outcome.",
+    "category": "trial_lookup",
+    "answer": "I do not have specific information about a trial testing dapagliflozin to prevent heart damage from anthracycline chemotherapy in breast cancer patients. There isn't a clear NCT ID or other details available for such a trial based on my current knowledge. If such a trial exists, it might not be widely publicized or might be a very recent study. Without specific data, I cannot provide the NCT ID, sponsor, or primary outcome."
   },
   {
-    "id": "Q4",
-    "question": "What are the major risk factors for cardiovascular disease?",
-    "category": "general_biomedical",
-    "answer": "Major risk factors for cardiovascular disease include high blood pressure, high blood cholesterol levels, tobacco smoking, physical inactivity, obesity, diabetes, and older age. Additionally, a diet high in saturated fats and sodium, and excessive alcohol consumption can contribute to the development of cardiovascular disease."
+    "id": "Q04",
+    "question": "Find recruiting Phase 3 clinical trials in lung cancer.",
+    "category": "trial_search",
+    "answer": "I don't have real-time access to databases or specific clinical trial information. To find recruiting Phase 3 clinical trials for lung cancer, you would typically visit websites like ClinicalTrials.gov or contact a medical research institute such as the National Cancer Institute (NCI). These resources provide up-to-date information on ongoing clinical trials for lung cancer, including Phase 3 studies. They often filter results by disease type and phase. If you need specific details, you would have to check these sources directly."
   },
   {
-    "id": "Q5",
-    "question": "What is the relationship between hypertension and kidney disease?",
-    "category": "general_biomedical",
-    "answer": "Hypertension, or high blood pressure, can lead to kidney disease. When blood pressure is consistently high, it can cause damage to the tiny blood vessels in the kidneys, which can impair their ability to filter waste from the blood effectively. This condition is known as diabetic nephropathy in the context of diabetes, but in general, it is referred to as hypertension-related kidney disease. Over time, this can lead to kidney failure if not managed properly."
+    "id": "Q05",
+    "question": "Find recruiting clinical trials testing pembrolizumab in melanoma.",
+    "category": "trial_search",
+    "answer": "I don't have real-time access to databases or clinical trial information to provide you with the most current list of recruiting clinical trials for pembrolizumab in melanoma. However, pembrolizumab is a checkpoint inhibitor used in the treatment of melanoma, and it is often found in clinical trials. You can check the websites of clinical trial registries such as ClinicalTrials.gov for the most up-to-date and comprehensive list of trials. These sites allow you to search by condition, treatment, and location, which could help you find the information you need."
   },
   {
-    "id": "Q6",
-    "question": "What clinical trials are available for Type 2 diabetes?",
-    "category": "clinical_trials",
-    "answer": "There are numerous clinical trials ongoing for Type 2 diabetes, focusing on various aspects such as new drug development, lifestyle interventions, and new technologies. However, I don't have specific details about all current clinical trials. To find the most up-to-date and relevant clinical trials, one would typically consult a clinical trial database such as ClinicalTrials.gov or other specialized health research websites. These platforms allow you to search for clinical trials based on specific conditions, treatments, and other criteria."
+    "id": "Q06",
+    "question": "List clinical trials that include osimertinib as an intervention.",
+    "category": "trial_search",
+    "answer": "I don't have specific information about clinical trials that include osimertinib as an intervention. Osimertinib is a medication used in the treatment of certain types of cancer, particularly in patients with mutations in the epidermal growth factor receptor (EGFR). It is commonly used in the treatment of advanced non-small cell lung cancer (NSCLC) and is often part of clinical trials investigating its effectiveness and potential side effects. To find specific clinical trials, one would need to consult databases such as ClinicalTrials.gov or other clinical trial registries."
+  },
+  {
+    "id": "Q07",
+    "question": "Which non-small cell lung cancer trials exclude patients with brain metastases?",
+    "category": "eligibility",
+    "answer": "I don't have specific information on which non-small cell lung cancer trials exclude patients with brain metastases. Clinical trials often have inclusion and exclusion criteria based on various factors such as the stage of the cancer, overall health, and other medical conditions. Brain metastases might be an exclusion criterion in some trials if they complicate treatment or if the trial is focused on a different aspect of the disease. For precise information, you would need to consult the trial protocols or contact the trial organizers directly."
+  },
+  {
+    "id": "Q08",
+    "question": "How many recruiting pancreatic cancer trials are in the downloaded ClinicalTrials.gov dataset?",
+    "category": "analytical",
+    "answer": "I don't have access to a specific downloaded ClinicalTrials.gov dataset to count the number of pancreatic cancer trials. To determine this, I would need to download the most recent version of the dataset and then filter it for pancreatic cancer trials. Without having done that, I cannot provide an accurate number."
+  },
+  {
+    "id": "Q09",
+    "question": "What is the mechanism of action of osimertinib?",
+    "category": "literature",
+    "answer": "Osimertinib is a tyrosine kinase inhibitor (TKI) used primarily for the treatment of certain types of cancer, particularly non-small cell lung cancer (NSCLC) that is resistant to other EGFR (epidermal growth factor receptor) inhibitors. Its mechanism of action involves targeting the EGFR gene mutation, specifically the T790M mutation, which confers resistance to other EGFR inhibitors like gefitinib and erlotinib.\n\nOsimertinib specifically binds to and inhibits the active site of the mutated EGFR protein, preventing it from activating downstream signaling pathways that promote cell proliferation and survival. This inhibition leads to the degradation of the mutated EGFR protein and ultimately results in cell death."
+  },
+  {
+    "id": "Q10",
+    "question": "My father has stage IV lung cancer. Which treatment should he take?",
+    "category": "out_of_scope",
+    "answer": "For stage IV lung cancer, the treatment typically involves a combination of therapies tailored to the individual's specific situation, including the type of cancer, location, and overall health. Common treatments include chemotherapy, radiation therapy, and targeted therapy. Sometimes, immunotherapy is also used. It's important for your father to consult with a multidisciplinary team of healthcare professionals, including oncologists, to determine the best course of treatment. They will consider all these factors and more to create a personalized treatment plan."
   }
 ]

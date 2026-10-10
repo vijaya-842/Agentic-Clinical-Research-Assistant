@@ -1,0 +1,361 @@
+[
+  {
+    "question": "Which clinical trial tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer? Give the NCT ID, the sponsor and the primary outcome.",
+    "answer": "[NCT05086614] [Fudan University] Primary outcome: 3-year disease-free survival rate [NCT05086614]",
+    "retrieved_chunk_ids": [
+      "NCT05086614_summary_00",
+      "NCT05086614_outcomes_00",
+      "NCT05086614_eligibility_00",
+      "NCT05086614_summary_01",
+      "NCT02906150_outcomes_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT05086614",
+      "NCT02906150"
+    ],
+    "cited_nct_ids": [
+      "NCT05086614"
+    ],
+    "valid_citations": [
+      "NCT05086614"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.14,
+    "generation_seconds": 35.6,
+    "id": "Q01",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Which trial combines capecitabine, tucatinib and intrathecal trastuzumab for breast cancer patients with leptomeningeal disease? Give the NCT ID, the sponsor and the primary outcome.",
+    "answer": "[NCT05800275] [UNICANCER] The primary outcome of this trial is overall survival rate at 12 months. [NCT05800275]",
+    "retrieved_chunk_ids": [
+      "NCT05800275_summary_00",
+      "NCT05800275_summary_01",
+      "NCT05800275_eligibility_15",
+      "NCT05800275_outcomes_00",
+      "NCT05800275_eligibility_10"
+    ],
+    "retrieved_nct_ids": [
+      "NCT05800275"
+    ],
+    "cited_nct_ids": [
+      "NCT05800275"
+    ],
+    "valid_citations": [
+      "NCT05800275"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.284,
+    "generation_seconds": 31.6,
+    "id": "Q02",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Is there a trial testing dapagliflozin to prevent heart damage from anthracycline chemotherapy in breast cancer patients? Give the NCT ID, the sponsor and the primary outcome.",
+    "answer": "[NCT07245069] [University Medical Centre Ljubljana] The primary outcome is to determine whether dapagliflozin, a sodium-glucose cotransporter-2 (SGLT-2) inhibitor, can help prevent anthracycline-induced cardiotoxicity in adult women with breast cancer receiving (neo)adjuvant treatment.",
+    "retrieved_chunk_ids": [
+      "NCT07245069_summary_04",
+      "NCT07245069_summary_01",
+      "NCT07245069_eligibility_01",
+      "NCT07245069_summary_00",
+      "NCT07245069_summary_03"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07245069"
+    ],
+    "cited_nct_ids": [
+      "NCT07245069"
+    ],
+    "valid_citations": [
+      "NCT07245069"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.27,
+    "generation_seconds": 37.1,
+    "id": "Q03",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find recruiting Phase 3 clinical trials in lung cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.",
+    "retrieved_chunk_ids": [
+      "NCT04202809_eligibility_04",
+      "NCT05331833_eligibility_05",
+      "NCT02117167_eligibility_00",
+      "NCT03127449_eligibility_11",
+      "NCT04111913_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT04202809",
+      "NCT05331833",
+      "NCT02117167",
+      "NCT03127449",
+      "NCT04111913"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.131,
+    "generation_seconds": 27.9,
+    "id": "Q04",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 4
+    }
+  },
+  {
+    "question": "Find recruiting clinical trials testing pembrolizumab in melanoma.",
+    "answer": "[1] (NCT06961006) [NCT01704287] [NCT03241927]",
+    "retrieved_chunk_ids": [
+      "NCT06961006_eligibility_02",
+      "NCT01704287_eligibility_00",
+      "NCT03241927_eligibility_12",
+      "NCT06961006_eligibility_06",
+      "NCT03241927_summary_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06961006",
+      "NCT01704287",
+      "NCT03241927"
+    ],
+    "cited_nct_ids": [
+      "NCT06961006",
+      "NCT01704287",
+      "NCT03241927"
+    ],
+    "valid_citations": [
+      "NCT06961006",
+      "NCT01704287",
+      "NCT03241927"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.152,
+    "generation_seconds": 35.6,
+    "id": "Q05",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 6
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 6
+    }
+  },
+  {
+    "question": "List clinical trials that include osimertinib as an intervention.",
+    "answer": "[Trial NCT06436144] [NCT03433469] [NCT07486648]",
+    "retrieved_chunk_ids": [
+      "NCT06436144_summary_02",
+      "NCT03433469_summary_01",
+      "NCT03433469_eligibility_27",
+      "NCT03433469_summary_00",
+      "NCT07486648_eligibility_31"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06436144",
+      "NCT03433469",
+      "NCT07486648"
+    ],
+    "cited_nct_ids": [
+      "NCT06436144",
+      "NCT03433469",
+      "NCT07486648"
+    ],
+    "valid_citations": [
+      "NCT06436144",
+      "NCT03433469",
+      "NCT07486648"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.222,
+    "generation_seconds": 32.3,
+    "id": "Q06",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 13
+    },
+    "gold_in_answer": {
+      "found": 3,
+      "total": 13
+    }
+  },
+  {
+    "question": "Which non-small cell lung cancer trials exclude patients with brain metastases?",
+    "answer": "[1] [NCT00702182] excludes patients with brain metastases that have not been treated with whole brain radiotherapy.\n[4] [NCT07718737] excludes patients with CNS metastases.",
+    "retrieved_chunk_ids": [
+      "NCT00702182_eligibility_04",
+      "NCT00048997_eligibility_03",
+      "NCT00048997_summary_01",
+      "NCT07718737_eligibility_12",
+      "NCT00048997_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00702182",
+      "NCT00048997",
+      "NCT07718737"
+    ],
+    "cited_nct_ids": [
+      "NCT00702182",
+      "NCT07718737"
+    ],
+    "valid_citations": [
+      "NCT00702182",
+      "NCT07718737"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.2,
+    "generation_seconds": 30.4,
+    "id": "Q07",
+    "category": "eligibility",
+    "gold_in_retrieved": {
+      "found": 2,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 2,
+      "total": 4
+    }
+  },
+  {
+    "question": "How many recruiting pancreatic cancer trials are in the downloaded ClinicalTrials.gov dataset?",
+    "answer": "The retrieved sources do not contain enough information to answer this question.",
+    "retrieved_chunk_ids": [
+      "NCT03544255_outcomes_00",
+      "NCT07326150_summary_01",
+      "NCT06330441_outcomes_00",
+      "NCT07326150_summary_00",
+      "NCT05014776_eligibility_02"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03544255",
+      "NCT07326150",
+      "NCT06330441",
+      "NCT05014776"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.224,
+    "generation_seconds": 25.9,
+    "id": "Q08",
+    "category": "analytical",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of osimertinib?",
+    "answer": "Osimertinib works by blocking the action of mutant forms of the EGFR protein, which play a key role in tumor cell growth. [NCT03433469, NCT06303167]",
+    "retrieved_chunk_ids": [
+      "NCT03433469_summary_01",
+      "NCT06303167_summary_02",
+      "NCT06303167_summary_01",
+      "NCT06436144_summary_02",
+      "NCT03433469_eligibility_23"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03433469",
+      "NCT06303167",
+      "NCT06436144"
+    ],
+    "cited_nct_ids": [
+      "NCT03433469",
+      "NCT06303167"
+    ],
+    "valid_citations": [
+      "NCT03433469",
+      "NCT06303167"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.218,
+    "generation_seconds": 34.8,
+    "id": "Q09",
+    "category": "literature",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "My father has stage IV lung cancer. Which treatment should he take?",
+    "answer": "The retrieved sources do not contain enough information to determine which specific treatment your father should take. [NCT06632327], [NCT02321501], [NCT06632327], [NCT00002969], [NCT00096486] provide details about various treatments and studies, but they do not specify which treatment is best for stage IV lung cancer. It is important for your father to consult with his oncologist to determine the most appropriate treatment plan based on his specific condition and medical history.",
+    "retrieved_chunk_ids": [
+      "NCT06632327_summary_02",
+      "NCT02321501_summary_02",
+      "NCT06632327_summary_06",
+      "NCT00002969_summary_00",
+      "NCT00096486_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06632327",
+      "NCT02321501",
+      "NCT00002969",
+      "NCT00096486"
+    ],
+    "cited_nct_ids": [
+      "NCT06632327",
+      "NCT02321501",
+      "NCT00002969",
+      "NCT00096486"
+    ],
+    "valid_citations": [
+      "NCT06632327",
+      "NCT02321501",
+      "NCT00002969",
+      "NCT00096486"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.213,
+    "generation_seconds": 44.3,
+    "id": "Q10",
+    "category": "out_of_scope",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  }
+]

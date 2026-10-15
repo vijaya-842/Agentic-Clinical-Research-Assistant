@@ -20,8 +20,8 @@
       "NCT05086614"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.14,
-    "generation_seconds": 35.6,
+    "retrieval_seconds": 0.751,
+    "generation_seconds": 37.6,
     "id": "Q01",
     "category": "trial_lookup",
     "gold_in_retrieved": {
@@ -53,8 +53,8 @@
       "NCT05800275"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.284,
-    "generation_seconds": 31.6,
+    "retrieval_seconds": 0.522,
+    "generation_seconds": 30.7,
     "id": "Q02",
     "category": "trial_lookup",
     "gold_in_retrieved": {
@@ -86,8 +86,8 @@
       "NCT07245069"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.27,
-    "generation_seconds": 37.1,
+    "retrieval_seconds": 0.437,
+    "generation_seconds": 36.7,
     "id": "Q03",
     "category": "trial_lookup",
     "gold_in_retrieved": {
@@ -119,8 +119,8 @@
     "cited_nct_ids": [],
     "valid_citations": [],
     "invented_citations": [],
-    "retrieval_seconds": 0.131,
-    "generation_seconds": 27.9,
+    "retrieval_seconds": 0.281,
+    "generation_seconds": 27.6,
     "id": "Q04",
     "category": "trial_search",
     "gold_in_retrieved": {
@@ -158,8 +158,8 @@
       "NCT03241927"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.152,
-    "generation_seconds": 35.6,
+    "retrieval_seconds": 0.243,
+    "generation_seconds": 34.3,
     "id": "Q05",
     "category": "trial_search",
     "gold_in_retrieved": {
@@ -197,8 +197,8 @@
       "NCT07486648"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.222,
-    "generation_seconds": 32.3,
+    "retrieval_seconds": 0.262,
+    "generation_seconds": 31.5,
     "id": "Q06",
     "category": "trial_search",
     "gold_in_retrieved": {
@@ -234,8 +234,8 @@
       "NCT07718737"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.2,
-    "generation_seconds": 30.4,
+    "retrieval_seconds": 0.263,
+    "generation_seconds": 30.1,
     "id": "Q07",
     "category": "eligibility",
     "gold_in_retrieved": {
@@ -266,8 +266,8 @@
     "cited_nct_ids": [],
     "valid_citations": [],
     "invented_citations": [],
-    "retrieval_seconds": 0.224,
-    "generation_seconds": 25.9,
+    "retrieval_seconds": 0.317,
+    "generation_seconds": 24.5,
     "id": "Q08",
     "category": "analytical",
     "gold_in_retrieved": {
@@ -303,8 +303,8 @@
       "NCT06303167"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.218,
-    "generation_seconds": 34.8,
+    "retrieval_seconds": 0.244,
+    "generation_seconds": 33.2,
     "id": "Q09",
     "category": "literature",
     "gold_in_retrieved": {
@@ -345,8 +345,8 @@
       "NCT00096486"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.213,
-    "generation_seconds": 44.3,
+    "retrieval_seconds": 0.252,
+    "generation_seconds": 43.5,
     "id": "Q10",
     "category": "out_of_scope",
     "gold_in_retrieved": {

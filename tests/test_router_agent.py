@@ -1,4 +1,4 @@
-from src.agents.router_agent import answer_with_count_tool, coverage, route
+from src.agents.router_agent import answer_with_count_tool, coverage, route, trial_details
 
 FAKE_TRIALS = [
     {"nct_id": "NCT001", "status": "RECRUITING", "phases": ["PHASE3"], "conditions": ["Pancreatic Cancer"]},
@@ -27,3 +27,27 @@ def test_count_tool_result_has_same_keys_as_rag():
 def test_coverage():
     assert coverage(["NCT1", "NCT2"], ["NCT2", "NCT9"]) == {"found": 1, "total": 2}
     assert coverage([], ["NCT1"]) == {"found": 0, "total": 0}
+
+def test_list_questions_go_to_list_rag():
+    assert route("List clinical trials that include osimertinib as an intervention.") == "list_rag"
+    assert route("Find recruiting Phase 3 clinical trials in lung cancer.") == "list_rag"
+    assert route("Which non-small cell lung cancer trials exclude patients with brain metastases?") == "list_rag"
+
+
+def test_single_trial_question_is_not_a_list():
+    assert route("Which trial combines capecitabine and tucatinib?") == "advanced_rag"
+
+FAKE_TRIALS_WITH_TITLES = [
+    {"nct_id": "NCT001", "title": "A Study of Drug X", "status": "RECRUITING", "phases": ["PHASE3"]},
+]
+
+
+def test_trial_details_lists_status_and_phase():
+    text = trial_details(["NCT001"], FAKE_TRIALS_WITH_TITLES)
+    assert "[NCT001]" in text
+    assert "Status: RECRUITING" in text
+    assert "Phase: Phase 3" in text
+
+
+def test_trial_details_skips_unknown_ids():
+    assert trial_details(["NCT999"], FAKE_TRIALS_WITH_TITLES) == ""

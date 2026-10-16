@@ -6,19 +6,27 @@
 import json
 import time
 from pathlib import Path
+import re
+
 
 from src.tools.count_trials import answer_count_question, is_count_question, load_trials
 
 QUESTIONS_FILE = Path("eval/questions.json")
 OUTPUT_FILE = Path("eval/agentic_rag_results.json")
 
+# "List / find / which ... trials" questions want MANY trials, not just 5
+LIST_PATTERN = re.compile(r"^\s*(list|find|show)\b|\ball\b|\bwhich\b.*\btrials\b", re.IGNORECASE)
+LIST_TOP_K = 10
+
 
 def route(question):
     """Decide which tool should answer the question."""
     if is_count_question(question):
         return "count_trials"
+    if LIST_PATTERN.search(question):
+        return "list_rag"
     return "advanced_rag"
-
+    
 
 def coverage(gold_ids, found_ids):
     """How many gold trials appear in a list, e.g. {'found': 2, 'total': 4}."""
@@ -44,6 +52,23 @@ def answer_with_count_tool(question, all_trials):
         "filters": result["filters"],
     }
 
+def readable_phase(phase):
+    """'PHASE3' -> 'Phase 3', 'EARLY_PHASE1' -> 'Early Phase 1'."""
+    return phase.replace("EARLY_PHASE", "Early Phase ").replace("PHASE", "Phase ")
+
+
+def trial_details(nct_ids, all_trials):
+    """Write one line per cited trial from the raw data: ID, title, status, phase."""
+    by_id = {t["nct_id"]: t for t in all_trials}
+    lines = []
+    for nct in nct_ids:
+        t = by_id.get(nct)
+        if not t:
+            continue
+        phases = ", ".join(readable_phase(p) for p in t.get("phases") or []) or "N/A"
+        lines.append(f"- [{nct}] {t.get('title', '')} | Status: {t.get('status', '')} | Phase: {phases}")
+    return "\n".join(lines)
+
 
 def answer_question(question, retriever, trial_facts, all_trials, top_k=5):
     """The agent: choose a tool, run it, and record which tool was used."""
@@ -52,7 +77,11 @@ def answer_question(question, retriever, trial_facts, all_trials, top_k=5):
         result = answer_with_count_tool(question, all_trials)
     else:
         from src.rag.advanced_rag import answer_question as advanced_answer
-        result = advanced_answer(question, retriever, trial_facts, top_k=top_k)
+        k = LIST_TOP_K if tool == "list_rag" else top_k
+        result = advanced_answer(question, retriever, trial_facts, top_k=k)
+        if tool == "list_rag" and result["valid_citations"]:
+            details = trial_details(result["valid_citations"], all_trials)
+            result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
     result["tool"] = tool
     return result
 

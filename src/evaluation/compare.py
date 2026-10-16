@@ -21,7 +21,8 @@ REPORT_PATH = PROJECT_ROOT / "reports" / "comparison.md"
 VARIANTS = {
     "LLM-only": EVAL_DIR / "llm_only_results.json",
     "Naive RAG": EVAL_DIR / "naive_rag_results.json",
-    "Advanced RAG": EVAL_DIR / "advanced_rag_results.json",
+    "Adv. RAG (filters)": EVAL_DIR / "advanced_rag_step1_results.json",
+    "Adv. RAG (+ fact sheets)": EVAL_DIR / "advanced_rag_results.json",
 }
 
 NCT_PATTERN = re.compile(r"NCT\d{8}")

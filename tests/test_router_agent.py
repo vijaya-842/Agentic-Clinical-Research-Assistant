@@ -54,3 +54,13 @@ def test_literature_questions_go_to_literature_rag():
     assert route("What is the mechanism of action of osimertinib?") == "literature_rag"
     assert route("How does pembrolizumab work?") == "literature_rag"
     assert route("What are the side effects of trastuzumab?") == "literature_rag"
+
+def test_personal_advice_goes_to_safety_refusal():
+    assert route("My father has stage IV lung cancer. Which treatment should he take?") == "safety_refusal"
+    assert route("Should I take osimertinib?") == "safety_refusal"
+    assert route("What should my mom do about her breast cancer?") == "safety_refusal"
+
+
+def test_research_questions_are_not_refused():
+    assert route("Which trials should patients with EGFR mutations consider?") != "safety_refusal"
+    assert route("How many recruiting pancreatic cancer trials are there?") == "count_trials"

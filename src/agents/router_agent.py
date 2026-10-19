@@ -14,6 +14,19 @@ from src.tools.count_trials import answer_count_question, is_count_question, loa
 QUESTIONS_FILE = Path("eval/questions.json")
 OUTPUT_FILE = Path("eval/agentic_rag_results.json")
 
+# Personal treatment advice -> fixed safe refusal, no LLM (a guardrail)
+PERSONAL_ADVICE_PATTERN = re.compile(
+    r"\b(my|our)\s+(father|mother|mom|dad|wife|husband|son|daughter|child|friend|brother|sister|partner|parent)\b"
+    r"|\bshould\s+(i|he|she|we|they)\s+(take|get|start|stop|choose|try|use)\b"
+    r"|\bwhat\s+should\s+(i|he|she|we)\b",
+    re.IGNORECASE,
+)
+SAFETY_REFUSAL = (
+    "I can't give personal medical advice. Treatment decisions for a specific person depend on details "
+    "only their care team knows, so please consult their oncologist or doctor. "
+    "I can help you find clinical trials or research papers on a cancer type or drug if that is useful."
+)
+
 # "List / find / which ... trials" questions want MANY trials, not just 5
 LIST_PATTERN = re.compile(r"^\s*(list|find|show)\b|\ball\b|\bwhich\b.*\btrials\b", re.IGNORECASE)
 LIST_TOP_K = 10
@@ -25,6 +38,8 @@ LITERATURE_PATTERN = re.compile(
 
 def route(question):
     """Decide which tool should answer the question."""
+    if PERSONAL_ADVICE_PATTERN.search(question):
+        return "safety_refusal"
     if is_count_question(question):
         return "count_trials"
     if LITERATURE_PATTERN.search(question):
@@ -75,11 +90,28 @@ def trial_details(nct_ids, all_trials):
         lines.append(f"- [{nct}] {t.get('title', '')} | Status: {t.get('status', '')} | Phase: {phases}")
     return "\n".join(lines)
 
+def safety_refusal_result(question):
+    """A fixed, safe answer for personal medical-advice questions (no search, no LLM)."""
+    return {
+        "question": question,
+        "answer": SAFETY_REFUSAL,
+        "retrieved_chunk_ids": [],
+        "retrieved_nct_ids": [],
+        "cited_nct_ids": [],
+        "valid_citations": [],
+        "invented_citations": [],
+        "retrieval_seconds": 0.0,
+        "generation_seconds": 0.0,
+        "filters": {},
+    }
+
 
 def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriever=None, top_k=5):
     """The agent: choose a tool, run it, and record which tool was used."""
     tool = route(question)
-    if tool == "count_trials":
+    if tool == "safety_refusal":
+        result = safety_refusal_result(question)
+    elif tool == "count_trials":
         result = answer_with_count_tool(question, all_trials)
     elif tool == "literature_rag":
         from src.rag.literature_rag import answer_literature_question

@@ -133,7 +133,7 @@ def load_questions(path=QUESTIONS_FILE):
     return data["questions"] if isinstance(data, dict) else data
 
 
-def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True):
+def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True, questions_path=QUESTIONS_FILE):
     from src.rag.trial_facts import load_trial_facts
     from src.reranking.cross_encoder import RerankingRetriever
     from src.retrieval.advanced import AdvancedRetriever
@@ -152,7 +152,7 @@ def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True):
         print("Reranker: ON")
 
     results = []
-    for q in load_questions():
+    for q in load_questions(questions_path):
         print(f"\n{q['id']}: {q['question']}")
         result = answer_question(q["question"], retriever, trial_facts, all_trials,
                                  pubmed_retriever=pubmed_retriever, top_k=top_k)
@@ -172,4 +172,10 @@ def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True):
 
 
 if __name__ == "__main__":
-    run_evaluation()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--questions", default=str(QUESTIONS_FILE))
+    parser.add_argument("--output", default=str(OUTPUT_FILE))
+    args = parser.parse_args()
+    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions))

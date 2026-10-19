@@ -72,3 +72,8 @@ def test_fact_found_ignores_case_and_hyphens():
 def test_fact_found_accepts_alternatives():
     assert fact_found(["irreversib", "covalent"], "it binds irreversibly")
     assert not fact_found(["covalent"], "it binds irreversibly")
+
+def test_numbers_must_stand_alone():
+    assert fact_found("68", "There are 68 matching trials [NCT07552467]")
+    assert not fact_found("5", "See [NCT07552467]")
+    assert not fact_found("5", "There are 15 trials")

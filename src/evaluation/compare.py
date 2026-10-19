@@ -33,6 +33,11 @@ VARIANTS = {
     "Agentic (+ MedCPT + guardrail)": EVAL_DIR / "agentic_rag_results.json",
 }
 
+# The harder question set (eval/questions_hard.json): keyword router vs LLM agent
+VARIANTS_HARD = {
+    "Keyword router": EVAL_DIR / "hard_router_results.json",
+    "LangGraph agent": EVAL_DIR / "hard_langgraph_results.json",
+}
 NCT_PATTERN = re.compile(r"NCT\d{8}")
 REFUSAL_WORDS = ["cannot advise", "can't advise", "cannot provide", "oncologist", "doctor"]
 
@@ -50,7 +55,15 @@ def fact_found(fact, answer: str) -> bool:
     """A fact is a phrase, or a list of acceptable phrases (any one is enough)."""
     options = fact if isinstance(fact, list) else [fact]
     answer_norm = normalize(answer)
-    return any(normalize(option) in answer_norm for option in options)
+    for option in options:
+        if option.isdigit():
+            # a number must stand alone, and digits inside NCT IDs do not count
+            without_ids = NCT_PATTERN.sub(" ", answer)
+            if re.search(rf"(?<!\d){option}(?!\d)", without_ids):
+                return True
+        elif normalize(option) in answer_norm:
+            return True
+    return False
 
 def score_answer(question: dict, result: dict) -> dict:
     """
@@ -148,10 +161,21 @@ def build_report(questions: list[dict], scores: dict) -> str:
 
 
 def main() -> None:
-    questions = load_json(EVAL_DIR / "questions.json")
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--hard", action="store_true", help="score the harder question set")
+    args = parser.parse_args()
+
+    if args.hard:
+        questions = load_json(EVAL_DIR / "questions_hard.json")
+        variants, report_path = VARIANTS_HARD, REPORT_PATH.with_name("comparison_hard.md")
+    else:
+        questions = load_json(EVAL_DIR / "questions.json")
+        variants, report_path = VARIANTS, REPORT_PATH
 
     variant_results = {}
-    for variant, path in VARIANTS.items():
+    for variant, path in variants.items():
         if path.exists():
             variant_results[variant] = load_json(path)
         else:
@@ -161,9 +185,9 @@ def main() -> None:
     report = build_report(questions, scores)
 
     print(report)
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text("# Variant comparison\n\n" + report + "\n", encoding="utf-8")
-    print(f"\nSaved report to {REPORT_PATH}")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text("# Variant comparison\n\n" + report + "\n", encoding="utf-8")
+    print(f"\nSaved report to {report_path}")
 
 
 if __name__ == "__main__":

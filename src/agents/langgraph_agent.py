@@ -13,7 +13,7 @@ from typing import Optional, TypedDict
 
 from langgraph.graph import END, START, StateGraph
 
-from src.agents.router_agent import coverage, load_questions, route, trial_details
+from src.agents.router_agent import QUESTIONS_FILE, coverage, load_questions, route, trial_details
 
 OUTPUT_FILE = Path("eval/langgraph_agent_results.json")
 TOOL_NAMES = ["count_trials", "list_trials", "search_trials", "search_papers"]
@@ -152,20 +152,28 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
     }
 
 
-def run_evaluation(output_path=OUTPUT_FILE):
+def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, rerank=True):
     from src.llm.ollama_client import generate_response
     from src.rag.trial_facts import load_trial_facts
+    from src.reranking.cross_encoder import RerankingRetriever
     from src.retrieval.advanced import AdvancedRetriever
     from src.retrieval.pubmed_search import PubMedRetriever
     from src.tools.count_trials import load_trials
 
     print("Loading indexes, models and trial data...")
     all_trials = load_trials()
-    tools = make_tools(AdvancedRetriever.from_disk(), load_trial_facts(), all_trials, PubMedRetriever.from_disk())
+    retriever = AdvancedRetriever.from_disk()
+    pubmed_retriever = PubMedRetriever.from_disk()
+    if rerank:  # same retrieval as the router agent, so only the tool choice differs
+        reranker = RerankingRetriever.load_model()
+        retriever = RerankingRetriever(retriever, reranker)
+        pubmed_retriever = RerankingRetriever(pubmed_retriever, reranker)
+        print("Reranker: ON")
+    tools = make_tools(retriever, load_trial_facts(), all_trials, pubmed_retriever)
     agent = build_agent(tools, generate_response)
 
     results = []
-    for q in load_questions():
+    for q in load_questions(questions_path):
         print(f"\n{q['id']}: {q['question']}")
         state = agent.invoke({"question": q["question"]})
         result = state["result"]
@@ -193,4 +201,10 @@ def run_evaluation(output_path=OUTPUT_FILE):
 
 
 if __name__ == "__main__":
-    run_evaluation()
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--questions", default=str(QUESTIONS_FILE))
+    parser.add_argument("--output", default=str(OUTPUT_FILE))
+    args = parser.parse_args()
+    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions))

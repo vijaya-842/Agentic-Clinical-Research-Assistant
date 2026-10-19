@@ -12,8 +12,6 @@ def test_count_question_goes_to_count_tool():
 
 def test_other_questions_go_to_rag():
     assert route("Which trial tests thymosin alpha 1 in colorectal cancer?") == "advanced_rag"
-    assert route("What is the mechanism of action of osimertinib?") == "advanced_rag"
-
 
 def test_count_tool_result_has_same_keys_as_rag():
     result = answer_with_count_tool("How many recruiting pancreatic trials?", FAKE_TRIALS)
@@ -51,3 +49,8 @@ def test_trial_details_lists_status_and_phase():
 
 def test_trial_details_skips_unknown_ids():
     assert trial_details(["NCT999"], FAKE_TRIALS_WITH_TITLES) == ""
+
+def test_literature_questions_go_to_literature_rag():
+    assert route("What is the mechanism of action of osimertinib?") == "literature_rag"
+    assert route("How does pembrolizumab work?") == "literature_rag"
+    assert route("What are the side effects of trastuzumab?") == "literature_rag"

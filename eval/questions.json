@@ -52,7 +52,7 @@
     "category": "eligibility",
     "question": "Which non-small cell lung cancer trials exclude patients with brain metastases?",
     "gold_nct_ids": ["NCT03274479", "NCT07718737", "NCT00702182", "NCT06946927"],
-    "key_facts": ["untreated or progressing brain (CNS) metastases are excluded", "treated, stable brain metastases are often allowed"],
+    "key_facts": [["untreated", "progressive", "progressing", "active brain", "symptomatic"], ["stable"]],
     "gold_type": "examples"
   },
   {
@@ -66,7 +66,7 @@
     "id": "Q09",
     "category": "literature",
     "question": "What is the mechanism of action of osimertinib?",
-    "key_facts": ["third-generation EGFR tyrosine kinase inhibitor", "irreversible", "active against EGFR sensitizing mutations and T790M resistance mutation"],
+    "key_facts": [["tyrosine kinase inhibitor", "EGFR-TKI", "EGFR TKI"], ["irreversib", "covalent"], ["T790M"]],
     "gold_type": "key_facts"
   },
   {

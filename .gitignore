@@ -33,3 +33,4 @@ data/processed/*
 models/
 cache/
 .pytest_cache/
+data/index/

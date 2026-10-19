@@ -101,8 +101,9 @@ def load_questions(path=QUESTIONS_FILE):
     return data["questions"] if isinstance(data, dict) else data
 
 
-def run_evaluation(output_path=OUTPUT_FILE, top_k=5):
+def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True):
     from src.rag.trial_facts import load_trial_facts
+    from src.reranking.cross_encoder import RerankingRetriever
     from src.retrieval.advanced import AdvancedRetriever
     from src.retrieval.pubmed_search import PubMedRetriever
 
@@ -111,6 +112,12 @@ def run_evaluation(output_path=OUTPUT_FILE, top_k=5):
     trial_facts = load_trial_facts()
     all_trials = load_trials()
     pubmed_retriever = PubMedRetriever.from_disk()
+
+    if rerank:  # FAISS finds 20 candidates, the reranker keeps the best ones
+        reranker = RerankingRetriever.load_model()
+        retriever = RerankingRetriever(retriever, reranker)
+        pubmed_retriever = RerankingRetriever(pubmed_retriever, reranker)
+        print("Reranker: ON")
 
     results = []
     for q in load_questions():

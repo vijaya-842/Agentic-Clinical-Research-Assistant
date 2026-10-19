@@ -6,7 +6,7 @@ So: FAISS finds 20 candidates, the cross-encoder picks the best top_k.
 """
 from dataclasses import is_dataclass
 
-RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"  # small (~90 MB), fast on CPU
+RERANKER_MODEL = "ncbi/MedCPT-Cross-Encoder"  # biomedical reranker, trained on PubMed searches
 CANDIDATES = 20
 
 TEXT_FIELDS = ("text", "chunk_text", "content", "document")

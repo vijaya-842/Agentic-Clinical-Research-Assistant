@@ -4,17 +4,17 @@
     "answer": "[NCT05086614] The clinical trial that tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer is [NCT05086614]. The sponsor is Fudan University and the primary outcome is the 3-year disease-free survival rate. [NCT05086614]",
     "retrieved_chunk_ids": [
       "NCT05086614_summary_00",
-      "NCT04813627_outcomes_00",
       "NCT00749450_summary_01",
+      "NCT04813627_outcomes_00",
       "NCT05422547_summary_00",
-      "NCT05239546_eligibility_11"
+      "NCT00443573_outcomes_00"
     ],
     "retrieved_nct_ids": [
       "NCT05086614",
-      "NCT04813627",
       "NCT00749450",
+      "NCT04813627",
       "NCT05422547",
-      "NCT05239546"
+      "NCT00443573"
     ],
     "cited_nct_ids": [
       "NCT05086614"
@@ -41,8 +41,8 @@
       "relaxed": false,
       "matching_chunks": 5192
     },
-    "retrieval_seconds": 1.573,
-    "generation_seconds": 70.1,
+    "retrieval_seconds": 7.269,
+    "generation_seconds": 64.9,
     "tool": "advanced_rag",
     "id": "Q01",
     "category": "trial_lookup",
@@ -97,8 +97,8 @@
       "relaxed": false,
       "matching_chunks": 98
     },
-    "retrieval_seconds": 0.582,
-    "generation_seconds": 40.7,
+    "retrieval_seconds": 1.494,
+    "generation_seconds": 39.0,
     "tool": "advanced_rag",
     "id": "Q02",
     "category": "trial_lookup",
@@ -113,34 +113,28 @@
   },
   {
     "question": "Is there a trial testing dapagliflozin to prevent heart damage from anthracycline chemotherapy in breast cancer patients? Give the NCT ID, the sponsor and the primary outcome.",
-    "answer": "[**NCT07245069**]  \nSponsor: University Medical Centre Ljubljana  \nPrimary outcome: Change in Global Longitudinal Strain (GLS); Change in Flow-Mediated Dilation (FMD) of the Brachial Artery  \n[**NCT06491680**]  \nSponsor: Helwan University  \nPrimary outcome: N-terminal pro-B-type natriuretic peptide (NT-pro BNP) testing  \n[**NCT05732051**]  \nSponsor: University Hospital, Akershus  \nPrimary outcome: Whether the administration of nicotinamide riboside can prevent the reduction in left ventricular systolic function measured by cardiovascular magnetic resonance (CMR), compared to placebo.  \n[**NCT02596373**]  \nSponsor: CSPC ZhongQi Pharmaceutical Technology Co., Ltd.  \nPrimary outcome: ORR(Objective reponse rate)  \n[**NCT03719326**]  \nSponsor: Arcus Biosciences, Inc.  \nPrimary outcome: Incidence of Adverse Events (AEs); Incidence of dose-limiting toxicities (DLTs) during the dose escalation phase  \n\nThe retrieved sources do not contain enough information to answer this question.",
+    "answer": "[1] NCT07245069\nSponsor: University Medical Centre Ljubljana\nPrimary outcome: Change in Global Longitudinal Strain (GLS); Change in Flow-Mediated Dilation (FMD) of the Brachial Artery\n\n[2] NCT06491680\nSponsor: Helwan University\nPrimary outcome: N-terminal pro-B-type natriuretic peptide (NT-pro BNP) testing",
     "retrieved_chunk_ids": [
       "NCT07245069_summary_04",
       "NCT06491680_summary_00",
       "NCT05732051_summary_01",
-      "NCT02596373_eligibility_04",
-      "NCT03719326_eligibility_06"
+      "NCT05921279_summary_01",
+      "NCT00524459_eligibility_07"
     ],
     "retrieved_nct_ids": [
       "NCT07245069",
       "NCT06491680",
       "NCT05732051",
-      "NCT02596373",
-      "NCT03719326"
+      "NCT05921279",
+      "NCT00524459"
     ],
     "cited_nct_ids": [
       "NCT07245069",
-      "NCT06491680",
-      "NCT05732051",
-      "NCT02596373",
-      "NCT03719326"
+      "NCT06491680"
     ],
     "valid_citations": [
       "NCT07245069",
-      "NCT06491680",
-      "NCT05732051",
-      "NCT02596373",
-      "NCT03719326"
+      "NCT06491680"
     ],
     "invented_citations": [],
     "filters": {
@@ -157,8 +151,8 @@
       "relaxed": false,
       "matching_chunks": 5899
     },
-    "retrieval_seconds": 1.906,
-    "generation_seconds": 90.2,
+    "retrieval_seconds": 8.001,
+    "generation_seconds": 59.0,
     "tool": "advanced_rag",
     "id": "Q03",
     "category": "trial_lookup",
@@ -173,34 +167,34 @@
   },
   {
     "question": "Find recruiting Phase 3 clinical trials in lung cancer.",
-    "answer": "[1] Trial NCT05085028: A Randomised Open-label Phase III Trial of Reduced Frequency Pembrolizumab immunotherapy for First-line Treatment of Patients With Advanced Non-small Cell Lung Cancer (NSCLC)\n[2] Trial NCT07554339: A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015)\n[3] Trial NCT07513376: A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014)\n[4] Trial NCT07642024: A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09)\n[5] Trial NCT06754644: A Study to Evaluate Efficacy, and Safety of QL2107 Plus Chemo and Compare With Keytruda in Participants With IV nqNSCLC\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT05085028] A Randomised Open-label Phase III Trial of REduced Frequency Pembrolizumab immuNothErapy for First-line Treatment of Patients With Advanced Non-small Cell Lung Cancer (NSCLC) | Status: RECRUITING | Phase: Phase 3\n- [NCT07554339] A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015) | Status: RECRUITING | Phase: Phase 3\n- [NCT07513376] A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014) | Status: RECRUITING | Phase: Phase 3\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT06754644] A Study to Evaluate Efficacy, and Safety of QL2107 Plus Chemo and Compare With Keytruda in Participants With IV nqNSCLC | Status: RECRUITING | Phase: Phase 3",
+    "answer": "[1] Trial NCT05085028: A Randomised Open-label Phase III Trial of Reduced Frequency Pembrolizumab immunNothErapy for First-line Treatment of Patients With Advanced Non-small Cell Lung Cancer (NSCLC)\n[2] Trial NCT07642024: A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09)\n[3] Trial NCT06754644: A Study to Evaluate Efficacy, and Safety of QL2107 Plus Chemo and Compare With Keytruda in Participants With IV nqNSCLC\n[4] Trial NCT07554339: A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015)\n[5] Trial NCT07513376: A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014)\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT05085028] A Randomised Open-label Phase III Trial of REduced Frequency Pembrolizumab immuNothErapy for First-line Treatment of Patients With Advanced Non-small Cell Lung Cancer (NSCLC) | Status: RECRUITING | Phase: Phase 3\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT06754644] A Study to Evaluate Efficacy, and Safety of QL2107 Plus Chemo and Compare With Keytruda in Participants With IV nqNSCLC | Status: RECRUITING | Phase: Phase 3\n- [NCT07554339] A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015) | Status: RECRUITING | Phase: Phase 3\n- [NCT07513376] A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014) | Status: RECRUITING | Phase: Phase 3",
     "retrieved_chunk_ids": [
       "NCT05085028_eligibility_02",
-      "NCT07554339_eligibility_00",
-      "NCT07513376_eligibility_03",
       "NCT07642024_eligibility_00",
-      "NCT06754644_eligibility_00"
+      "NCT06754644_eligibility_00",
+      "NCT07554339_eligibility_00",
+      "NCT07513376_eligibility_03"
     ],
     "retrieved_nct_ids": [
       "NCT05085028",
-      "NCT07554339",
-      "NCT07513376",
       "NCT07642024",
-      "NCT06754644"
+      "NCT06754644",
+      "NCT07554339",
+      "NCT07513376"
     ],
     "cited_nct_ids": [
       "NCT05085028",
-      "NCT07554339",
-      "NCT07513376",
       "NCT07642024",
-      "NCT06754644"
+      "NCT06754644",
+      "NCT07554339",
+      "NCT07513376"
     ],
     "valid_citations": [
       "NCT05085028",
-      "NCT07554339",
-      "NCT07513376",
       "NCT07642024",
-      "NCT06754644"
+      "NCT06754644",
+      "NCT07554339",
+      "NCT07513376"
     ],
     "invented_citations": [],
     "filters": {
@@ -223,8 +217,8 @@
       "relaxed": false,
       "matching_chunks": 47
     },
-    "retrieval_seconds": 0.513,
-    "generation_seconds": 105.1,
+    "retrieval_seconds": 1.887,
+    "generation_seconds": 104.5,
     "tool": "list_rag",
     "id": "Q04",
     "category": "trial_search",
@@ -239,34 +233,36 @@
   },
   {
     "question": "Find recruiting clinical trials testing pembrolizumab in melanoma.",
-    "answer": "[1] Trial NCT06961006\n[2] Trial NCT07349303\n[5] Trial NCT03842943\n[6] Trial NCT06488482\n\nThese trials are currently recruiting and involve pembrolizumab in the treatment of melanoma. [NCT06961006] and [NCT07349303] are Phase 2 studies focusing on neoadjuvant pembrolizumab for melanoma. [NCT03842943] is a Phase 2 study examining neoadjuvant combination immunotherapy for stage III melanoma. Lastly, [NCT06488482] is a Phase 3 study assessing short immunotherapy after radical surgery for high-risk melanoma.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT06961006] A Clinical Study of Intismeran Autogene (V940) and Pembrolizumab (MK-3475) in People With Melanoma (V940-012/INTerpath-012) | Status: RECRUITING | Phase: Phase 2\n- [NCT07349303] Neoadjuvant Pembrolizumab in Patients With Stage IIb/c Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT03842943] Neoadjuvant Combination Immunotherapy for Stage III Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT06488482] Assessment of Short Immunotherapy After Radical Surgery of High-risk Malignant Melanoma | Status: RECRUITING | Phase: Phase 3",
+    "answer": "[1] Trial NCT07349303\n[2] Trial NCT03842943\n[3] Trial NCT06488482\n[4] Trial NCT06961006\n[6] Trial NCT03829254\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07349303] Neoadjuvant Pembrolizumab in Patients With Stage IIb/c Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT03842943] Neoadjuvant Combination Immunotherapy for Stage III Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT06488482] Assessment of Short Immunotherapy After Radical Surgery of High-risk Malignant Melanoma | Status: RECRUITING | Phase: Phase 3\n- [NCT06961006] A Clinical Study of Intismeran Autogene (V940) and Pembrolizumab (MK-3475) in People With Melanoma (V940-012/INTerpath-012) | Status: RECRUITING | Phase: Phase 2\n- [NCT03829254] A Safety, Pharmacokinetic and Clinical Activity Study of NUC-7738 in Patients With Advanced Solid Tumours and Lymphoma | Status: RECRUITING | Phase: Phase 1, Phase 2",
     "retrieved_chunk_ids": [
-      "NCT06961006_eligibility_02",
       "NCT07349303_summary_02",
-      "NCT06545682_eligibility_23",
-      "NCT03829254_eligibility_01",
       "NCT03842943_outcomes_00",
-      "NCT06488482_summary_06"
+      "NCT06488482_summary_06",
+      "NCT06961006_eligibility_02",
+      "NCT06545682_eligibility_23",
+      "NCT03829254_eligibility_01"
     ],
     "retrieved_nct_ids": [
-      "NCT06961006",
       "NCT07349303",
-      "NCT06545682",
-      "NCT03829254",
       "NCT03842943",
-      "NCT06488482"
+      "NCT06488482",
+      "NCT06961006",
+      "NCT06545682",
+      "NCT03829254"
     ],
     "cited_nct_ids": [
-      "NCT06961006",
       "NCT07349303",
       "NCT03842943",
-      "NCT06488482"
+      "NCT06488482",
+      "NCT06961006",
+      "NCT03829254"
     ],
     "valid_citations": [
-      "NCT06961006",
       "NCT07349303",
       "NCT03842943",
-      "NCT06488482"
+      "NCT06488482",
+      "NCT06961006",
+      "NCT03829254"
     ],
     "invented_citations": [],
     "filters": {
@@ -291,8 +287,8 @@
       "relaxed": false,
       "matching_chunks": 109
     },
-    "retrieval_seconds": 0.565,
-    "generation_seconds": 87.1,
+    "retrieval_seconds": 2.364,
+    "generation_seconds": 72.6,
     "tool": "list_rag",
     "id": "Q05",
     "category": "trial_search",
@@ -301,60 +297,60 @@
       "total": 6
     },
     "gold_in_answer": {
-      "found": 4,
+      "found": 5,
       "total": 6
     }
   },
   {
     "question": "List clinical trials that include osimertinib as an intervention.",
-    "answer": "[Trial NCT07486648]\n[Trial NCT06436144]\n[Trial NCT03433469]\n[Trial NCT07256509]\n[Trial NCT06303167]\n[Trial NCT07642024]\n[Trial NCT06323148]\n[Trial NCT07229729]\n[Trial NCT04811001]\n[Trial NCT07680790]\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07486648] Osimertinib Plus Capivasertib in NSCLC With PIK3CA/AKT1/PTEN Alterations Following Prior 1L Osimertinib | Status: NOT_YET_RECRUITING | Phase: Phase 1, Phase 2\n- [NCT06436144] Osimertinib and Etoposide as First-Line Treatment in Osimertinib-Resistant Advanced EGFR-Mutant NSCLC | Status: NOT_YET_RECRUITING | Phase: Phase 2\n- [NCT03433469] Osimertinib in Treating Participants With Stage I-IIIA EGFR-mutant Non-small Cell Lung Cancer Before Surgery | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT07256509] A Study of SYS6010 Combined With Osimertinib Versus Osimertinib Alone as Neoadjuvant Therapy for Patients With EGFR Mutation-positive Resectable Non-squamous Non-small Cell Lung Cancer | Status: NOT_YET_RECRUITING | Phase: Phase 2\n- [NCT06303167] Testing AZD9291 as Potentially Targeted Treatment in Cancers With EGFR Genetic Changes (MATCH-Subprotocol E) | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT06323148] Adjuvant Target Therapy Guided by ctDNA-MRD in Patients With EGFR-mutant II-IIIA Non-small Cell Lung Cancer (ECTOP-1022) | Status: NOT_YET_RECRUITING | Phase: Phase 3\n- [NCT07229729] A Study of SHR-A2102 in Combination With Other Anti-tumor Therapies for Resectable Non-small Cell Lung Cancer | Status: RECRUITING | Phase: Phase 2\n- [NCT04811001] Best EGFR-TKI Sequence in NSCLC Harboring EGFR Mutations | Status: UNKNOWN | Phase: Phase 2\n- [NCT07680790] Study of Izalontamab Brengitecan (BMS-986507) in Combination With Osimertinib Versus Osimertinib Monotherapy or Osimertinib in Combination With Platinum-based Chemotherapy for EGFRmt Non-small Cell Lung Cancer (IZABRIGHT-Lung02) | Status: NOT_YET_RECRUITING | Phase: Phase 3",
+    "answer": "[Trial NCT07486648]\n[Trial NCT07256509]\n[Trial NCT06380348]\n[Trial NCT03433469]\n[Trial NCT06436144]\n[Trial NCT03667820]\n[Trial NCT06303167]\n[Trial NCT07680790]\n[Trial NCT03219970]\n[Trial NCT07642024]\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07486648] Osimertinib Plus Capivasertib in NSCLC With PIK3CA/AKT1/PTEN Alterations Following Prior 1L Osimertinib | Status: NOT_YET_RECRUITING | Phase: Phase 1, Phase 2\n- [NCT07256509] A Study of SYS6010 Combined With Osimertinib Versus Osimertinib Alone as Neoadjuvant Therapy for Patients With EGFR Mutation-positive Resectable Non-squamous Non-small Cell Lung Cancer | Status: NOT_YET_RECRUITING | Phase: Phase 2\n- [NCT06380348] JMT101 in Combination With Osimertinib, Versus Cisplatin-pemetrexed in Participants With Locally Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) Characterized by Epithermal Growth Factor Receptor (EGFR) Exon 20ins Mutations | Status: NOT_YET_RECRUITING | Phase: Phase 3\n- [NCT03433469] Osimertinib in Treating Participants With Stage I-IIIA EGFR-mutant Non-small Cell Lung Cancer Before Surgery | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT06436144] Osimertinib and Etoposide as First-Line Treatment in Osimertinib-Resistant Advanced EGFR-Mutant NSCLC | Status: NOT_YET_RECRUITING | Phase: Phase 2\n- [NCT03667820] Study of Osimertinib and Stereotactic Ablative Radiation (SABR) in EGFR Mutant NSCLC | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT06303167] Testing AZD9291 as Potentially Targeted Treatment in Cancers With EGFR Genetic Changes (MATCH-Subprotocol E) | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT07680790] Study of Izalontamab Brengitecan (BMS-986507) in Combination With Osimertinib Versus Osimertinib Monotherapy or Osimertinib in Combination With Platinum-based Chemotherapy for EGFRmt Non-small Cell Lung Cancer (IZABRIGHT-Lung02) | Status: NOT_YET_RECRUITING | Phase: Phase 3\n- [NCT03219970] Efficacy and Safety of Osimertinib for HK Chinese With Metastatic T790M Mutated NSCLC-real World Setting. | Status: COMPLETED | Phase: N/A\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3",
     "retrieved_chunk_ids": [
       "NCT07486648_eligibility_31",
-      "NCT06436144_summary_02",
-      "NCT03433469_summary_01",
       "NCT07256509_eligibility_08",
+      "NCT06380348_eligibility_02",
+      "NCT03433469_summary_01",
+      "NCT06436144_summary_02",
+      "NCT03667820_eligibility_07",
       "NCT06303167_summary_01",
-      "NCT07642024_summary_01",
-      "NCT06323148_summary_03",
-      "NCT07229729_summary_00",
-      "NCT04811001_summary_01",
-      "NCT07680790_eligibility_02"
+      "NCT07680790_eligibility_02",
+      "NCT03219970_eligibility_00",
+      "NCT07642024_summary_01"
     ],
     "retrieved_nct_ids": [
       "NCT07486648",
-      "NCT06436144",
-      "NCT03433469",
       "NCT07256509",
+      "NCT06380348",
+      "NCT03433469",
+      "NCT06436144",
+      "NCT03667820",
       "NCT06303167",
-      "NCT07642024",
-      "NCT06323148",
-      "NCT07229729",
-      "NCT04811001",
-      "NCT07680790"
+      "NCT07680790",
+      "NCT03219970",
+      "NCT07642024"
     ],
     "cited_nct_ids": [
       "NCT07486648",
-      "NCT06436144",
-      "NCT03433469",
       "NCT07256509",
+      "NCT06380348",
+      "NCT03433469",
+      "NCT06436144",
+      "NCT03667820",
       "NCT06303167",
-      "NCT07642024",
-      "NCT06323148",
-      "NCT07229729",
-      "NCT04811001",
-      "NCT07680790"
+      "NCT07680790",
+      "NCT03219970",
+      "NCT07642024"
     ],
     "valid_citations": [
       "NCT07486648",
-      "NCT06436144",
-      "NCT03433469",
       "NCT07256509",
+      "NCT06380348",
+      "NCT03433469",
+      "NCT06436144",
+      "NCT03667820",
       "NCT06303167",
-      "NCT07642024",
-      "NCT06323148",
-      "NCT07229729",
-      "NCT04811001",
-      "NCT07680790"
+      "NCT07680790",
+      "NCT03219970",
+      "NCT07642024"
     ],
     "invented_citations": [],
     "filters": {
@@ -371,8 +367,8 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 1.184,
-    "generation_seconds": 154.8,
+    "retrieval_seconds": 4.227,
+    "generation_seconds": 163.3,
     "tool": "list_rag",
     "id": "Q06",
     "category": "trial_search",
@@ -387,40 +383,38 @@
   },
   {
     "question": "Which non-small cell lung cancer trials exclude patients with brain metastases?",
-    "answer": "[1] Trial NCT00702182 excludes patients with progressive brain metastases.\n[8] Trial NCT03416231 excludes patients with active brain metastasis, carcinomatous meningitis, or spinal compression, or disease of brain or pia mater according to the screening test, imaging, CT or MRI tests.\n[9] Trial NCT07718737 excludes patients with CNS metastases.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00702182] Study of Oral Vinorelbine and Erlotinib in Non-Small Cell Lung Cancer | Status: COMPLETED | Phase: Phase 1\n- [NCT03416231] Apatinib Plus Docetaxel in Advanced Non-squamous Non-small Cell Lung Cancer(NSCLC) | Status: UNKNOWN | Phase: Phase 2\n- [NCT07718737] Global, Multicenter Study of AMT-116 Versus Investigator's Choice in Participants With Advanced or Metastatic Non-squamous EGFR-Wildtype Non-Small Cell Lung Cancer (NSCLC) With Progression on or After Platinum-Based Chemotherapy and Anti-PD-1/PD-L1 Immunotherapy | Status: NOT_YET_RECRUITING | Phase: Phase 2, Phase 3",
+    "answer": "[Trial NCT00887315] excludes patients with brain metastases as long as they meet all other inclusion criteria. Brain metastases must be treated with whole brain radiotherapy and stereotactic radiosurgery or surgical resection followed by whole brain radiotherapy.\n\n[Trial NCT03416231] excludes patients with active brain metastasis, carcinomatous meningitis, or spinal compression, or disease of brain or pia mater according to the screening test, imaging, CT or MRI tests. Patients who have completed the treatment and in a stable condition 21 days before screening could be included, but brain MRI, CT or venography is required to confirm that there are no brain hemorrhage symptoms.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00887315] The Synergistic Metastases Annihilation With Radiotherapy and Docetaxel (Taxotere) [SMART] Trial for Non-Small Cell Lung Cancer (NSCLC) | Status: TERMINATED | Phase: Phase 2\n- [NCT03416231] Apatinib Plus Docetaxel in Advanced Non-squamous Non-small Cell Lung Cancer(NSCLC) | Status: UNKNOWN | Phase: Phase 2",
     "retrieved_chunk_ids": [
-      "NCT00702182_eligibility_04",
-      "NCT01516983_eligibility_00",
       "NCT02681549_eligibility_13",
-      "NCT05949619_eligibility_14",
-      "NCT00887315_eligibility_02",
-      "NCT00191490_eligibility_01",
-      "NCT01011075_eligibility_03",
-      "NCT03416231_eligibility_03",
+      "NCT00048997_eligibility_03",
+      "NCT00702182_eligibility_04",
       "NCT07718737_eligibility_12",
-      "NCT01674738_eligibility_08"
+      "NCT03274479_eligibility_04",
+      "NCT03416231_eligibility_03",
+      "NCT01516983_eligibility_00",
+      "NCT05949619_eligibility_14",
+      "NCT00191490_eligibility_01",
+      "NCT00887315_eligibility_02"
     ],
     "retrieved_nct_ids": [
-      "NCT00702182",
-      "NCT01516983",
       "NCT02681549",
-      "NCT05949619",
-      "NCT00887315",
-      "NCT00191490",
-      "NCT01011075",
-      "NCT03416231",
+      "NCT00048997",
+      "NCT00702182",
       "NCT07718737",
-      "NCT01674738"
+      "NCT03274479",
+      "NCT03416231",
+      "NCT01516983",
+      "NCT05949619",
+      "NCT00191490",
+      "NCT00887315"
     ],
     "cited_nct_ids": [
-      "NCT00702182",
-      "NCT03416231",
-      "NCT07718737"
+      "NCT00887315",
+      "NCT03416231"
     ],
     "valid_citations": [
-      "NCT00702182",
-      "NCT03416231",
-      "NCT07718737"
+      "NCT00887315",
+      "NCT03416231"
     ],
     "invented_citations": [],
     "filters": {
@@ -439,17 +433,17 @@
       "relaxed": false,
       "matching_chunks": 7119
     },
-    "retrieval_seconds": 1.917,
-    "generation_seconds": 131.0,
+    "retrieval_seconds": 7.276,
+    "generation_seconds": 144.3,
     "tool": "list_rag",
     "id": "Q07",
     "category": "eligibility",
     "gold_in_retrieved": {
-      "found": 2,
+      "found": 3,
       "total": 4
     },
     "gold_in_answer": {
-      "found": 2,
+      "found": 0,
       "total": 4
     }
   },
@@ -479,7 +473,7 @@
       "NCT03556228"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.05,
+    "retrieval_seconds": 0.01,
     "generation_seconds": 0.0,
     "filters": {
       "status": "RECRUITING",
@@ -500,26 +494,26 @@
   },
   {
     "question": "What is the mechanism of action of osimertinib?",
-    "answer": "The mechanism of action of osimertinib involves targeting the epidermal growth factor receptor (EGFR) through irreversible inhibition of both EGFR-activating mutations and the EGFR T790M mutation. [PMID 40789497] This inhibition leads to significant cardiac dysfunction and myocardial damage, characterized by necroptosis, increased phosphorylation of RIP3 and MLKL, and mitochondrial dysfunction. [PMID 40789497] The study suggests that osimertinib upregulates PDK4, which in turn promotes excessive mitochondrial-associated endoplasmic reticulum (MAM) formation, mitochondrial calcium overload, and mitochondrial dysfunction, culminating in necroptosis. [PMID 40789497]",
+    "answer": "Osimertinib is an orally bioavailable, third-generation EGFR-TKI that acts by irreversibly binding both EGFR activating mutations and T790M, while sparing wild-type EGFR. [PMID 37060646]",
     "retrieved_chunk_ids": [],
     "retrieved_nct_ids": [],
     "cited_nct_ids": [],
     "valid_citations": [
-      "PMID 40789497"
+      "PMID 37060646"
     ],
     "invented_citations": [],
     "retrieved_pmids": [
-      "41330421",
-      "31564718",
       "37060646",
+      "31564718",
       "32642198",
-      "40789497"
+      "37093192",
+      "30069773"
     ],
     "cited_pmids": [
-      "40789497"
+      "37060646"
     ],
-    "retrieval_seconds": 4.01,
-    "generation_seconds": 90.51,
+    "retrieval_seconds": 21.93,
+    "generation_seconds": 73.41,
     "filters": {},
     "tool": "literature_rag",
     "id": "Q09",
@@ -535,23 +529,35 @@
   },
   {
     "question": "My father has stage IV lung cancer. Which treatment should he take?",
-    "answer": "The retrieved sources do not contain enough information to answer this question.",
+    "answer": "The retrieved sources do not contain enough information to provide specific treatment advice for your father. [NCT03469960], [NCT00079794], [NCT00005825], [NCT00002969], and [NCT00003762] offer information on various treatments for stage IV non-small cell lung cancer, but they do not provide personalized recommendations. Your father should consult with his oncologist to determine the best course of treatment based on his specific condition and medical history.",
     "retrieved_chunk_ids": [
-      "NCT00955305_summary_03",
-      "NCT01846520_summary_06",
-      "NCT03299088_summary_02",
+      "NCT03469960_summary_00",
+      "NCT00079794_summary_00",
       "NCT00005825_summary_00",
+      "NCT00002969_summary_00",
       "NCT00003762_summary_01"
     ],
     "retrieved_nct_ids": [
-      "NCT00955305",
-      "NCT01846520",
-      "NCT03299088",
+      "NCT03469960",
+      "NCT00079794",
       "NCT00005825",
+      "NCT00002969",
       "NCT00003762"
     ],
-    "cited_nct_ids": [],
-    "valid_citations": [],
+    "cited_nct_ids": [
+      "NCT03469960",
+      "NCT00079794",
+      "NCT00005825",
+      "NCT00002969",
+      "NCT00003762"
+    ],
+    "valid_citations": [
+      "NCT03469960",
+      "NCT00079794",
+      "NCT00005825",
+      "NCT00002969",
+      "NCT00003762"
+    ],
     "invented_citations": [],
     "filters": {
       "detected": {
@@ -569,8 +575,8 @@
       "relaxed": false,
       "matching_chunks": 7119
     },
-    "retrieval_seconds": 1.792,
-    "generation_seconds": 57.9,
+    "retrieval_seconds": 6.691,
+    "generation_seconds": 70.3,
     "tool": "advanced_rag",
     "id": "Q10",
     "category": "out_of_scope",

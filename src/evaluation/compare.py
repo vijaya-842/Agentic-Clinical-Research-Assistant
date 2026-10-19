@@ -41,6 +41,16 @@ def load_json(path: Path):
     with open(path, encoding="utf-8") as file:
         return json.load(file)
 
+def normalize(text: str) -> str:
+    """Lowercase, treat '-' as a space, squeeze spaces: 'Third-Generation' -> 'third generation'."""
+    return re.sub(r"\s+", " ", text.lower().replace("-", " ")).strip()
+
+
+def fact_found(fact, answer: str) -> bool:
+    """A fact is a phrase, or a list of acceptable phrases (any one is enough)."""
+    options = fact if isinstance(fact, list) else [fact]
+    answer_norm = normalize(answer)
+    return any(normalize(option) in answer_norm for option in options)
 
 def score_answer(question: dict, result: dict) -> dict:
     """
@@ -69,7 +79,7 @@ def score_answer(question: dict, result: dict) -> dict:
     score = {
         "gold_ids_found": sum(1 for nct_id in gold_ids if nct_id in cited),
         "gold_ids_total": len(gold_ids),
-        "facts_found": sum(1 for fact in facts if fact.lower() in answer_lower),
+        "facts_found": sum(1 for fact in facts if fact_found(fact, answer)),
         "facts_total": len(facts),
         "unsupported_ids": unsupported,
     }

@@ -61,3 +61,14 @@ def test_report_has_row_per_question_and_totals() -> None:
     assert "| Q1 | trial_lookup | 0/1 | 0/1 | 1/1 | 1/1 |" in report
     assert "| Q3 | out_of_scope | - | no refusal | - | refused OK |" in report
     assert "| Naive RAG | 1/1 | 1/2 | 0 |" in report
+
+from src.evaluation.compare import fact_found
+
+
+def test_fact_found_ignores_case_and_hyphens():
+    assert fact_found("Third-Generation", "a third generation inhibitor")
+
+
+def test_fact_found_accepts_alternatives():
+    assert fact_found(["irreversib", "covalent"], "it binds irreversibly")
+    assert not fact_found(["covalent"], "it binds irreversibly")

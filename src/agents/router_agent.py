@@ -17,12 +17,18 @@ OUTPUT_FILE = Path("eval/agentic_rag_results.json")
 # "List / find / which ... trials" questions want MANY trials, not just 5
 LIST_PATTERN = re.compile(r"^\s*(list|find|show)\b|\ball\b|\bwhich\b.*\btrials\b", re.IGNORECASE)
 LIST_TOP_K = 10
-
+# Questions about how drugs work / evidence -> research papers, not trials
+LITERATURE_PATTERN = re.compile(
+    r"\bmechanism\b|\bhow does\b.+\bwork\b|\b(side|adverse) effects?\b|\bresistance\b|\bevidence\b|\bliterature\b|\bpapers?\b",
+    re.IGNORECASE,
+)
 
 def route(question):
     """Decide which tool should answer the question."""
     if is_count_question(question):
         return "count_trials"
+    if LITERATURE_PATTERN.search(question):
+        return "literature_rag"
     if LIST_PATTERN.search(question):
         return "list_rag"
     return "advanced_rag"
@@ -70,11 +76,14 @@ def trial_details(nct_ids, all_trials):
     return "\n".join(lines)
 
 
-def answer_question(question, retriever, trial_facts, all_trials, top_k=5):
+def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriever=None, top_k=5):
     """The agent: choose a tool, run it, and record which tool was used."""
     tool = route(question)
     if tool == "count_trials":
         result = answer_with_count_tool(question, all_trials)
+    elif tool == "literature_rag":
+        from src.rag.literature_rag import answer_literature_question
+        result = answer_literature_question(question, pubmed_retriever, top_k=top_k)
     else:
         from src.rag.advanced_rag import answer_question as advanced_answer
         k = LIST_TOP_K if tool == "list_rag" else top_k
@@ -95,16 +104,19 @@ def load_questions(path=QUESTIONS_FILE):
 def run_evaluation(output_path=OUTPUT_FILE, top_k=5):
     from src.rag.trial_facts import load_trial_facts
     from src.retrieval.advanced import AdvancedRetriever
+    from src.retrieval.pubmed_search import PubMedRetriever
 
     print("Loading index, model and trial data...")
     retriever = AdvancedRetriever.from_disk()
     trial_facts = load_trial_facts()
     all_trials = load_trials()
+    pubmed_retriever = PubMedRetriever.from_disk()
 
     results = []
     for q in load_questions():
         print(f"\n{q['id']}: {q['question']}")
-        result = answer_question(q["question"], retriever, trial_facts, all_trials, top_k=top_k)
+        result = answer_question(q["question"], retriever, trial_facts, all_trials,
+                                 pubmed_retriever=pubmed_retriever, top_k=top_k)
         gold = q.get("gold_nct_ids", [])
         result["id"] = q["id"]
         result["category"] = q.get("category")

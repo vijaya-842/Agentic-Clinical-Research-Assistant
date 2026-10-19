@@ -41,8 +41,8 @@
       "relaxed": false,
       "matching_chunks": 5192
     },
-    "retrieval_seconds": 0.248,
-    "generation_seconds": 65.8,
+    "retrieval_seconds": 0.471,
+    "generation_seconds": 71.4,
     "tool": "advanced_rag",
     "id": "Q01",
     "category": "trial_lookup",
@@ -97,8 +97,8 @@
       "relaxed": false,
       "matching_chunks": 98
     },
-    "retrieval_seconds": 0.331,
-    "generation_seconds": 39.1,
+    "retrieval_seconds": 0.976,
+    "generation_seconds": 39.3,
     "tool": "advanced_rag",
     "id": "Q02",
     "category": "trial_lookup",
@@ -149,8 +149,8 @@
       "relaxed": false,
       "matching_chunks": 5899
     },
-    "retrieval_seconds": 0.413,
-    "generation_seconds": 65.9,
+    "retrieval_seconds": 0.704,
+    "generation_seconds": 64.1,
     "tool": "advanced_rag",
     "id": "Q03",
     "category": "trial_lookup",
@@ -215,8 +215,8 @@
       "relaxed": false,
       "matching_chunks": 47
     },
-    "retrieval_seconds": 0.206,
-    "generation_seconds": 103.7,
+    "retrieval_seconds": 0.306,
+    "generation_seconds": 105.6,
     "tool": "list_rag",
     "id": "Q04",
     "category": "trial_search",
@@ -287,8 +287,8 @@
       "relaxed": false,
       "matching_chunks": 109
     },
-    "retrieval_seconds": 0.22,
-    "generation_seconds": 72.4,
+    "retrieval_seconds": 0.378,
+    "generation_seconds": 73.6,
     "tool": "list_rag",
     "id": "Q05",
     "category": "trial_search",
@@ -365,8 +365,8 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 0.271,
-    "generation_seconds": 151.0,
+    "retrieval_seconds": 0.519,
+    "generation_seconds": 147.4,
     "tool": "list_rag",
     "id": "Q06",
     "category": "trial_search",
@@ -435,8 +435,8 @@
       "relaxed": false,
       "matching_chunks": 7119
     },
-    "retrieval_seconds": 0.298,
-    "generation_seconds": 138.6,
+    "retrieval_seconds": 0.637,
+    "generation_seconds": 127.0,
     "tool": "list_rag",
     "id": "Q07",
     "category": "eligibility",
@@ -475,7 +475,7 @@
       "NCT03556228"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.0,
+    "retrieval_seconds": 0.01,
     "generation_seconds": 0.0,
     "filters": {
       "status": "RECRUITING",
@@ -496,47 +496,30 @@
   },
   {
     "question": "What is the mechanism of action of osimertinib?",
-    "answer": "[1] Trial NCT03433469\n[2] Trial NCT06303167\n\nOsimertinib works by blocking mutant EGFR signaling in cancer cells, which may stop the growth of tumor cells. [1] It is also suggested to cause tumor cell death and inhibit tumor growth in EGFR-overexpressing tumor cells, thereby stopping or slowing the spread of tumor cells. [2]",
-    "retrieved_chunk_ids": [
-      "NCT03433469_summary_01",
-      "NCT06303167_summary_02",
-      "NCT06436144_summary_02",
-      "NCT07486648_summary_01",
-      "NCT03219970_summary_00"
-    ],
-    "retrieved_nct_ids": [
-      "NCT03433469",
-      "NCT06303167",
-      "NCT06436144",
-      "NCT07486648",
-      "NCT03219970"
-    ],
-    "cited_nct_ids": [
-      "NCT03433469",
-      "NCT06303167"
-    ],
+    "answer": "Osimertinib is a third-generation, irreversible, oral epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) that potently and selectively inhibits both EGFR-TKI-sensitizing and T790M resistance mutations [PMID 33356419]. It is designed to target activating mutations of the epidermal growth factor receptor, with remarkable therapeutic efficacy against non-small cell lung carcinoma [PMID 37060646].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
     "valid_citations": [
-      "NCT03433469",
-      "NCT06303167"
+      "PMID 33356419",
+      "PMID 37060646"
     ],
     "invented_citations": [],
-    "filters": {
-      "detected": {
-        "drugs": [
-          "osimertinib"
-        ]
-      },
-      "applied": {
-        "drugs": [
-          "osimertinib"
-        ]
-      },
-      "relaxed": false,
-      "matching_chunks": 187
-    },
-    "retrieval_seconds": 0.269,
-    "generation_seconds": 74.8,
-    "tool": "advanced_rag",
+    "retrieved_pmids": [
+      "37060646",
+      "31564718",
+      "32642198",
+      "41330421",
+      "33356419"
+    ],
+    "cited_pmids": [
+      "33356419",
+      "37060646"
+    ],
+    "retrieval_seconds": 0.33,
+    "generation_seconds": 77.57,
+    "filters": {},
+    "tool": "literature_rag",
     "id": "Q09",
     "category": "literature",
     "gold_in_retrieved": {
@@ -550,7 +533,7 @@
   },
   {
     "question": "My father has stage IV lung cancer. Which treatment should he take?",
-    "answer": "The retrieved sources do not contain enough information to determine which treatment your father should take. Please consult his oncologist for personalized advice.",
+    "answer": "The retrieved sources do not contain enough information to determine which treatment your father should take. Please consult his oncologist for personalized medical advice.",
     "retrieved_chunk_ids": [
       "NCT06632327_summary_02",
       "NCT02321501_summary_02",
@@ -584,8 +567,8 @@
       "relaxed": false,
       "matching_chunks": 7119
     },
-    "retrieval_seconds": 0.319,
-    "generation_seconds": 59.5,
+    "retrieval_seconds": 0.547,
+    "generation_seconds": 58.8,
     "tool": "advanced_rag",
     "id": "Q10",
     "category": "out_of_scope",

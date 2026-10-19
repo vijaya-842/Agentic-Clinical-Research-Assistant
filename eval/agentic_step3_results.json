@@ -1,0 +1,601 @@
+[
+  {
+    "question": "Which clinical trial tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer? Give the NCT ID, the sponsor and the primary outcome.",
+    "answer": "[NCT05086614] The clinical trial that tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer is [NCT05086614]. The sponsor is Fudan University and the primary outcome is the 3-year disease-free survival rate. [NCT05086614]",
+    "retrieved_chunk_ids": [
+      "NCT05086614_summary_00",
+      "NCT04813627_outcomes_00",
+      "NCT02005913_summary_00",
+      "NCT00749450_summary_01",
+      "NCT07361107_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT05086614",
+      "NCT04813627",
+      "NCT02005913",
+      "NCT00749450",
+      "NCT07361107"
+    ],
+    "cited_nct_ids": [
+      "NCT05086614"
+    ],
+    "valid_citations": [
+      "NCT05086614"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "colorectal",
+          "colon",
+          "rectal"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "colorectal",
+          "colon",
+          "rectal"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 5192
+    },
+    "retrieval_seconds": 0.248,
+    "generation_seconds": 65.8,
+    "tool": "advanced_rag",
+    "id": "Q01",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Which trial combines capecitabine, tucatinib and intrathecal trastuzumab for breast cancer patients with leptomeningeal disease? Give the NCT ID, the sponsor and the primary outcome.",
+    "answer": "[NCT05800275], UNICANCER, overall survival rate at 12 months [NCT05800275]",
+    "retrieved_chunk_ids": [
+      "NCT05800275_summary_00",
+      "NCT05583110_eligibility_15",
+      "NCT05319873_eligibility_35"
+    ],
+    "retrieved_nct_ids": [
+      "NCT05800275",
+      "NCT05583110",
+      "NCT05319873"
+    ],
+    "cited_nct_ids": [
+      "NCT05800275"
+    ],
+    "valid_citations": [
+      "NCT05800275"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "tucatinib",
+          "trastuzumab"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "tucatinib",
+          "trastuzumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 98
+    },
+    "retrieval_seconds": 0.331,
+    "generation_seconds": 39.1,
+    "tool": "advanced_rag",
+    "id": "Q02",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Is there a trial testing dapagliflozin to prevent heart damage from anthracycline chemotherapy in breast cancer patients? Give the NCT ID, the sponsor and the primary outcome.",
+    "answer": "[**NCT07245069**] The University Medical Centre Ljubljana is the sponsor of the trial [NCT07245069]. It is testing the use of Dapagliflozin in primary prevention of cardiotoxicity of anthracycline chemotherapy in breast cancer patients. The primary outcome of this trial is the change in Global Longitudinal Strain (GLS) and Change in Flow-Mediated Dilation (FMD) of the Brachial Artery. [NCT07245069] is the relevant trial ID.",
+    "retrieved_chunk_ids": [
+      "NCT07245069_summary_04",
+      "NCT06491680_summary_00",
+      "NCT02273752_eligibility_05",
+      "NCT00446030_eligibility_09",
+      "NCT04215003_eligibility_05"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07245069",
+      "NCT06491680",
+      "NCT02273752",
+      "NCT00446030",
+      "NCT04215003"
+    ],
+    "cited_nct_ids": [
+      "NCT07245069"
+    ],
+    "valid_citations": [
+      "NCT07245069"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "breast"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "breast"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 5899
+    },
+    "retrieval_seconds": 0.413,
+    "generation_seconds": 65.9,
+    "tool": "advanced_rag",
+    "id": "Q03",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find recruiting Phase 3 clinical trials in lung cancer.",
+    "answer": "[1] Trial NCT07554339: A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015)\n[2] Trial NCT05085028: A Randomised Open-label Phase III Trial of Reduced Frequency Pembrolizumab immuNothErapy for First-line Treatment of Patients With Advanced Non-small Cell Lung Cancer (NSCLC)\n[3] Trial NCT07642024: A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09)\n[4] Trial NCT06754644: A Study to Evaluate Efficacy, and Safety of QL2107 Plus Chemo and Compare With Keytruda in Participants With IV nqNSCLC\n[5] Trial NCT07513376: A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014)\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07554339] A Clinical Trial of Calderasib (MK-1084) and Durvalumab in People With Non-Small Cell Lung Cancer (MK-1084-015/KANDLELIT-015) | Status: RECRUITING | Phase: Phase 3\n- [NCT05085028] A Randomised Open-label Phase III Trial of REduced Frequency Pembrolizumab immuNothErapy for First-line Treatment of Patients With Advanced Non-small Cell Lung Cancer (NSCLC) | Status: RECRUITING | Phase: Phase 3\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT06754644] A Study to Evaluate Efficacy, and Safety of QL2107 Plus Chemo and Compare With Keytruda in Participants With IV nqNSCLC | Status: RECRUITING | Phase: Phase 3\n- [NCT07513376] A Clinical Trial of Adjuvant Intismeran (V940) With or Without Pembrolizumab Coformulated With Berahyaluronidase Alfa (MK-3475A) in High-Risk Stage I Non-Small Cell Lung Cancer (V940-014) | Status: RECRUITING | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT07554339_eligibility_00",
+      "NCT05085028_eligibility_02",
+      "NCT07642024_eligibility_00",
+      "NCT06754644_eligibility_00",
+      "NCT07513376_eligibility_03"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07554339",
+      "NCT05085028",
+      "NCT07642024",
+      "NCT06754644",
+      "NCT07513376"
+    ],
+    "cited_nct_ids": [
+      "NCT07554339",
+      "NCT05085028",
+      "NCT07642024",
+      "NCT06754644",
+      "NCT07513376"
+    ],
+    "valid_citations": [
+      "NCT07554339",
+      "NCT05085028",
+      "NCT07642024",
+      "NCT06754644",
+      "NCT07513376"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 47
+    },
+    "retrieval_seconds": 0.206,
+    "generation_seconds": 103.7,
+    "tool": "list_rag",
+    "id": "Q04",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 4,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 4,
+      "total": 4
+    }
+  },
+  {
+    "question": "Find recruiting clinical trials testing pembrolizumab in melanoma.",
+    "answer": "[1] Trial NCT06961006\n[2] Trial NCT06545682\n[3] Trial NCT07349303\n[4] Trial NCT03829254\n[5] Trial NCT06488482\n[6] Trial NCT03842943\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT06961006] A Clinical Study of Intismeran Autogene (V940) and Pembrolizumab (MK-3475) in People With Melanoma (V940-012/INTerpath-012) | Status: RECRUITING | Phase: Phase 2\n- [NCT06545682] Phase Ib Study of AlpeliSib With PEmbroLizumab in Patients With mEtastatic Breast caNcer or melanomA (SELENA) | Status: RECRUITING | Phase: Phase 1\n- [NCT07349303] Neoadjuvant Pembrolizumab in Patients With Stage IIb/c Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT03829254] A Safety, Pharmacokinetic and Clinical Activity Study of NUC-7738 in Patients With Advanced Solid Tumours and Lymphoma | Status: RECRUITING | Phase: Phase 1, Phase 2\n- [NCT06488482] Assessment of Short Immunotherapy After Radical Surgery of High-risk Malignant Melanoma | Status: RECRUITING | Phase: Phase 3\n- [NCT03842943] Neoadjuvant Combination Immunotherapy for Stage III Melanoma | Status: RECRUITING | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT06961006_eligibility_02",
+      "NCT06545682_eligibility_23",
+      "NCT07349303_summary_02",
+      "NCT03829254_eligibility_01",
+      "NCT06488482_summary_06",
+      "NCT03842943_outcomes_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06961006",
+      "NCT06545682",
+      "NCT07349303",
+      "NCT03829254",
+      "NCT06488482",
+      "NCT03842943"
+    ],
+    "cited_nct_ids": [
+      "NCT06961006",
+      "NCT06545682",
+      "NCT07349303",
+      "NCT03829254",
+      "NCT06488482",
+      "NCT03842943"
+    ],
+    "valid_citations": [
+      "NCT06961006",
+      "NCT06545682",
+      "NCT07349303",
+      "NCT03829254",
+      "NCT06488482",
+      "NCT03842943"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 109
+    },
+    "retrieval_seconds": 0.22,
+    "generation_seconds": 72.4,
+    "tool": "list_rag",
+    "id": "Q05",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 6,
+      "total": 6
+    },
+    "gold_in_answer": {
+      "found": 6,
+      "total": 6
+    }
+  },
+  {
+    "question": "List clinical trials that include osimertinib as an intervention.",
+    "answer": "[Trial NCT06436144][NCT03433469][NCT07486648][NCT07256509][NCT06303167][NCT03219970][NCT07680790][NCT03667820][NCT07642024]\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT06436144] Osimertinib and Etoposide as First-Line Treatment in Osimertinib-Resistant Advanced EGFR-Mutant NSCLC | Status: NOT_YET_RECRUITING | Phase: Phase 2\n- [NCT03433469] Osimertinib in Treating Participants With Stage I-IIIA EGFR-mutant Non-small Cell Lung Cancer Before Surgery | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT07486648] Osimertinib Plus Capivasertib in NSCLC With PIK3CA/AKT1/PTEN Alterations Following Prior 1L Osimertinib | Status: NOT_YET_RECRUITING | Phase: Phase 1, Phase 2\n- [NCT07256509] A Study of SYS6010 Combined With Osimertinib Versus Osimertinib Alone as Neoadjuvant Therapy for Patients With EGFR Mutation-positive Resectable Non-squamous Non-small Cell Lung Cancer | Status: NOT_YET_RECRUITING | Phase: Phase 2\n- [NCT06303167] Testing AZD9291 as Potentially Targeted Treatment in Cancers With EGFR Genetic Changes (MATCH-Subprotocol E) | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT03219970] Efficacy and Safety of Osimertinib for HK Chinese With Metastatic T790M Mutated NSCLC-real World Setting. | Status: COMPLETED | Phase: N/A\n- [NCT07680790] Study of Izalontamab Brengitecan (BMS-986507) in Combination With Osimertinib Versus Osimertinib Monotherapy or Osimertinib in Combination With Platinum-based Chemotherapy for EGFRmt Non-small Cell Lung Cancer (IZABRIGHT-Lung02) | Status: NOT_YET_RECRUITING | Phase: Phase 3\n- [NCT03667820] Study of Osimertinib and Stereotactic Ablative Radiation (SABR) in EGFR Mutant NSCLC | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 2\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT06436144_summary_02",
+      "NCT03433469_summary_01",
+      "NCT07486648_eligibility_31",
+      "NCT07256509_eligibility_08",
+      "NCT06303167_summary_01",
+      "NCT03219970_eligibility_00",
+      "NCT07680790_eligibility_02",
+      "NCT03667820_eligibility_07",
+      "NCT07642024_summary_01",
+      "NCT04811001_summary_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06436144",
+      "NCT03433469",
+      "NCT07486648",
+      "NCT07256509",
+      "NCT06303167",
+      "NCT03219970",
+      "NCT07680790",
+      "NCT03667820",
+      "NCT07642024",
+      "NCT04811001"
+    ],
+    "cited_nct_ids": [
+      "NCT06436144",
+      "NCT03433469",
+      "NCT07486648",
+      "NCT07256509",
+      "NCT06303167",
+      "NCT03219970",
+      "NCT07680790",
+      "NCT03667820",
+      "NCT07642024"
+    ],
+    "valid_citations": [
+      "NCT06436144",
+      "NCT03433469",
+      "NCT07486648",
+      "NCT07256509",
+      "NCT06303167",
+      "NCT03219970",
+      "NCT07680790",
+      "NCT03667820",
+      "NCT07642024"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 187
+    },
+    "retrieval_seconds": 0.271,
+    "generation_seconds": 151.0,
+    "tool": "list_rag",
+    "id": "Q06",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 10,
+      "total": 13
+    },
+    "gold_in_answer": {
+      "found": 9,
+      "total": 13
+    }
+  },
+  {
+    "question": "Which non-small cell lung cancer trials exclude patients with brain metastases?",
+    "answer": "[Trial NCT00702182] excludes patients with progressive brain metastases. [NCT00887315] excludes patients with brain metastases, allowing them only if they meet specific criteria. [NCT01674738] excludes patients with known central nervous system (CNS) disease, other than stable, treated brain metastasis. [NCT03991403] excludes patients with a history of treated asymptomatic Central Nervous System (CNS) metastases.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00702182] Study of Oral Vinorelbine and Erlotinib in Non-Small Cell Lung Cancer | Status: COMPLETED | Phase: Phase 1\n- [NCT00887315] The Synergistic Metastases Annihilation With Radiotherapy and Docetaxel (Taxotere) [SMART] Trial for Non-Small Cell Lung Cancer (NSCLC) | Status: TERMINATED | Phase: Phase 2\n- [NCT01674738] TS Stratified Chemotherapy and VEGF Inhibition in Non-Squamous Non-Small Cell Lung Cancer - Stage IV | Status: WITHDRAWN | Phase: Phase 2\n- [NCT03991403] Study of Atezolizumab Combination Carboplatin + Paclitaxel + Bevacizumab in EGRF Mutation or ALK Translocation NSCLC | Status: UNKNOWN | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT00702182_eligibility_04",
+      "NCT00048997_eligibility_03",
+      "NCT07718737_eligibility_12",
+      "NCT00887315_eligibility_02",
+      "NCT03274479_eligibility_04",
+      "NCT01011075_eligibility_03",
+      "NCT00191490_eligibility_01",
+      "NCT00924209_eligibility_07",
+      "NCT01674738_eligibility_08",
+      "NCT03991403_eligibility_05"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00702182",
+      "NCT00048997",
+      "NCT07718737",
+      "NCT00887315",
+      "NCT03274479",
+      "NCT01011075",
+      "NCT00191490",
+      "NCT00924209",
+      "NCT01674738",
+      "NCT03991403"
+    ],
+    "cited_nct_ids": [
+      "NCT00702182",
+      "NCT00887315",
+      "NCT01674738",
+      "NCT03991403"
+    ],
+    "valid_citations": [
+      "NCT00702182",
+      "NCT00887315",
+      "NCT01674738",
+      "NCT03991403"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 7119
+    },
+    "retrieval_seconds": 0.298,
+    "generation_seconds": 138.6,
+    "tool": "list_rag",
+    "id": "Q07",
+    "category": "eligibility",
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 4
+    }
+  },
+  {
+    "question": "How many recruiting pancreatic cancer trials are in the downloaded ClinicalTrials.gov dataset?",
+    "answer": "There are 68 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, pancrea). Examples: [NCT07552467], [NCT07488676], [NCT07145255], [NCT06040541], [NCT03556228].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT07552467",
+      "NCT07488676",
+      "NCT07145255",
+      "NCT06040541",
+      "NCT03556228"
+    ],
+    "cited_nct_ids": [
+      "NCT07552467",
+      "NCT07488676",
+      "NCT07145255",
+      "NCT06040541",
+      "NCT03556228"
+    ],
+    "valid_citations": [
+      "NCT07552467",
+      "NCT07488676",
+      "NCT07145255",
+      "NCT06040541",
+      "NCT03556228"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "pancrea"
+    },
+    "tool": "count_trials",
+    "id": "Q08",
+    "category": "analytical",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of osimertinib?",
+    "answer": "[1] Trial NCT03433469\n[2] Trial NCT06303167\n\nOsimertinib works by blocking mutant EGFR signaling in cancer cells, which may stop the growth of tumor cells. [1] It is also suggested to cause tumor cell death and inhibit tumor growth in EGFR-overexpressing tumor cells, thereby stopping or slowing the spread of tumor cells. [2]",
+    "retrieved_chunk_ids": [
+      "NCT03433469_summary_01",
+      "NCT06303167_summary_02",
+      "NCT06436144_summary_02",
+      "NCT07486648_summary_01",
+      "NCT03219970_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03433469",
+      "NCT06303167",
+      "NCT06436144",
+      "NCT07486648",
+      "NCT03219970"
+    ],
+    "cited_nct_ids": [
+      "NCT03433469",
+      "NCT06303167"
+    ],
+    "valid_citations": [
+      "NCT03433469",
+      "NCT06303167"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 187
+    },
+    "retrieval_seconds": 0.269,
+    "generation_seconds": 74.8,
+    "tool": "advanced_rag",
+    "id": "Q09",
+    "category": "literature",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "My father has stage IV lung cancer. Which treatment should he take?",
+    "answer": "The retrieved sources do not contain enough information to determine which treatment your father should take. Please consult his oncologist for personalized advice.",
+    "retrieved_chunk_ids": [
+      "NCT06632327_summary_02",
+      "NCT02321501_summary_02",
+      "NCT00002969_summary_00",
+      "NCT00096486_summary_00",
+      "NCT03663166_summary_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06632327",
+      "NCT02321501",
+      "NCT00002969",
+      "NCT00096486",
+      "NCT03663166"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 7119
+    },
+    "retrieval_seconds": 0.319,
+    "generation_seconds": 59.5,
+    "tool": "advanced_rag",
+    "id": "Q10",
+    "category": "out_of_scope",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  }
+]

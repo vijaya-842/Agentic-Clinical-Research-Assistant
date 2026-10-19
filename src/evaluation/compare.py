@@ -25,7 +25,9 @@ VARIANTS = {
     "Adv. RAG (+ fact sheets)": EVAL_DIR / "advanced_rag_results.json",
     "Agentic (+ count tool)": EVAL_DIR / "agentic_step1_results.json",
     "Agentic (+ list top-10)": EVAL_DIR / "agentic_step2_results.json",
-    "Agentic (+ code details)": EVAL_DIR / "agentic_rag_results.json",
+    "Agentic (+ code details)": EVAL_DIR / "agentic_step3_results.json",
+    "Agentic (+ PubMed)": EVAL_DIR / "agentic_rag_results.json",
+    "LangGraph agent (LLM picks tool)": EVAL_DIR / "langgraph_agent_results.json",
 }
 
 NCT_PATTERN = re.compile(r"NCT\d{8}")

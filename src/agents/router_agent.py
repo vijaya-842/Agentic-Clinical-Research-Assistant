@@ -10,15 +10,18 @@ import re
 
 
 from src.tools.count_trials import answer_count_question, is_count_question, load_trials
+from src.tools.trial_lookup import answer_trial_lookup, find_nct_ids
+
 
 QUESTIONS_FILE = Path("eval/questions.json")
 OUTPUT_FILE = Path("eval/agentic_rag_results.json")
 
-# Personal treatment advice -> fixed safe refusal, no LLM (a guardrail)
 PERSONAL_ADVICE_PATTERN = re.compile(
     r"\b(my|our)\s+(father|mother|mom|dad|wife|husband|son|daughter|child|friend|brother|sister|partner|parent)\b"
     r"|\bshould\s+(i|he|she|we|they)\s+(take|get|start|stop|choose|try|use)\b"
-    r"|\bwhat\s+should\s+(i|he|she|we)\b",
+    r"|\bwhat\s+should\s+(i|he|she|we)\b"
+    r"|\b(for|like)\s+me\b"
+    r"|\bmy\s+(cancer|tumou?r|diagnosis|condition|treatment|chemo\w*)\b",
     re.IGNORECASE,
 )
 SAFETY_REFUSAL = (
@@ -40,6 +43,8 @@ def route(question):
     """Decide which tool should answer the question."""
     if PERSONAL_ADVICE_PATTERN.search(question):
         return "safety_refusal"
+    if find_nct_ids(question):
+        return "trial_lookup"
     if is_count_question(question):
         return "count_trials"
     if LITERATURE_PATTERN.search(question):
@@ -111,6 +116,8 @@ def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriev
     tool = route(question)
     if tool == "safety_refusal":
         result = safety_refusal_result(question)
+    elif tool == "trial_lookup":
+        result = answer_trial_lookup(question, all_trials)
     elif tool == "count_trials":
         result = answer_with_count_tool(question, all_trials)
     elif tool == "literature_rag":

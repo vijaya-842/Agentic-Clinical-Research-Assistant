@@ -64,3 +64,10 @@ def test_personal_advice_goes_to_safety_refusal():
 def test_research_questions_are_not_refused():
     assert route("Which trials should patients with EGFR mutations consider?") != "safety_refusal"
     assert route("How many recruiting pancreatic cancer trials are there?") == "count_trials"
+
+def test_trial_id_goes_to_lookup():
+    assert route("Tell me about NCT05086614.") == "trial_lookup"
+
+
+def test_guardrail_catches_like_me():
+    assert route("Which immunotherapy would be best for a 70-year-old with stage III melanoma like me?") == "safety_refusal"

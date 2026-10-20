@@ -68,6 +68,8 @@ def answer_is_ok(result):
 
 
 RULE_TO_TOOL = {
+    "safety_refusal": "safety_refusal",
+    "trial_lookup": "trial_lookup",
     "count_trials": "count_trials",
     "list_rag": "list_trials",
     "advanced_rag": "search_trials",
@@ -79,6 +81,11 @@ def build_agent(tools, planner_llm):
     """tools: {tool name: function(question) -> result dict}. planner_llm: function(prompt, system) -> text."""
 
     def plan(state):
+        # Safety guardrail and trial-ID lookup are decided by code BEFORE the LLM planner
+        rule = route(state["question"])
+        if rule in ("safety_refusal", "trial_lookup"):
+            return {"tool": rule, "planner_output": "", "planner_fallback": False, "attempts": 0,
+                    "tried_tools": [], "trace": [f"plan: rule -> {rule} (LLM planner skipped)"]}
         prompt = f"{PLANNER_EXAMPLES}\nQuestion: {state['question']} ->"
         output = planner_llm(prompt, PLANNER_SYSTEM_PROMPT)
         tool = parse_tool_choice(output)
@@ -110,7 +117,7 @@ def build_agent(tools, planner_llm):
 
     def check(state):
         result = state["result"]
-        if state["tool"] == "count_trials" or answer_is_ok(result):
+        if state["tool"] in ("count_trials", "safety_refusal", "trial_lookup") or answer_is_ok(result):
             return {"trace": state["trace"] + ["check: ok"]}
         next_tool = FALLBACK.get(state["tool"])
         if state["attempts"] < MAX_ATTEMPTS and next_tool and next_tool not in state["tried_tools"]:
@@ -133,7 +140,8 @@ def build_agent(tools, planner_llm):
 
 def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
     """Wrap our existing tools so each one takes just the question."""
-    from src.agents.router_agent import LIST_TOP_K, answer_with_count_tool
+    from src.agents.router_agent import LIST_TOP_K, answer_with_count_tool, safety_refusal_result
+    from src.tools.trial_lookup import answer_trial_lookup
     from src.rag.advanced_rag import answer_question as advanced_answer
     from src.rag.literature_rag import answer_literature_question
 
@@ -144,7 +152,10 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
             result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
         return result
 
+    
     return {
+        "safety_refusal": safety_refusal_result,
+        "trial_lookup": lambda q: answer_trial_lookup(q, all_trials),
         "count_trials": lambda q: answer_with_count_tool(q, all_trials),
         "list_trials": list_trials,
         "search_trials": lambda q: advanced_answer(q, retriever, trial_facts, top_k=5),

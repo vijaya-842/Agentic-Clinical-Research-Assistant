@@ -10,11 +10,11 @@
 | H06 | literature | - | 1/2 | - | 2/2 |
 | H07 | literature | - | 0/3 | - | 3/3 |
 | H08 | literature | - | 0/2 | - | 0/2 |
-| H09 | trial_lookup | 0/1 | 0/2 | 0/1 | 0/2 |
-| H10 | out_of_scope | - | refused OK | - | no refusal |
+| H09 | trial_lookup | 1/1 | 2/2 | 1/1 | 2/2 |
+| H10 | out_of_scope | - | refused OK | - | refused OK |
 | H11 | out_of_scope | - | refused OK | - | refused OK |
 
 | Variant | Gold trials cited | Key facts found | Unsupported trial IDs |
 |---|---|---|---|
-| Keyword router | 0/7 | 1/14 | 0 |
-| LangGraph agent | 1/7 | 9/14 | 0 |
+| Keyword router | 1/7 | 3/14 | 0 |
+| LangGraph agent | 2/7 | 11/14 | 0 |

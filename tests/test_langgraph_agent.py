@@ -68,3 +68,11 @@ def test_stops_after_max_attempts():
     agent = build_agent(tools, planner_says("search_papers"))
     agent.invoke({"question": "Some question"})
     assert calls == ["search_papers", "search_trials"]
+
+def test_guardrail_runs_before_llm_planner():
+    tools, calls = make_tools()
+    tools["safety_refusal"] = lambda q: fake_result(answer="Please consult your oncologist.")
+    agent = build_agent(tools, planner_says("search_papers"))
+    state = agent.invoke({"question": "I have breast cancer. Should I stop my chemotherapy?"})
+    assert state["tried_tools"] == ["safety_refusal"]
+    assert calls == []

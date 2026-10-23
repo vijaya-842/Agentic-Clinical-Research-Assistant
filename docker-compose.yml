@@ -1,0 +1,23 @@
+services:
+  ollama:
+    image: ollama/ollama
+    volumes:
+      - ollama_models:/root/.ollama        # qwen is downloaded once and kept here
+
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - OLLAMA_HOST=http://ollama:11434    # inside Docker, Ollama is called "ollama", not localhost
+    volumes:
+      - ./data:/app/data                   # your trials, papers and FAISS indexes (not copied)
+      - hf_cache:/root/.cache/huggingface  # bge + MedCPT models, downloaded once
+    depends_on:
+      - ollama
+
+volumes:
+  ollama_models:
+  hf_cache:

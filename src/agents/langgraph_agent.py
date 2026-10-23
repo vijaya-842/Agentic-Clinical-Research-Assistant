@@ -74,6 +74,8 @@ RULE_TO_TOOL = {
     "list_rag": "list_trials",
     "advanced_rag": "search_trials",
     "literature_rag": "search_papers",
+    "small_talk": "small_talk",
+    "safety_refusal": "safety_refusal",
 }
 
 
@@ -83,7 +85,7 @@ def build_agent(tools, planner_llm):
     def plan(state):
         # Safety guardrail and trial-ID lookup are decided by code BEFORE the LLM planner
         rule = route(state["question"])
-        if rule in ("safety_refusal", "trial_lookup"):
+        if rule in ("small_talk", "safety_refusal", "trial_lookup"):
             return {"tool": rule, "planner_output": "", "planner_fallback": False, "attempts": 0,
                     "tried_tools": [], "trace": [f"plan: rule -> {rule} (LLM planner skipped)"]}
         prompt = f"{PLANNER_EXAMPLES}\nQuestion: {state['question']} ->"
@@ -117,7 +119,7 @@ def build_agent(tools, planner_llm):
 
     def check(state):
         result = state["result"]
-        if state["tool"] in ("count_trials", "safety_refusal", "trial_lookup") or answer_is_ok(result):
+        if state["tool"] in ("count_trials", "small_talk", "safety_refusal", "trial_lookup") or answer_is_ok(result):
             return {"trace": state["trace"] + ["check: ok"]}
         next_tool = FALLBACK.get(state["tool"])
         if state["attempts"] < MAX_ATTEMPTS and next_tool and next_tool not in state["tried_tools"]:
@@ -144,6 +146,8 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
     from src.tools.trial_lookup import answer_trial_lookup
     from src.rag.advanced_rag import answer_question as advanced_answer
     from src.rag.literature_rag import answer_literature_question
+    from src.tools.small_talk import small_talk_result
+    from src.tools.trial_lookup import answer_trial_lookup
 
     def list_trials(question):
         result = advanced_answer(question, retriever, trial_facts, top_k=LIST_TOP_K)
@@ -154,6 +158,8 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
 
     
     return {
+        "small_talk": small_talk_result,
+        "safety_refusal": safety_refusal_result,
         "safety_refusal": safety_refusal_result,
         "trial_lookup": lambda q: answer_trial_lookup(q, all_trials),
         "count_trials": lambda q: answer_with_count_tool(q, all_trials),

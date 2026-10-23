@@ -11,6 +11,7 @@ import re
 
 from src.tools.count_trials import answer_count_question, is_count_question, load_trials
 from src.tools.trial_lookup import answer_trial_lookup, find_nct_ids
+from src.tools.small_talk import small_talk_reply, small_talk_result
 
 
 QUESTIONS_FILE = Path("eval/questions.json")
@@ -41,6 +42,8 @@ LITERATURE_PATTERN = re.compile(
 
 def route(question):
     """Decide which tool should answer the question."""
+    if small_talk_reply(question):
+        return "small_talk"
     if PERSONAL_ADVICE_PATTERN.search(question):
         return "safety_refusal"
     if find_nct_ids(question):
@@ -114,7 +117,9 @@ def safety_refusal_result(question):
 def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriever=None, top_k=5):
     """The agent: choose a tool, run it, and record which tool was used."""
     tool = route(question)
-    if tool == "safety_refusal":
+    if tool == "small_talk":
+        result = small_talk_result(question)
+    elif tool == "safety_refusal":
         result = safety_refusal_result(question)
     elif tool == "trial_lookup":
         result = answer_trial_lookup(question, all_trials)

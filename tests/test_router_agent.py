@@ -71,3 +71,7 @@ def test_trial_id_goes_to_lookup():
 
 def test_guardrail_catches_like_me():
     assert route("Which immunotherapy would be best for a 70-year-old with stage III melanoma like me?") == "safety_refusal"
+
+def test_greeting_goes_to_small_talk():
+    assert route("hi") == "small_talk"
+    assert route("hi, how many recruiting pancreatic cancer trials are there?") == "count_trials"

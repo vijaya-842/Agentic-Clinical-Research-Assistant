@@ -14,6 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 TOOL_LABELS = {
+    "small_talk": "Small talk (no search, no LLM)",
     "safety_refusal": "Safety guardrail (no search, no LLM)",
     "trial_lookup": "Trial lookup by ID (code)",
     "count_trials": "Count tool (code counts all trials)",
@@ -66,6 +67,11 @@ def load_langgraph_agent():
 
 def ask(question, agent_name):
     """Run the chosen agent. Returns (result dict, trace lines)."""
+    from src.tools.small_talk import small_talk_reply, small_talk_result
+    if small_talk_reply(question):  # answer greetings instantly, before loading any model
+        result = small_talk_result(question)
+        result["tool"] = "small_talk"
+        return result, ["small talk -> fixed reply (no search, no LLM)"]
     r = load_resources()
     if agent_name == "Keyword router":
         from src.agents.router_agent import answer_question

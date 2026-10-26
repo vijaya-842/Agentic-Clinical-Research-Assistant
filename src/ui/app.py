@@ -58,14 +58,13 @@ def load_resources():
 @st.cache_resource(show_spinner=False)
 def load_langgraph_agent():
     from src.agents.langgraph_agent import build_agent, make_tools
+    from src.agents.verifier import verify_answer
     from src.llm.ollama_client import generate_response
 
-    from src.agents.verifier import verify_answer
-
+    r = load_resources()
     tools = make_tools(r["retriever"], r["trial_facts"], r["all_trials"], r["pubmed_retriever"])
     return build_agent(tools, generate_response,
                        verifier=lambda result, tool: verify_answer(result, r["all_trials"], tool))
-
 
 def ask(question, agent_name):
     """Run the chosen agent. Returns (result dict, trace lines)."""
@@ -135,8 +134,6 @@ if st.button("Ask", type="primary") and question.strip():
     col1.markdown(f"**Tool used:** {TOOL_LABELS.get(tool, tool)}")
     col2.markdown(f"**Time:** {seconds:.0f} s")
 
-    st.subheader("Answer")
-    st.markdown(result["answer"])
     st.subheader("Answer")
     st.markdown(result["answer"])
     show_verification(result)

@@ -12,6 +12,7 @@ import re
 from src.tools.count_trials import answer_count_question, is_count_question, load_trials
 from src.tools.trial_lookup import answer_trial_lookup, find_nct_ids
 from src.tools.small_talk import small_talk_reply, small_talk_result
+from src.agents.verifier import verify_answer
 
 
 QUESTIONS_FILE = Path("eval/questions.json")
@@ -136,7 +137,7 @@ def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriev
             details = trial_details(result["valid_citations"], all_trials)
             result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
     result["tool"] = tool
-    return result
+    return verify_answer(result, all_trials, tool)
 
 
 def load_questions(path=QUESTIONS_FILE):

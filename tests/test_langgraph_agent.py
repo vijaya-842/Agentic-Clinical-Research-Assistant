@@ -76,3 +76,15 @@ def test_guardrail_runs_before_llm_planner():
     state = agent.invoke({"question": "I have breast cancer. Should I stop my chemotherapy?"})
     assert state["tried_tools"] == ["safety_refusal"]
     assert calls == []
+
+def test_verifier_runs_at_the_end():
+    tools, calls = make_tools()
+
+    def fake_verifier(result, tool):
+        result["verification"] = {"status": "pass", "issues": []}
+        return result
+
+    agent = build_agent(tools, planner_says("search_papers"), verifier=fake_verifier)
+    state = agent.invoke({"question": "How does osimertinib work?"})
+    assert state["result"]["verification"]["status"] == "pass"
+    assert state["trace"][-1] == "verify: pass"

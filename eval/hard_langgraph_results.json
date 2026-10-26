@@ -1,7 +1,7 @@
 [
   {
     "question": "Are any osimertinib studies still enrolling patients?",
-    "answer": "[TRIAL NCT07642024] and [TRIAL NCT07680790] are the studies that are currently recruiting patients for their respective trials. [TRIAL NCT07642024] is a Phase 2 and Phase 3 study recruiting patients with EGFR-mutated resectable non-small cell lung cancer, while [TRIAL NCT07680790] is also a Phase 3 study recruiting patients with EGFR-mutated non-small cell lung cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT07680790] Study of Izalontamab Brengitecan (BMS-986507) in Combination With Osimertinib Versus Osimertinib Monotherapy or Osimertinib in Combination With Platinum-based Chemotherapy for EGFRmt Non-small Cell Lung Cancer (IZABRIGHT-Lung02) | Status: NOT_YET_RECRUITING | Phase: Phase 3",
+    "answer": "[TRIAL NCT07642024] and [TRIAL NCT07680790] are the studies that are currently recruiting patients for their respective trials. [TRIAL NCT07642024] is a Phase 2 and Phase 3 study recruiting patients with EGFR-mutated resectable non-small cell lung cancer, while [TRIAL NCT07680790] is also a Phase 3 study recruiting patients with EGFR-mutated non-small cell lung cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT07680790] Study of Izalontamab Brengitecan (BMS-986507) in Combination With Osimertinib Versus Osimertinib Monotherapy or Osimertinib in Combination With Platinum-based Chemotherapy for EGFRmt Non-small Cell Lung Cancer (IZABRIGHT-Lung02) | Status: NOT_YET_RECRUITING | Phase: Phase 3\n\nVerifier note:\n- NCT07680790 is described as recruiting/open, but ClinicalTrials.gov lists its status as NOT_YET_RECRUITING.",
     "retrieved_chunk_ids": [
       "NCT03219970_eligibility_01",
       "NCT03433469_eligibility_17",
@@ -49,8 +49,15 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 4.5,
-    "generation_seconds": 94.9,
+    "retrieval_seconds": 22.585,
+    "generation_seconds": 173.5,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "NCT07680790 is described as recruiting/open, but ClinicalTrials.gov lists its status as NOT_YET_RECRUITING."
+      ],
+      "citation_coverage": 1.0
+    },
     "id": "H01",
     "category": "trial_search",
     "tool": "list_trials",
@@ -62,7 +69,8 @@
     "trace": [
       "plan: LLM said 'list_trials' -> list_trials",
       "act: list_trials -> 2 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: warning (1 issue(s))"
     ],
     "gold_in_retrieved": {
       "found": 1,
@@ -75,7 +83,7 @@
   },
   {
     "question": "I'm looking for phase 2 studies of trastuzumab in breast cancer that are open to new patients.",
-    "answer": "[TRIAL NCT02000596] This trial is open to new patients and is an open-label, single arm phase II study that combines Trastuzumab with Pertuzumab for women aged 60 and over with metastatic breast cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT02000596] 1303GCC: Trastuzmab & Pertuzumab With Hormonal Therapy or Chemotherapy in Women Aged 60 and Over. | Status: TERMINATED | Phase: Phase 2",
+    "answer": "[TRIAL NCT02000596] This study is open to new patients and is an open-label, single-arm phase II study combining Trastuzumab with Pertuzumab for women aged 60 and over with metastatic breast cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT02000596] 1303GCC: Trastuzmab & Pertuzumab With Hormonal Therapy or Chemotherapy in Women Aged 60 and Over. | Status: TERMINATED | Phase: Phase 2\n\nVerifier note:\n- NCT02000596 is described as recruiting/open, but ClinicalTrials.gov lists its status as TERMINATED.",
     "retrieved_chunk_ids": [
       "NCT01491737_summary_01",
       "NCT04034823_summary_00",
@@ -129,8 +137,15 @@
       "relaxed": false,
       "matching_chunks": 309
     },
-    "retrieval_seconds": 6.711,
-    "generation_seconds": 80.1,
+    "retrieval_seconds": 11.721,
+    "generation_seconds": 148.2,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "NCT02000596 is described as recruiting/open, but ClinicalTrials.gov lists its status as TERMINATED."
+      ],
+      "citation_coverage": 1.0
+    },
     "id": "H02",
     "category": "trial_search",
     "tool": "list_trials",
@@ -142,7 +157,8 @@
     "trace": [
       "plan: LLM said 'list_trials' -> list_trials",
       "act: list_trials -> 1 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: warning (1 issue(s))"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -179,12 +195,17 @@
       "NCT05864144"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.01,
+    "retrieval_seconds": 0.06,
     "generation_seconds": 0.0,
     "filters": {
       "status": "COMPLETED",
       "phase": null,
       "cancer": "melanoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
     },
     "id": "H03",
     "category": "analytical",
@@ -197,7 +218,8 @@
     "trace": [
       "plan: LLM said 'count_trials' -> count_trials",
       "act: count_trials -> 5 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: skipped"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -276,8 +298,13 @@
       "relaxed": false,
       "matching_chunks": 900
     },
-    "retrieval_seconds": 6.92,
-    "generation_seconds": 75.7,
+    "retrieval_seconds": 23.916,
+    "generation_seconds": 159.6,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.5
+    },
     "id": "H04",
     "category": "analytical",
     "tool": "list_trials",
@@ -289,7 +316,8 @@
     "trace": [
       "plan: LLM said 'list_trials' -> list_trials",
       "act: list_trials -> 10 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: pass"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -333,6 +361,11 @@
       "phase": "PHASE3",
       "cancer": "lung"
     },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
     "id": "H05",
     "category": "analytical",
     "tool": "count_trials",
@@ -344,7 +377,8 @@
     "trace": [
       "plan: LLM said 'count_trials' -> count_trials",
       "act: count_trials -> 5 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: skipped"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -381,9 +415,14 @@
       "40243603",
       "31564718"
     ],
-    "retrieval_seconds": 21.62,
-    "generation_seconds": 87.89,
+    "retrieval_seconds": 21.4,
+    "generation_seconds": 85.61,
     "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.8
+    },
     "id": "H06",
     "category": "literature",
     "tool": "search_papers",
@@ -395,7 +434,8 @@
     "trace": [
       "plan: LLM said 'search_papers' -> search_papers",
       "act: search_papers -> 4 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: pass"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -426,9 +466,14 @@
     "cited_pmids": [
       "26846323"
     ],
-    "retrieval_seconds": 65.79,
-    "generation_seconds": 68.92,
+    "retrieval_seconds": 67.12,
+    "generation_seconds": 66.76,
     "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
     "id": "H07",
     "category": "literature",
     "tool": "search_papers",
@@ -440,7 +485,8 @@
     "trace": [
       "plan: LLM said 'search_papers' -> search_papers",
       "act: search_papers -> 1 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: pass"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -473,9 +519,14 @@
       "25588084",
       "30013326"
     ],
-    "retrieval_seconds": 64.03,
-    "generation_seconds": 13.17,
+    "retrieval_seconds": 63.45,
+    "generation_seconds": 63.58,
     "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
     "id": "H08",
     "category": "literature",
     "tool": "search_papers",
@@ -487,7 +538,8 @@
     "trace": [
       "plan: LLM said 'search_papers' -> search_papers",
       "act: search_papers -> 2 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: pass"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -515,6 +567,11 @@
     "retrieval_seconds": 0.0,
     "generation_seconds": 0.0,
     "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
     "id": "H09",
     "category": "trial_lookup",
     "tool": "trial_lookup",
@@ -526,7 +583,8 @@
     "trace": [
       "plan: rule -> trial_lookup (LLM planner skipped)",
       "act: trial_lookup -> 1 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: skipped"
     ],
     "gold_in_retrieved": {
       "found": 1,
@@ -548,6 +606,11 @@
     "retrieval_seconds": 0.0,
     "generation_seconds": 0.0,
     "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
     "id": "H10",
     "category": "out_of_scope",
     "tool": "safety_refusal",
@@ -559,7 +622,8 @@
     "trace": [
       "plan: rule -> safety_refusal (LLM planner skipped)",
       "act: safety_refusal -> 0 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: skipped"
     ],
     "gold_in_retrieved": {
       "found": 0,
@@ -581,6 +645,11 @@
     "retrieval_seconds": 0.0,
     "generation_seconds": 0.0,
     "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
     "id": "H11",
     "category": "out_of_scope",
     "tool": "safety_refusal",
@@ -592,7 +661,8 @@
     "trace": [
       "plan: rule -> safety_refusal (LLM planner skipped)",
       "act: safety_refusal -> 0 valid citations",
-      "check: ok"
+      "check: ok",
+      "verify: skipped"
     ],
     "gold_in_retrieved": {
       "found": 0,

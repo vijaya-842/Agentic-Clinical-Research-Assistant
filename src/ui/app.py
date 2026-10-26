@@ -60,9 +60,11 @@ def load_langgraph_agent():
     from src.agents.langgraph_agent import build_agent, make_tools
     from src.llm.ollama_client import generate_response
 
-    r = load_resources()
+    from src.agents.verifier import verify_answer
+
     tools = make_tools(r["retriever"], r["trial_facts"], r["all_trials"], r["pubmed_retriever"])
-    return build_agent(tools, generate_response)
+    return build_agent(tools, generate_response,
+                       verifier=lambda result, tool: verify_answer(result, r["all_trials"], tool))
 
 
 def ask(question, agent_name):
@@ -83,6 +85,14 @@ def ask(question, agent_name):
     result["tool"] = state["tried_tools"][-1]
     return result, state["trace"]
 
+def show_verification(result):
+    v = result.get("verification") or {}
+    if v.get("status") == "pass":
+        coverage = v.get("citation_coverage")
+        extra = f" Citation coverage: {coverage:.0%}." if coverage is not None else ""
+        st.success("Verifier: passed. Citations and trial statuses checked." + extra)
+    elif v.get("status") == "warning":
+        st.warning("Verifier found problems:\n\n" + "\n".join(f"- {i}" for i in v["issues"]))
 
 def show_sources(result):
     trials = [c for c in result.get("valid_citations", []) if c.startswith("NCT")]
@@ -127,7 +137,11 @@ if st.button("Ask", type="primary") and question.strip():
 
     st.subheader("Answer")
     st.markdown(result["answer"])
+    st.subheader("Answer")
+    st.markdown(result["answer"])
+    show_verification(result)
     show_sources(result)
+    
 
     with st.expander("How the agent decided (trace)"):
         for line in trace:

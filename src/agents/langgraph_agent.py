@@ -79,8 +79,9 @@ RULE_TO_TOOL = {
 }
 
 
-def build_agent(tools, planner_llm):
-    """tools: {tool name: function(question) -> result dict}. planner_llm: function(prompt, system) -> text."""
+def build_agent(tools, planner_llm, verifier=None):
+    """tools: {tool name: function(question) -> result dict}. planner_llm: function(prompt, system) -> text.
+    verifier: optional function(result, tool) -> result, run once at the end (critic / verifier step)."""
 
     def plan(state):
         # Safety guardrail and trial-ID lookup are decided by code BEFORE the LLM planner
@@ -126,6 +127,17 @@ def build_agent(tools, planner_llm):
             return {"tool": next_tool, "trace": state["trace"] + [f"check: no valid citations -> retry with {next_tool}"]}
         return {"trace": state["trace"] + ["check: no valid citations, no more retries"]}
 
+    def verify(state):
+        tool = state["tried_tools"][-1]
+        if verifier is None:
+            return {"trace": state["trace"] + ["verify: skipped (no verifier)"]}
+        result = verifier(state["result"], tool)
+        v = result.get("verification", {})
+        line = f"verify: {v.get('status')}"
+        if v.get("issues"):
+            line += f" ({len(v['issues'])} issue(s))"
+        return {"result": result, "trace": state["trace"] + [line]}
+
     def after_check(state):
         return "retry" if state["tool"] not in state["tried_tools"] else "done"
 
@@ -133,11 +145,14 @@ def build_agent(tools, planner_llm):
     graph.add_node("plan", plan)
     graph.add_node("act", act)
     graph.add_node("check", check)
+    graph.add_node("verify", verify)
     graph.add_edge(START, "plan")
     graph.add_edge("plan", "act")
     graph.add_edge("act", "check")
-    graph.add_conditional_edges("check", after_check, {"retry": "act", "done": END})
+    graph.add_conditional_edges("check", after_check, {"retry": "act", "done": "verify"})
+    graph.add_edge("verify", END)
     return graph.compile()
+
 
 
 def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
@@ -187,7 +202,9 @@ def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, reran
         pubmed_retriever = RerankingRetriever(pubmed_retriever, reranker)
         print("Reranker: ON")
     tools = make_tools(retriever, load_trial_facts(), all_trials, pubmed_retriever)
-    agent = build_agent(tools, generate_response)
+    from src.agents.verifier import verify_answer
+    agent = build_agent(tools, generate_response,
+                        verifier=lambda result, tool: verify_answer(result, all_trials, tool))
 
     results = []
     for q in load_questions(questions_path):
@@ -205,6 +222,7 @@ def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, reran
             "trace": state["trace"],
             "gold_in_retrieved": coverage(gold, result["retrieved_nct_ids"]),
             "gold_in_answer": coverage(gold, result["cited_nct_ids"]),
+            "verification": result.get("verification"),
         })
         for step in state["trace"]:
             print("  " + step)

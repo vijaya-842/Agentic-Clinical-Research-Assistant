@@ -16,11 +16,12 @@ from langgraph.graph import END, START, StateGraph
 from src.agents.router_agent import QUESTIONS_FILE, coverage, load_questions, route, trial_details
 
 OUTPUT_FILE = Path("eval/langgraph_agent_results.json")
-TOOL_NAMES = ["count_trials", "list_trials", "search_trials", "search_papers"]
+TOOL_NAMES = ["trials_then_papers", "count_trials", "list_trials", "search_trials", "search_papers"]
 MAX_ATTEMPTS = 2
 
 # If a tool's answer has no valid citations, which tool to try next
 FALLBACK = {
+    "trials_then_papers": "list_trials",
     "search_papers": "search_trials",
     "search_trials": "search_papers",
     "list_trials": "search_trials",
@@ -32,6 +33,7 @@ Tools:
 - list_trials: the question asks to find or list SEVERAL trials.
 - search_trials: the question is about ONE specific trial (ID, sponsor, outcome, eligibility), or anything else about trials.
 - search_papers: the question asks how a drug works (mechanism), side effects, resistance, or scientific evidence.
+- trials_then_papers: the question asks to find trials AND explain how their drugs work (needs both).
 Reply with ONLY the tool name, nothing else."""
 
 PLANNER_EXAMPLES = """Examples:
@@ -39,6 +41,7 @@ Question: How many completed breast cancer trials are there? -> count_trials
 Question: Find recruiting trials testing nivolumab in lung cancer. -> list_trials
 Question: Who sponsors trial NCT01234567 and what is its primary outcome? -> search_trials
 Question: How does trastuzumab work? -> search_papers
+Question: Find recruiting breast cancer trials and explain how their drugs work. -> trials_then_papers
 """
 
 
@@ -76,7 +79,10 @@ RULE_TO_TOOL = {
     "literature_rag": "search_papers",
     "small_talk": "small_talk",
     "safety_refusal": "safety_refusal",
+    "literature_rag": "search_papers",
+    "multi_hop": "trials_then_papers",
 }
+
 
 
 def build_agent(tools, planner_llm, verifier=None):
@@ -86,9 +92,10 @@ def build_agent(tools, planner_llm, verifier=None):
     def plan(state):
         # Safety guardrail and trial-ID lookup are decided by code BEFORE the LLM planner
         rule = route(state["question"])
-        if rule in ("small_talk", "safety_refusal", "trial_lookup"):
-            return {"tool": rule, "planner_output": "", "planner_fallback": False, "attempts": 0,
-                    "tried_tools": [], "trace": [f"plan: rule -> {rule} (LLM planner skipped)"]}
+        if rule in ("small_talk", "safety_refusal", "trial_lookup", "multi_hop"):
+            tool = RULE_TO_TOOL[rule]
+            return {"tool": tool, "planner_output": "", "planner_fallback": False, "attempts": 0,
+                    "tried_tools": [], "trace": [f"plan: rule -> {tool} (LLM planner skipped)"]}
         prompt = f"{PLANNER_EXAMPLES}\nQuestion: {state['question']} ->"
         output = planner_llm(prompt, PLANNER_SYSTEM_PROMPT)
         tool = parse_tool_choice(output)
@@ -157,32 +164,29 @@ def build_agent(tools, planner_llm, verifier=None):
 
 def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
     """Wrap our existing tools so each one takes just the question."""
-    from src.agents.router_agent import LIST_TOP_K, answer_with_count_tool, safety_refusal_result
+    from src.agents.multi_hop import answer_multi_hop
+    from src.agents.router_agent import LIST_TOP_K, answer_with_count_tool, list_with_details, safety_refusal_result
+    from src.tools.small_talk import small_talk_result
     from src.tools.trial_lookup import answer_trial_lookup
     from src.rag.advanced_rag import answer_question as advanced_answer
     from src.rag.literature_rag import answer_literature_question
-    from src.tools.small_talk import small_talk_result
-    from src.tools.trial_lookup import answer_trial_lookup
 
     def list_trials(question):
-        result = advanced_answer(question, retriever, trial_facts, top_k=LIST_TOP_K)
-        if result["valid_citations"]:
-            details = trial_details(result["valid_citations"], all_trials)
-            result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
-        return result
+        return list_with_details(advanced_answer(question, retriever, trial_facts, top_k=LIST_TOP_K), all_trials)
 
-    
+    def search_papers(question):
+        return answer_literature_question(question, pubmed_retriever, top_k=5)
+
     return {
         "small_talk": small_talk_result,
-        "safety_refusal": safety_refusal_result,
         "safety_refusal": safety_refusal_result,
         "trial_lookup": lambda q: answer_trial_lookup(q, all_trials),
         "count_trials": lambda q: answer_with_count_tool(q, all_trials),
         "list_trials": list_trials,
         "search_trials": lambda q: advanced_answer(q, retriever, trial_facts, top_k=5),
-        "search_papers": lambda q: answer_literature_question(q, pubmed_retriever, top_k=5),
+        "search_papers": search_papers,
+        "trials_then_papers": lambda q: answer_multi_hop(q, list_trials, search_papers, all_trials),
     }
-
 
 def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, rerank=True):
     from src.llm.ollama_client import generate_response

@@ -88,3 +88,11 @@ def test_verifier_runs_at_the_end():
     state = agent.invoke({"question": "How does osimertinib work?"})
     assert state["result"]["verification"]["status"] == "pass"
     assert state["trace"][-1] == "verify: pass"
+
+
+def test_multi_hop_is_decided_by_rule():
+    tools, calls = make_tools()
+    tools["trials_then_papers"] = lambda q: fake_result(valid=["NCT1", "PMID 1"])
+    agent = build_agent(tools, planner_says("search_trials"))
+    state = agent.invoke({"question": "Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?"})
+    assert state["tried_tools"] == ["trials_then_papers"]

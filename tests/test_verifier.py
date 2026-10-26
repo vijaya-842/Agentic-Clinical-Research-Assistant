@@ -54,3 +54,11 @@ def test_code_tools_are_skipped():
 def test_citation_coverage():
     text = "Osimertinib blocks mutant EGFR signalling [PMID 37060646]. It is taken orally once daily by patients."
     assert citation_coverage(text) == 0.5
+
+def test_low_citation_coverage_is_a_warning():
+    text = ("[NCT07642024] tests pembrolizumab in melanoma patients. "
+            "Pembrolizumab works by targeting PD-1 on immune cells. "
+            "It helps immune cells attack the cancer cells.")
+    out = verify_answer(result(text), TRIALS, "search_trials")
+    assert out["verification"]["status"] == "warning"
+    assert "cite a source" in out["verification"]["issues"][0]

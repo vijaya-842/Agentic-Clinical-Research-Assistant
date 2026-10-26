@@ -14,6 +14,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 TOOL_LABELS = {
+    "multi_hop": "Multi-hop: trials, then papers for their drugs",
+    "trials_then_papers": "Multi-hop: trials, then papers for their drugs",
     "small_talk": "Small talk (no search, no LLM)",
     "safety_refusal": "Safety guardrail (no search, no LLM)",
     "trial_lookup": "Trial lookup by ID (code)",
@@ -35,6 +37,7 @@ EXAMPLES = [
     "Why do EGFR inhibitors like osimertinib eventually stop working?",
     "What's the total of phase 3 lung cancer trials in our dataset?",
     "My father has stage IV lung cancer. Which treatment should he take?",
+    "Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?",
 ]
 
 

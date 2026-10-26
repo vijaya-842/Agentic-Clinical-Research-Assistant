@@ -22,6 +22,7 @@ OPEN_CLAIM = re.compile(
     re.IGNORECASE,
 )
 NEGATION = re.compile(r"\b(not|no longer|never|closed)\b", re.IGNORECASE)
+MIN_COVERAGE = 0.5  # below this, too many sentences have no source
 REFUSAL = re.compile(r"do not contain enough information|consult", re.IGNORECASE)
 
 
@@ -72,11 +73,15 @@ def verify_answer(result, all_trials, tool):
     for cid in result.get("invented_citations", []):
         issues.append(f"{cid} was cited but is not in the retrieved sources.")
     issues += status_issues(text, by_id)
+    coverage = citation_coverage(text)
+    if coverage is not None and coverage < MIN_COVERAGE:
+        issues.append(f"Only {coverage:.0%} of the answer's sentences cite a source; "
+                      "uncited statements may come from the model's memory, not the sources.")
 
     result["verification"] = {
         "status": "warning" if issues else "pass",
         "issues": issues,
-        "citation_coverage": citation_coverage(text),
+        "citation_coverage": coverage,
     }
     if issues:
         result["answer"] += "\n\nVerifier note:\n" + "\n".join(f"- {i}" for i in issues)

@@ -75,3 +75,7 @@ def test_guardrail_catches_like_me():
 def test_greeting_goes_to_small_talk():
     assert route("hi") == "small_talk"
     assert route("hi, how many recruiting pancreatic cancer trials are there?") == "count_trials"
+
+def test_multi_hop_route():
+    assert route("Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?") == "multi_hop"
+    assert route("What is the mechanism of action of osimertinib?") == "literature_rag"

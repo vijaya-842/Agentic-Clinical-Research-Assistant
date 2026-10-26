@@ -13,6 +13,7 @@ from src.tools.count_trials import answer_count_question, is_count_question, loa
 from src.tools.trial_lookup import answer_trial_lookup, find_nct_ids
 from src.tools.small_talk import small_talk_reply, small_talk_result
 from src.agents.verifier import verify_answer
+from src.agents.multi_hop import is_multi_hop
 
 
 QUESTIONS_FILE = Path("eval/questions.json")
@@ -51,6 +52,8 @@ def route(question):
         return "trial_lookup"
     if is_count_question(question):
         return "count_trials"
+    if is_multi_hop(question):
+        return "multi_hop"
     if LITERATURE_PATTERN.search(question):
         return "literature_rag"
     if LIST_PATTERN.search(question):
@@ -99,6 +102,13 @@ def trial_details(nct_ids, all_trials):
         lines.append(f"- [{nct}] {t.get('title', '')} | Status: {t.get('status', '')} | Phase: {phases}")
     return "\n".join(lines)
 
+def list_with_details(result, all_trials):
+    """Add code-written status/phase lines for every valid cited trial."""
+    if result["valid_citations"]:
+        details = trial_details(result["valid_citations"], all_trials)
+        result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
+    return result
+
 def safety_refusal_result(question):
     """A fixed, safe answer for personal medical-advice questions (no search, no LLM)."""
     return {
@@ -126,6 +136,16 @@ def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriev
         result = answer_trial_lookup(question, all_trials)
     elif tool == "count_trials":
         result = answer_with_count_tool(question, all_trials)
+    elif tool == "multi_hop":
+        from src.agents.multi_hop import answer_multi_hop
+        from src.rag.advanced_rag import answer_question as advanced_answer
+        from src.rag.literature_rag import answer_literature_question
+        result = answer_multi_hop(
+            question,
+            trial_tool=lambda q: list_with_details(advanced_answer(q, retriever, trial_facts, top_k=LIST_TOP_K), all_trials),
+            paper_tool=lambda q: answer_literature_question(q, pubmed_retriever, top_k=top_k),
+            all_trials=all_trials,
+        )
     elif tool == "literature_rag":
         from src.rag.literature_rag import answer_literature_question
         result = answer_literature_question(question, pubmed_retriever, top_k=top_k)

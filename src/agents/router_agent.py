@@ -166,7 +166,7 @@ def load_questions(path=QUESTIONS_FILE):
     return data["questions"] if isinstance(data, dict) else data
 
 
-def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True, questions_path=QUESTIONS_FILE, hybrid=True):
+def run_evaluation(output_path=OUTPUT_FILE, top_k=5, rerank=True, questions_path=QUESTIONS_FILE, hybrid=False):
     from src.rag.trial_facts import load_trial_facts
     from src.retrieval.pipeline import load_retrievers
 
@@ -201,6 +201,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--questions", default=str(QUESTIONS_FILE))
     parser.add_argument("--output", default=str(OUTPUT_FILE))
-    parser.add_argument("--no-hybrid", action="store_true", help="dense search only (no BM25)")
+    parser.add_argument("--hybrid", action="store_true", help="add BM25 keyword search (off by default)")
     args = parser.parse_args()
-    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions), hybrid=not args.no_hybrid)
+    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions), hybrid=args.hybrid)

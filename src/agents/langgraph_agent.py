@@ -188,7 +188,7 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
         "trials_then_papers": lambda q: answer_multi_hop(q, list_trials, search_papers, all_trials),
     }
 
-def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, rerank=True, hybrid=True):
+def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, rerank=True, hybrid=False):
     from src.llm.ollama_client import generate_response
     from src.rag.trial_facts import load_trial_facts
     from src.retrieval.pipeline import load_retrievers
@@ -237,6 +237,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--questions", default=str(QUESTIONS_FILE))
     parser.add_argument("--output", default=str(OUTPUT_FILE))
-    parser.add_argument("--no-hybrid", action="store_true", help="dense search only (no BM25)")
+    parser.add_argument("--hybrid", action="store_true", help="add BM25 keyword search (off by default)")
     args = parser.parse_args()
-    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions), hybrid=not args.no_hybrid)
+    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions), hybrid=args.hybrid)

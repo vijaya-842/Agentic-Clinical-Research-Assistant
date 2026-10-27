@@ -21,6 +21,7 @@ A biomedical research assistant that answers oncology questions using **Clinical
 
 ## Architecture
 
+![Architecture](docs/architecture.png)
 ```text
 Question
   ├─ Small talk / Safety guardrail / Trial-ID lookup        (rules, instant)

@@ -1,7 +1,7 @@
 [
   {
     "question": "Which clinical trial tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer? Give the NCT ID, the sponsor and the primary outcome.",
-    "answer": "[1] NCT05086614\nSponsor: Fudan University\nPrimary outcome: 3-year disease-free survival rate\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "answer": "[1] NCT05086614\nSponsor: Fudan University\nPrimary outcome: 3-year disease-free survival rate",
     "retrieved_chunk_ids": [
       "NCT05086614_summary_00",
       "NCT00749450_summary_01",
@@ -41,15 +41,13 @@
       "relaxed": false,
       "matching_chunks": 5192
     },
-    "retrieval_seconds": 21.459,
-    "generation_seconds": 60.0,
+    "retrieval_seconds": 9.543,
+    "generation_seconds": 62.8,
     "tool": "advanced_rag",
     "verification": {
-      "status": "warning",
-      "issues": [
-        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
-      ],
-      "citation_coverage": 0.0
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
     },
     "id": "Q01",
     "category": "trial_lookup",
@@ -104,8 +102,8 @@
       "relaxed": false,
       "matching_chunks": 98
     },
-    "retrieval_seconds": 4.625,
-    "generation_seconds": 39.5,
+    "retrieval_seconds": 2.035,
+    "generation_seconds": 39.8,
     "tool": "advanced_rag",
     "verification": {
       "status": "pass",
@@ -161,8 +159,8 @@
       "relaxed": false,
       "matching_chunks": 5899
     },
-    "retrieval_seconds": 22.203,
-    "generation_seconds": 67.6,
+    "retrieval_seconds": 9.265,
+    "generation_seconds": 64.4,
     "tool": "advanced_rag",
     "verification": {
       "status": "pass",
@@ -232,8 +230,8 @@
       "relaxed": false,
       "matching_chunks": 47
     },
-    "retrieval_seconds": 9.713,
-    "generation_seconds": 106.8,
+    "retrieval_seconds": 4.834,
+    "generation_seconds": 110.5,
     "tool": "list_rag",
     "verification": {
       "status": "pass",
@@ -307,13 +305,13 @@
       "relaxed": false,
       "matching_chunks": 109
     },
-    "retrieval_seconds": 7.075,
-    "generation_seconds": 69.1,
+    "retrieval_seconds": 4.598,
+    "generation_seconds": 66.3,
     "tool": "list_rag",
     "verification": {
       "status": "pass",
       "issues": [],
-      "citation_coverage": null
+      "citation_coverage": 1.0
     },
     "id": "Q05",
     "category": "trial_search",
@@ -392,13 +390,13 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 13.583,
-    "generation_seconds": 147.0,
+    "retrieval_seconds": 5.304,
+    "generation_seconds": 154.8,
     "tool": "list_rag",
     "verification": {
       "status": "pass",
       "issues": [],
-      "citation_coverage": null
+      "citation_coverage": 1.0
     },
     "id": "Q06",
     "category": "trial_search",
@@ -465,8 +463,8 @@
       "relaxed": false,
       "matching_chunks": 7119
     },
-    "retrieval_seconds": 18.231,
-    "generation_seconds": 120.6,
+    "retrieval_seconds": 11.365,
+    "generation_seconds": 138.2,
     "tool": "list_rag",
     "verification": {
       "status": "pass",
@@ -536,7 +534,7 @@
   },
   {
     "question": "What is the mechanism of action of osimertinib?",
-    "answer": "Osimertinib is an orally bioavailable, third-generation EGFR-TKI that acts by irreversibly binding both EGFR activating mutations and T790M, while sparing wild-type EGFR. [PMID 37060646]\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "answer": "Osimertinib is an orally bioavailable, third-generation EGFR-TKI that acts by irreversibly binding both EGFR activating mutations and T790M, while sparing wild-type EGFR. [PMID 37060646]",
     "retrieved_chunk_ids": [],
     "retrieved_nct_ids": [],
     "cited_nct_ids": [],
@@ -554,16 +552,14 @@
     "cited_pmids": [
       "37060646"
     ],
-    "retrieval_seconds": 39.96,
-    "generation_seconds": 64.34,
+    "retrieval_seconds": 36.58,
+    "generation_seconds": 73.41,
     "filters": {},
     "tool": "literature_rag",
     "verification": {
-      "status": "warning",
-      "issues": [
-        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
-      ],
-      "citation_coverage": 0.0
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
     },
     "id": "Q09",
     "category": "literature",

@@ -47,7 +47,7 @@ def load_resources():
     from src.retrieval.pipeline import load_retrievers
     from src.tools.count_trials import load_trials
 
-    retriever, pubmed_retriever = load_retrievers(hybrid=True, rerank=True)
+    retriever, pubmed_retriever = load_retrievers(hybrid=False, rerank=True)
     return {
         "retriever": retriever,
         "pubmed_retriever": pubmed_retriever,

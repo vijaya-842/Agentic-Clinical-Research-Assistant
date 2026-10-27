@@ -31,10 +31,28 @@ def llm_text(answer):
     return answer.split(DETAILS_MARKER)[0]
 
 
+CITATION = r"\[(?:[^\]]*(?:NCT\d{8}|PMID)[^\]]*)\]"
+TRAILING_CITATIONS = re.compile(rf"([.!?])((?:\s*{CITATION})+)")
+
+
+def attach_citations(text):
+    """'...wild-type EGFR. [PMID 37060646]' -> '...wild-type EGFR [PMID 37060646].'
+    (a citation written after the full stop belongs to that sentence)"""
+    return TRAILING_CITATIONS.sub(lambda m: m.group(2) + m.group(1), text)
+
+
 def sentences(text):
     """Split into sentences / lines, with underscores as spaces (ACTIVE_NOT_RECRUITING -> active not recruiting)."""
-    text = text.replace("_", " ")
+    text = attach_citations(text).replace("_", " ")
     return [s.strip() for s in re.split(r"(?<=[.!?])\s+|\n+", text) if s.strip()]
+
+
+def coverage_units(text):
+    """Like sentences(), but lines of one block stay together, so
+    '[1] NCT05086614\nSponsor: ...\nPrimary outcome: ...' counts as one cited unit."""
+    text = attach_citations(text)
+    text = re.sub(r"(?<!\n)\n(?!\n)", " ", text)  # single line break -> space
+    return [s.strip() for s in re.split(r"(?<=[.!?])\s+|\n{2,}", text) if s.strip()]
 
 
 def status_issues(text, by_id):
@@ -54,7 +72,7 @@ def status_issues(text, by_id):
 
 def citation_coverage(text):
     """Share of factual sentences (5+ words) that cite at least one trial or paper."""
-    factual = [s for s in sentences(text) if len(s.split()) >= 5 and not REFUSAL.search(s)]
+    factual = [s for s in coverage_units(text) if len(s.split()) >= 5 and not REFUSAL.search(s)]
     if not factual:
         return None
     cited = [s for s in factual if NCT_PATTERN.search(s) or PMID_PATTERN.search(s)]

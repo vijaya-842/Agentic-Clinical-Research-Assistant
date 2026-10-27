@@ -62,3 +62,15 @@ def test_low_citation_coverage_is_a_warning():
     out = verify_answer(result(text), TRIALS, "search_trials")
     assert out["verification"]["status"] == "warning"
     assert "cite a source" in out["verification"]["issues"][0]
+
+
+
+def test_citation_after_full_stop_counts():
+    text = ("Osimertinib is a third-generation EGFR-TKI that irreversibly binds EGFR activating mutations "
+            "and T790M, while sparing wild-type EGFR. [PMID 37060646]")
+    assert citation_coverage(text) == 1.0
+
+
+def test_structured_block_with_id_on_its_own_line_counts():
+    text = "[1] NCT05086614\nSponsor: Fudan University\nPrimary outcome: 3-year disease-free survival rate"
+    assert citation_coverage(text) == 1.0

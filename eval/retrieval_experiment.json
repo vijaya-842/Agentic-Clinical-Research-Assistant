@@ -1,0 +1,326 @@
+[
+  {
+    "id": "Q01",
+    "gold": 1,
+    "scores": {
+      "Dense": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "BM25": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q02",
+    "gold": 1,
+    "scores": {
+      "Dense": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "BM25": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q03",
+    "gold": 1,
+    "scores": {
+      "Dense": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "BM25": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q04",
+    "gold": 4,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.0
+      },
+      "BM25": {
+        "recall@5": 0.0,
+        "recall@10": 0.25,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.125
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.058823529411764705
+      }
+    }
+  },
+  {
+    "id": "Q05",
+    "gold": 6,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.3333333333333333,
+        "precision@5": 0.4,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "BM25": {
+        "recall@5": 0.5,
+        "recall@10": 0.6666666666666666,
+        "precision@5": 0.6,
+        "hit@5": 1.0,
+        "mrr": 0.5
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "precision@5": 0.6,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q06",
+    "gold": 13,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.38461538461538464,
+        "recall@10": 0.6923076923076923,
+        "precision@5": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "BM25": {
+        "recall@5": 0.3076923076923077,
+        "recall@10": 0.5384615384615384,
+        "precision@5": 0.8,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.3076923076923077,
+        "recall@10": 0.6153846153846154,
+        "precision@5": 0.8,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q07",
+    "gold": 4,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.75,
+        "recall@10": 0.75,
+        "precision@5": 0.6,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "BM25": {
+        "recall@5": 0.0,
+        "recall@10": 0.25,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.14285714285714285
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  {
+    "id": "H01",
+    "gold": 2,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.0
+      },
+      "BM25": {
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.09090909090909091
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.07692307692307693
+      }
+    }
+  },
+  {
+    "id": "H02",
+    "gold": 4,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.25,
+        "recall@10": 0.25,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 0.5
+      },
+      "BM25": {
+        "recall@5": 0.0,
+        "recall@10": 0.25,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.14285714285714285
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.25,
+        "recall@10": 0.5,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 0.25
+      }
+    }
+  },
+  {
+    "id": "H09",
+    "gold": 1,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.0,
+        "recall@10": 0.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.0
+      },
+      "BM25": {
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 0.5
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.0,
+        "recall@10": 1.0,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.16666666666666666
+      }
+    }
+  },
+  {
+    "id": "H12",
+    "gold": 6,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.16666666666666666,
+        "recall@10": 0.16666666666666666,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 0.2
+      },
+      "BM25": {
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "precision@5": 0.4,
+        "hit@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.3333333333333333,
+        "recall@10": 0.5,
+        "precision@5": 0.4,
+        "hit@5": 1.0,
+        "mrr": 0.5
+      }
+    }
+  },
+  {
+    "id": "H13",
+    "gold": 2,
+    "scores": {
+      "Dense": {
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "precision@5": 0.2,
+        "hit@5": 1.0,
+        "mrr": 0.2
+      },
+      "BM25": {
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.125
+      },
+      "Hybrid (RRF)": {
+        "recall@5": 0.0,
+        "recall@10": 0.5,
+        "precision@5": 0.0,
+        "hit@5": 0.0,
+        "mrr": 0.125
+      }
+    }
+  }
+]

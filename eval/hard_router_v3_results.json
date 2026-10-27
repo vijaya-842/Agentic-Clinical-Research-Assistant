@@ -1,0 +1,573 @@
+[
+  {
+    "question": "Are any osimertinib studies still enrolling patients?",
+    "answer": "[TRIAL NCT03433469] is the only study among the provided sources that is currently ACTIVE_NOT_RECRUITING. Therefore, it is not enrolling patients. The other studies are either NOT_YET_RECRUITING, NOT_YET_RECRUITING, or UNKNOWN status.",
+    "retrieved_chunk_ids": [
+      "NCT03219970_eligibility_01",
+      "NCT03433469_eligibility_17",
+      "NCT06436144_summary_02",
+      "NCT07256509_eligibility_09",
+      "NCT04811001_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03219970",
+      "NCT03433469",
+      "NCT06436144",
+      "NCT07256509",
+      "NCT04811001"
+    ],
+    "cited_nct_ids": [
+      "NCT03433469"
+    ],
+    "valid_citations": [
+      "NCT03433469"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 187
+    },
+    "retrieval_seconds": 16.104,
+    "generation_seconds": 77.3,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.33
+    },
+    "id": "H01",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 2
+    }
+  },
+  {
+    "question": "I'm looking for phase 2 studies of trastuzumab in breast cancer that are open to new patients.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.",
+    "retrieved_chunk_ids": [
+      "NCT01491737_summary_01",
+      "NCT04034823_summary_00",
+      "NCT02675231_summary_00",
+      "NCT02000596_summary_00",
+      "NCT00934856_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT01491737",
+      "NCT04034823",
+      "NCT02675231",
+      "NCT02000596",
+      "NCT00934856"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "phase": "PHASE2",
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "trastuzumab"
+        ]
+      },
+      "applied": {
+        "phase": "PHASE2",
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "trastuzumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 309
+    },
+    "retrieval_seconds": 21.382,
+    "generation_seconds": 61.1,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "H02",
+    "category": "trial_search",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 4
+    }
+  },
+  {
+    "question": "What's the total of completed melanoma trials in our data?",
+    "answer": "The retrieved sources contain information from 5 completed melanoma trials: [NCT01307397], [NCT05260684], [NCT01511913], [NCT00086489], and [NCT00339222].",
+    "retrieved_chunk_ids": [
+      "NCT01307397_outcomes_01",
+      "NCT05260684_outcomes_00",
+      "NCT01511913_outcomes_01",
+      "NCT00086489_outcomes_00",
+      "NCT00339222_summary_06"
+    ],
+    "retrieved_nct_ids": [
+      "NCT01307397",
+      "NCT05260684",
+      "NCT01511913",
+      "NCT00086489",
+      "NCT00339222"
+    ],
+    "cited_nct_ids": [
+      "NCT01307397",
+      "NCT05260684",
+      "NCT01511913",
+      "NCT00086489",
+      "NCT00339222"
+    ],
+    "valid_citations": [
+      "NCT01307397",
+      "NCT05260684",
+      "NCT01511913",
+      "NCT00086489",
+      "NCT00339222"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "melanoma"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "melanoma"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 2333
+    },
+    "retrieval_seconds": 16.492,
+    "generation_seconds": 57.0,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "H03",
+    "category": "analytical",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Tally the recruiting prostate cancer trials we have.",
+    "answer": "We have 5 recruiting prostate cancer trials:\n\n[1] Trial NCT06282588\n[2] Trial NCT07578519\n[3] Trial NCT06866782\n[4] Trial NCT06334809\n[5] Trial NCT07831824",
+    "retrieved_chunk_ids": [
+      "NCT06282588_summary_04",
+      "NCT07578519_summary_00",
+      "NCT06866782_summary_01",
+      "NCT06334809_summary_00",
+      "NCT07831824_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06282588",
+      "NCT07578519",
+      "NCT06866782",
+      "NCT06334809",
+      "NCT07831824"
+    ],
+    "cited_nct_ids": [
+      "NCT06282588",
+      "NCT07578519",
+      "NCT06866782",
+      "NCT06334809",
+      "NCT07831824"
+    ],
+    "valid_citations": [
+      "NCT06282588",
+      "NCT07578519",
+      "NCT06866782",
+      "NCT06334809",
+      "NCT07831824"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "prostate"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "prostate"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 900
+    },
+    "retrieval_seconds": 6.767,
+    "generation_seconds": 68.1,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.0
+    },
+    "id": "H04",
+    "category": "analytical",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What's the total of phase 3 lung cancer trials in our dataset?",
+    "answer": "The total of phase 3 lung cancer trials in the dataset is 4 [NCT07718737, NCT04092283, NCT02486718, NCT01631136, NCT06632327].",
+    "retrieved_chunk_ids": [
+      "NCT07718737_summary_01",
+      "NCT04092283_outcomes_00",
+      "NCT02486718_outcomes_01",
+      "NCT01631136_outcomes_00",
+      "NCT06632327_outcomes_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07718737",
+      "NCT04092283",
+      "NCT02486718",
+      "NCT01631136",
+      "NCT06632327"
+    ],
+    "cited_nct_ids": [
+      "NCT07718737",
+      "NCT04092283",
+      "NCT02486718",
+      "NCT01631136",
+      "NCT06632327"
+    ],
+    "valid_citations": [
+      "NCT07718737",
+      "NCT04092283",
+      "NCT02486718",
+      "NCT01631136",
+      "NCT06632327"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "phase": "PHASE3",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "applied": {
+        "phase": "PHASE3",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 811
+    },
+    "retrieval_seconds": 17.226,
+    "generation_seconds": 66.1,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "H05",
+    "category": "analytical",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Why do EGFR inhibitors like osimertinib eventually stop working in lung cancer patients?",
+    "answer": "[1] and [2] suggest that EGFR inhibitors like osimertinib eventually stop working in lung cancer patients due to the development of resistance. [1] focuses on osimertinib being used before surgery for lung cancer, while [2] discusses osimertinib resistance and the development of co-mutations in genes such as TP53, RB1, and PIK3CA, which can lead to resistance. This resistance is linked to the progression of the disease within 3-4 months. Therefore, the combination of osimertinib with other drugs like etoposide or capivasertib might be explored to manage resistance. [3] and [4] also touch on the topic of resistance, with [3] focusing on the combination of osimertinib with capivasertib for specific genetic alterations, and [4] looking at the combination of osimertinib with stereotactic ablative radiation (SABR). These trials aim to determine the efficacy of these combinations in managing resistance. [5] also discusses resistance, specifically in the context of EGFR exon 20ins mutations, and suggests a combination therapy with JMT101.",
+    "retrieved_chunk_ids": [
+      "NCT03433469_summary_01",
+      "NCT06436144_summary_01",
+      "NCT07486648_summary_01",
+      "NCT03667820_eligibility_07",
+      "NCT06380348_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03433469",
+      "NCT06436144",
+      "NCT07486648",
+      "NCT03667820",
+      "NCT06380348"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 176
+    },
+    "retrieval_seconds": 4.783,
+    "generation_seconds": 117.2,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.0
+    },
+    "id": "H06",
+    "category": "literature",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What kind of drug is pembrolizumab and what does it target?",
+    "answer": "Pembrolizumab is a drug that targets the programmed cell death ligand 1 (PD-L1) on cancer cells. [NCT02007070] This trial studies the use of pembrolizumab in participants with advanced non-small cell lung cancer. PD-L1 is a protein that helps cancer cells hide from the immune system. In this scenario, tumors do not attract any immune cells (e.g. white blood cells) whatsoever or they do not attract specialized white blood cells against cancer cells, called lymphocytes. White blood cells are the type of immune cells that attack foreign cells, such as cancer cells or normal cells infected with viruses or bacteria. Giving pembrolizumab may help the immune system recognize these cancer cells.",
+    "retrieved_chunk_ids": [
+      "NCT02007070_summary_01",
+      "NCT03765229_summary_01",
+      "NCT03299088_summary_02",
+      "NCT03006887_eligibility_00",
+      "NCT03278782_summary_03"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02007070",
+      "NCT03765229",
+      "NCT03299088",
+      "NCT03006887",
+      "NCT03278782"
+    ],
+    "cited_nct_ids": [
+      "NCT02007070"
+    ],
+    "valid_citations": [
+      "NCT02007070"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "applied": {
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 2034
+    },
+    "retrieval_seconds": 20.997,
+    "generation_seconds": 80.1,
+    "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.14
+    },
+    "id": "H07",
+    "category": "literature",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What side effects are common with immune checkpoint inhibitors?",
+    "answer": "Common side effects associated with immune checkpoint inhibitors include pruritus and fatigue [PMID 25588084]. Additionally, pruritus, increased alanine transaminase, and increased aspartate aminotransferase were common among patients treated with a combination of durvalumab and tremelimumab [PMID 30013326].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 25588084",
+      "PMID 30013326"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "38244436",
+      "25588084",
+      "30013326",
+      "39364500",
+      "28823733"
+    ],
+    "cited_pmids": [
+      "25588084",
+      "30013326"
+    ],
+    "retrieval_seconds": 26.1,
+    "generation_seconds": 76.96,
+    "filters": {},
+    "tool": "literature_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "H08",
+    "category": "literature",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Tell me about NCT05086614.",
+    "answer": "[NCT05086614] Thymosin-alpha 1 for Adjuvant Treatment After Radical Resection of High-risk Stage II and III Colorectal Cancer\n- Sponsor: Fudan University\n- Status: RECRUITING | Phase: PHASE3\n- Conditions: Stage II Colorectal Cancer, Stage III Colorectal Cancer\n- Interventions: Thymosin Alpha1\n- Primary outcome: 3-year disease-free survival rate\n- Summary: For high-risk stage II and stage III colorectal cancer, even after radical resection and postoperative adjuvant chemo/radiotherapy, 30-40% of patients will still have recurrence and metastasis. Thymosin-alpha 1 is believed to improve immunity and may help promote tumor immunity to reduce the incidence of recurrence and metastasis. This study hopes to verify the effecacy and safety of thymosin-alph...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT05086614"
+    ],
+    "cited_nct_ids": [
+      "NCT05086614"
+    ],
+    "valid_citations": [
+      "NCT05086614"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "tool": "trial_lookup",
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H09",
+    "category": "trial_lookup",
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "I have breast cancer. Should I stop my chemotherapy?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "tool": "safety_refusal",
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H10",
+    "category": "out_of_scope",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Which immunotherapy would be best for a 70-year-old with stage III melanoma like me?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "tool": "safety_refusal",
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H11",
+    "category": "out_of_scope",
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  }
+]

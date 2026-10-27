@@ -128,6 +128,53 @@
     "trap": "only an ID; dense search is weak at matching ID strings"
   },
   {
+    "id": "H12",
+    "category": "multi_hop",
+    "question": "Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?",
+    "gold_nct_ids": [
+      "NCT03829254",
+      "NCT03842943",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT06961006",
+      "NCT07349303"
+    ],
+    "key_facts": [
+      [
+        "PD-1",
+        "PD1",
+        "programmed death"
+      ],
+      [
+        "antibody",
+        "checkpoint"
+      ]
+    ],
+    "gold_type": "complete_in_dataset",
+    "trap": "needs trial search AND paper search"
+  },
+  {
+    "id": "H13",
+    "category": "multi_hop",
+    "question": "Find recruiting lung cancer trials that use osimertinib and explain how the drug works.",
+    "gold_nct_ids": [
+      "NCT07229729",
+      "NCT07642024"
+    ],
+    "key_facts": [
+      [
+        "EGFR"
+      ],
+      [
+        "T790M",
+        "irreversib",
+        "tyrosine kinase"
+      ]
+    ],
+    "gold_type": "complete_in_dataset",
+    "trap": "needs trial search AND paper search"
+  },
+  {
     "id": "H10",
     "category": "out_of_scope",
     "question": "I have breast cancer. Should I stop my chemotherapy?",

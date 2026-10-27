@@ -1,7 +1,7 @@
 [
   {
     "question": "Are any osimertinib studies still enrolling patients?",
-    "answer": "[TRIAL NCT03433469] is the only study among the provided sources that is currently ACTIVE_NOT_RECRUITING. Therefore, it is not enrolling patients. The other studies are either NOT_YET_RECRUITING, NOT_YET_RECRUITING, or UNKNOWN status.",
+    "answer": "[TRIAL NCT03433469] is the only study among the provided sources that is currently ACTIVE_NOT_RECRUITING. Therefore, it is not enrolling patients. The other studies are either NOT_YET_RECRUITING, NOT_YET_RECRUITING, or UNKNOWN status.\n\nVerifier note:\n- Only 33% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
     "retrieved_chunk_ids": [
       "NCT03219970_eligibility_01",
       "NCT03433469_eligibility_17",
@@ -37,12 +37,14 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 16.104,
-    "generation_seconds": 77.3,
+    "retrieval_seconds": 6.028,
+    "generation_seconds": 83.0,
     "tool": "advanced_rag",
     "verification": {
-      "status": "pass",
-      "issues": [],
+      "status": "warning",
+      "issues": [
+        "Only 33% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
       "citation_coverage": 0.33
     },
     "id": "H01",
@@ -98,8 +100,8 @@
       "relaxed": false,
       "matching_chunks": 309
     },
-    "retrieval_seconds": 21.382,
-    "generation_seconds": 61.1,
+    "retrieval_seconds": 7.27,
+    "generation_seconds": 61.9,
     "tool": "advanced_rag",
     "verification": {
       "status": "pass",
@@ -165,8 +167,8 @@
       "relaxed": false,
       "matching_chunks": 2333
     },
-    "retrieval_seconds": 16.492,
-    "generation_seconds": 57.0,
+    "retrieval_seconds": 7.888,
+    "generation_seconds": 53.2,
     "tool": "advanced_rag",
     "verification": {
       "status": "pass",
@@ -186,7 +188,7 @@
   },
   {
     "question": "Tally the recruiting prostate cancer trials we have.",
-    "answer": "We have 5 recruiting prostate cancer trials:\n\n[1] Trial NCT06282588\n[2] Trial NCT07578519\n[3] Trial NCT06866782\n[4] Trial NCT06334809\n[5] Trial NCT07831824",
+    "answer": "We have 5 recruiting prostate cancer trials:\n\n[1] Trial NCT06282588\n[2] Trial NCT07578519\n[3] Trial NCT06866782\n[4] Trial NCT06334809\n[5] Trial NCT07831824\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
     "retrieved_chunk_ids": [
       "NCT06282588_summary_04",
       "NCT07578519_summary_00",
@@ -232,12 +234,14 @@
       "relaxed": false,
       "matching_chunks": 900
     },
-    "retrieval_seconds": 6.767,
-    "generation_seconds": 68.1,
+    "retrieval_seconds": 6.836,
+    "generation_seconds": 73.0,
     "tool": "advanced_rag",
     "verification": {
-      "status": "pass",
-      "issues": [],
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
       "citation_coverage": 0.0
     },
     "id": "H04",
@@ -301,8 +305,8 @@
       "relaxed": false,
       "matching_chunks": 811
     },
-    "retrieval_seconds": 17.226,
-    "generation_seconds": 66.1,
+    "retrieval_seconds": 8.866,
+    "generation_seconds": 74.6,
     "tool": "advanced_rag",
     "verification": {
       "status": "pass",
@@ -322,7 +326,7 @@
   },
   {
     "question": "Why do EGFR inhibitors like osimertinib eventually stop working in lung cancer patients?",
-    "answer": "[1] and [2] suggest that EGFR inhibitors like osimertinib eventually stop working in lung cancer patients due to the development of resistance. [1] focuses on osimertinib being used before surgery for lung cancer, while [2] discusses osimertinib resistance and the development of co-mutations in genes such as TP53, RB1, and PIK3CA, which can lead to resistance. This resistance is linked to the progression of the disease within 3-4 months. Therefore, the combination of osimertinib with other drugs like etoposide or capivasertib might be explored to manage resistance. [3] and [4] also touch on the topic of resistance, with [3] focusing on the combination of osimertinib with capivasertib for specific genetic alterations, and [4] looking at the combination of osimertinib with stereotactic ablative radiation (SABR). These trials aim to determine the efficacy of these combinations in managing resistance. [5] also discusses resistance, specifically in the context of EGFR exon 20ins mutations, and suggests a combination therapy with JMT101.",
+    "answer": "[1] and [2] suggest that EGFR inhibitors like osimertinib eventually stop working in lung cancer patients due to the development of resistance. [1] focuses on osimertinib being used before surgery for lung cancer, while [2] discusses osimertinib resistance and the development of co-mutations in genes such as TP53, RB1, and PIK3CA, which can lead to resistance. This resistance is linked to the progression of the disease within 3-4 months. Therefore, the combination of osimertinib with other drugs like etoposide or capivasertib might be explored to manage resistance. [3] and [4] also touch on the topic of resistance, with [3] focusing on the combination of osimertinib with capivasertib for specific genetic alterations, and [4] looking at the combination of osimertinib with stereotactic ablative radiation (SABR). These trials aim to determine the efficacy of these combinations in managing resistance. [5] also discusses resistance, specifically in the context of EGFR exon 20ins mutations, and suggests a combination therapy with JMT101.\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
     "retrieved_chunk_ids": [
       "NCT03433469_summary_01",
       "NCT06436144_summary_01",
@@ -362,12 +366,14 @@
       "relaxed": false,
       "matching_chunks": 176
     },
-    "retrieval_seconds": 4.783,
-    "generation_seconds": 117.2,
+    "retrieval_seconds": 5.108,
+    "generation_seconds": 115.7,
     "tool": "advanced_rag",
     "verification": {
-      "status": "pass",
-      "issues": [],
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
       "citation_coverage": 0.0
     },
     "id": "H06",
@@ -383,7 +389,7 @@
   },
   {
     "question": "What kind of drug is pembrolizumab and what does it target?",
-    "answer": "Pembrolizumab is a drug that targets the programmed cell death ligand 1 (PD-L1) on cancer cells. [NCT02007070] This trial studies the use of pembrolizumab in participants with advanced non-small cell lung cancer. PD-L1 is a protein that helps cancer cells hide from the immune system. In this scenario, tumors do not attract any immune cells (e.g. white blood cells) whatsoever or they do not attract specialized white blood cells against cancer cells, called lymphocytes. White blood cells are the type of immune cells that attack foreign cells, such as cancer cells or normal cells infected with viruses or bacteria. Giving pembrolizumab may help the immune system recognize these cancer cells.",
+    "answer": "Pembrolizumab is a drug that targets the programmed cell death ligand 1 (PD-L1) on cancer cells. [NCT02007070] This trial studies the use of pembrolizumab in participants with advanced non-small cell lung cancer. PD-L1 is a protein that helps cancer cells hide from the immune system. In this scenario, tumors do not attract any immune cells (e.g. white blood cells) whatsoever or they do not attract specialized white blood cells against cancer cells, called lymphocytes. White blood cells are the type of immune cells that attack foreign cells, such as cancer cells or normal cells infected with viruses or bacteria. Giving pembrolizumab may help the immune system recognize these cancer cells.\n\nVerifier note:\n- Only 14% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
     "retrieved_chunk_ids": [
       "NCT02007070_summary_01",
       "NCT03765229_summary_01",
@@ -419,12 +425,14 @@
       "relaxed": false,
       "matching_chunks": 2034
     },
-    "retrieval_seconds": 20.997,
-    "generation_seconds": 80.1,
+    "retrieval_seconds": 8.057,
+    "generation_seconds": 79.2,
     "tool": "advanced_rag",
     "verification": {
-      "status": "pass",
-      "issues": [],
+      "status": "warning",
+      "issues": [
+        "Only 14% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
       "citation_coverage": 0.14
     },
     "id": "H07",
@@ -460,8 +468,8 @@
       "25588084",
       "30013326"
     ],
-    "retrieval_seconds": 26.1,
-    "generation_seconds": 76.96,
+    "retrieval_seconds": 22.39,
+    "generation_seconds": 77.56,
     "filters": {},
     "tool": "literature_rag",
     "verification": {
@@ -512,6 +520,227 @@
     "gold_in_answer": {
       "found": 1,
       "total": 1
+    }
+  },
+  {
+    "question": "Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?",
+    "answer": "Trials:\n[1] Trial NCT07349303\n[2] Trial NCT06961006\n[3] Trial NCT06488482\n[4] Trial NCT06545682\n[6] Trial NCT03842943\n\nHow the drugs work:\nPembrolizumab: Pembrolizumab, a humanized monoclonal antibody against programmed death receptor-1 (PD-1), acts as an immunotherapy drug. It blocks the interaction between PD-1 and its ligands, PDL1 and PDL2, which are expressed on immune cells and tumor cells, respectively. This blockade prevents the negative signals that PD-1 transmits to T-cells, thereby enhancing the anti-tumor immune response. [PMID 26846323]\n\nIntismeran autogene: The retrieved papers do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07349303] Neoadjuvant Pembrolizumab in Patients With Stage IIb/c Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT06961006] A Clinical Study of Intismeran Autogene (V940) and Pembrolizumab (MK-3475) in People With Melanoma (V940-012/INTerpath-012) | Status: RECRUITING | Phase: Phase 2\n- [NCT06488482] Assessment of Short Immunotherapy After Radical Surgery of High-risk Malignant Melanoma | Status: RECRUITING | Phase: Phase 3\n- [NCT06545682] Phase Ib Study of AlpeliSib With PEmbroLizumab in Patients With mEtastatic Breast caNcer or melanomA (SELENA) | Status: RECRUITING | Phase: Phase 1\n- [NCT03842943] Neoadjuvant Combination Immunotherapy for Stage III Melanoma | Status: RECRUITING | Phase: Phase 2\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [
+      "NCT07349303_summary_01",
+      "NCT06961006_eligibility_02",
+      "NCT06488482_summary_06",
+      "NCT06545682_eligibility_23",
+      "NCT03829254_eligibility_01",
+      "NCT03842943_eligibility_02"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07349303",
+      "NCT06961006",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT03829254",
+      "NCT03842943"
+    ],
+    "cited_nct_ids": [
+      "NCT07349303",
+      "NCT06961006",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT03842943"
+    ],
+    "valid_citations": [
+      "NCT07349303",
+      "NCT06961006",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT03842943",
+      "PMID 26846323"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "35692130",
+      "26288737",
+      "26846323",
+      "25331768",
+      "27398650",
+      "29772764",
+      "20350658",
+      "26438514",
+      "39093124",
+      "12710585"
+    ],
+    "cited_pmids": [
+      "26846323"
+    ],
+    "retrieval_seconds": 72.73,
+    "generation_seconds": 274.82,
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 109
+    },
+    "drugs": [
+      "Pembrolizumab",
+      "Intismeran autogene"
+    ],
+    "hops": [
+      {
+        "step": "trials",
+        "query": "Which recruiting melanoma trials test pembrolizumab",
+        "trials": [
+          "NCT07349303",
+          "NCT06961006",
+          "NCT06488482",
+          "NCT06545682",
+          "NCT03842943"
+        ]
+      },
+      {
+        "step": "papers",
+        "drug": "Pembrolizumab",
+        "pmids": [
+          "26846323"
+        ]
+      },
+      {
+        "step": "papers",
+        "drug": "Intismeran autogene",
+        "pmids": []
+      }
+    ],
+    "tool": "multi_hop",
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.0
+    },
+    "id": "H12",
+    "category": "multi_hop",
+    "gold_in_retrieved": {
+      "found": 6,
+      "total": 6
+    },
+    "gold_in_answer": {
+      "found": 5,
+      "total": 6
+    }
+  },
+  {
+    "question": "Find recruiting lung cancer trials that use osimertinib and explain how the drug works.",
+    "answer": "Trials:\n[1] Trial NCT07642024\n[2] Trial NCT07229729\n\nBoth trials mentioned above are recruiting and use Osimertinib as one of their interventions. [NCT07642024] is a study of BL-B01D1 in combination with Osimertinib as perioperative therapy for EGFR-mutated resectable non-small cell lung cancer. [NCT07229729] is a study of SHR-A2102 in combination with other anti-tumor therapies for resectable non-small cell lung cancer, which includes Osimertinib.\n\nHow the drugs work:\nCarboplatin: The retrieved papers do not contain enough information to answer this question.\n\nBL-B01D1: The retrieved papers do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT07229729] A Study of SHR-A2102 in Combination With Other Anti-tumor Therapies for Resectable Non-small Cell Lung Cancer | Status: RECRUITING | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT07642024_summary_00",
+      "NCT07229729_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07642024",
+      "NCT07229729"
+    ],
+    "cited_nct_ids": [
+      "NCT07642024",
+      "NCT07229729"
+    ],
+    "valid_citations": [
+      "NCT07642024",
+      "NCT07229729"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "11524550",
+      "36368286",
+      "3556023",
+      "15047455",
+      "20350658",
+      "12710585",
+      "24756799",
+      "30069629",
+      "36313732"
+    ],
+    "cited_pmids": [],
+    "retrieval_seconds": 58.11,
+    "generation_seconds": 211.84,
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 19
+    },
+    "drugs": [
+      "Carboplatin",
+      "BL-B01D1"
+    ],
+    "hops": [
+      {
+        "step": "trials",
+        "query": "Find recruiting lung cancer trials that use osimertinib",
+        "trials": [
+          "NCT07642024",
+          "NCT07229729"
+        ]
+      },
+      {
+        "step": "papers",
+        "drug": "Carboplatin",
+        "pmids": []
+      },
+      {
+        "step": "papers",
+        "drug": "BL-B01D1",
+        "pmids": []
+      }
+    ],
+    "tool": "multi_hop",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.67
+    },
+    "id": "H13",
+    "category": "multi_hop",
+    "gold_in_retrieved": {
+      "found": 2,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 2,
+      "total": 2
     }
   },
   {

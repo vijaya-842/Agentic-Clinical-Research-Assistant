@@ -49,8 +49,8 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 22.585,
-    "generation_seconds": 173.5,
+    "retrieval_seconds": 8.915,
+    "generation_seconds": 188.4,
     "verification": {
       "status": "warning",
       "issues": [
@@ -137,8 +137,8 @@
       "relaxed": false,
       "matching_chunks": 309
     },
-    "retrieval_seconds": 11.721,
-    "generation_seconds": 148.2,
+    "retrieval_seconds": 12.762,
+    "generation_seconds": 197.8,
     "verification": {
       "status": "warning",
       "issues": [
@@ -195,7 +195,7 @@
       "NCT05864144"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.06,
+    "retrieval_seconds": 0.11,
     "generation_seconds": 0.0,
     "filters": {
       "status": "COMPLETED",
@@ -298,8 +298,8 @@
       "relaxed": false,
       "matching_chunks": 900
     },
-    "retrieval_seconds": 23.916,
-    "generation_seconds": 159.6,
+    "retrieval_seconds": 15.301,
+    "generation_seconds": 191.8,
     "verification": {
       "status": "pass",
       "issues": [],
@@ -354,7 +354,7 @@
       "NCT00002623"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.01,
+    "retrieval_seconds": 0.02,
     "generation_seconds": 0.0,
     "filters": {
       "status": null,
@@ -415,8 +415,8 @@
       "40243603",
       "31564718"
     ],
-    "retrieval_seconds": 21.4,
-    "generation_seconds": 85.61,
+    "retrieval_seconds": 46.24,
+    "generation_seconds": 104.53,
     "filters": {},
     "verification": {
       "status": "pass",
@@ -466,8 +466,8 @@
     "cited_pmids": [
       "26846323"
     ],
-    "retrieval_seconds": 67.12,
-    "generation_seconds": 66.76,
+    "retrieval_seconds": 46.85,
+    "generation_seconds": 100.42,
     "filters": {},
     "verification": {
       "status": "pass",
@@ -519,8 +519,8 @@
       "25588084",
       "30013326"
     ],
-    "retrieval_seconds": 63.45,
-    "generation_seconds": 63.58,
+    "retrieval_seconds": 33.47,
+    "generation_seconds": 77.71,
     "filters": {},
     "verification": {
       "status": "pass",
@@ -593,6 +593,256 @@
     "gold_in_answer": {
       "found": 1,
       "total": 1
+    }
+  },
+  {
+    "question": "Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?",
+    "answer": "Trials:\n[1] Trial NCT07349303\n[2] Trial NCT06961006\n[3] Trial NCT06488482\n[4] Trial NCT06545682\n[6] Trial NCT03842943\n\nHow the drugs work:\nPembrolizumab: Pembrolizumab (Keytruda) is a humanized monoclonal antibody against the programmed death receptor-1 (PD-1) protein [PMID 25331768]. PD-1 is a key immunoinhibitory checkpoint protein that plays a crucial role in down-regulating anti-tumor immune responses [PMID 26288737]. The mechanism of action of Pembrolizumab involves blocking the interaction between PD-1 and its ligands, PDL1 and PDL2, which results in the transduction of negative signals to T-cells [PMID 27398650]. By blocking PD-1, Pembrolizumab enables the immune system to recognize and attack cancer cells more effectively, thereby overcoming the tumor's ability to evade anti-tumor immunity [PMID 26846323].\n\nIntismeran autogene: The retrieved papers do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07349303] Neoadjuvant Pembrolizumab in Patients With Stage IIb/c Melanoma | Status: RECRUITING | Phase: Phase 2\n- [NCT06961006] A Clinical Study of Intismeran Autogene (V940) and Pembrolizumab (MK-3475) in People With Melanoma (V940-012/INTerpath-012) | Status: RECRUITING | Phase: Phase 2\n- [NCT06488482] Assessment of Short Immunotherapy After Radical Surgery of High-risk Malignant Melanoma | Status: RECRUITING | Phase: Phase 3\n- [NCT06545682] Phase Ib Study of AlpeliSib With PEmbroLizumab in Patients With mEtastatic Breast caNcer or melanomA (SELENA) | Status: RECRUITING | Phase: Phase 1\n- [NCT03842943] Neoadjuvant Combination Immunotherapy for Stage III Melanoma | Status: RECRUITING | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT07349303_summary_01",
+      "NCT06961006_eligibility_02",
+      "NCT06488482_summary_06",
+      "NCT06545682_eligibility_23",
+      "NCT03829254_eligibility_01",
+      "NCT03842943_eligibility_02"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07349303",
+      "NCT06961006",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT03829254",
+      "NCT03842943"
+    ],
+    "cited_nct_ids": [
+      "NCT07349303",
+      "NCT06961006",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT03842943"
+    ],
+    "valid_citations": [
+      "NCT07349303",
+      "NCT06961006",
+      "NCT06488482",
+      "NCT06545682",
+      "NCT03842943",
+      "PMID 25331768",
+      "PMID 26288737",
+      "PMID 27398650",
+      "PMID 26846323"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "35692130",
+      "26288737",
+      "26846323",
+      "25331768",
+      "27398650",
+      "29772764",
+      "20350658",
+      "26438514",
+      "39093124",
+      "12710585"
+    ],
+    "cited_pmids": [
+      "25331768",
+      "26288737",
+      "27398650",
+      "26846323"
+    ],
+    "retrieval_seconds": 45.55,
+    "generation_seconds": 246.14,
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 109
+    },
+    "drugs": [
+      "Pembrolizumab",
+      "Intismeran autogene"
+    ],
+    "hops": [
+      {
+        "step": "trials",
+        "query": "Which recruiting melanoma trials test pembrolizumab",
+        "trials": [
+          "NCT07349303",
+          "NCT06961006",
+          "NCT06488482",
+          "NCT06545682",
+          "NCT03842943"
+        ]
+      },
+      {
+        "step": "papers",
+        "drug": "Pembrolizumab",
+        "pmids": [
+          "25331768",
+          "26288737",
+          "27398650",
+          "26846323"
+        ]
+      },
+      {
+        "step": "papers",
+        "drug": "Intismeran autogene",
+        "pmids": []
+      }
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "H12",
+    "category": "multi_hop",
+    "tool": "trials_then_papers",
+    "tools_tried": [
+      "trials_then_papers"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trials_then_papers (LLM planner skipped)",
+      "act: trials_then_papers -> 9 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 6,
+      "total": 6
+    },
+    "gold_in_answer": {
+      "found": 5,
+      "total": 6
+    }
+  },
+  {
+    "question": "Find recruiting lung cancer trials that use osimertinib and explain how the drug works.",
+    "answer": "Trials:\n[1] Trial NCT07642024\n[2] Trial NCT07229729\n\nBoth trials mentioned above are recruiting and use Osimertinib as one of their interventions. [NCT07642024] is a study of BL-B01D1 in combination with Osimertinib as perioperative therapy for EGFR-mutated resectable non-small cell lung cancer. [NCT07229729] is a study of SHR-A2102 in combination with other anti-tumor therapies for resectable non-small cell lung cancer, which includes Osimertinib.\n\nHow the drugs work:\nCarboplatin: The retrieved papers do not contain enough information to answer this question.\n\nBL-B01D1: The retrieved papers do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT07229729] A Study of SHR-A2102 in Combination With Other Anti-tumor Therapies for Resectable Non-small Cell Lung Cancer | Status: RECRUITING | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT07642024_summary_00",
+      "NCT07229729_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT07642024",
+      "NCT07229729"
+    ],
+    "cited_nct_ids": [
+      "NCT07642024",
+      "NCT07229729"
+    ],
+    "valid_citations": [
+      "NCT07642024",
+      "NCT07229729"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "11524550",
+      "36368286",
+      "3556023",
+      "15047455",
+      "20350658",
+      "12710585",
+      "24756799",
+      "30069629",
+      "36313732"
+    ],
+    "cited_pmids": [],
+    "retrieval_seconds": 43.95,
+    "generation_seconds": 208.35,
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 19
+    },
+    "drugs": [
+      "Carboplatin",
+      "BL-B01D1"
+    ],
+    "hops": [
+      {
+        "step": "trials",
+        "query": "Find recruiting lung cancer trials that use osimertinib",
+        "trials": [
+          "NCT07642024",
+          "NCT07229729"
+        ]
+      },
+      {
+        "step": "papers",
+        "drug": "Carboplatin",
+        "pmids": []
+      },
+      {
+        "step": "papers",
+        "drug": "BL-B01D1",
+        "pmids": []
+      }
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.67
+    },
+    "id": "H13",
+    "category": "multi_hop",
+    "tool": "trials_then_papers",
+    "tools_tried": [
+      "trials_then_papers"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trials_then_papers (LLM planner skipped)",
+      "act: trials_then_papers -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 2,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 2,
+      "total": 2
     }
   },
   {

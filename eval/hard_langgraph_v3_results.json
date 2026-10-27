@@ -1,0 +1,676 @@
+[
+  {
+    "question": "Are any osimertinib studies still enrolling patients?",
+    "answer": "[TRIAL NCT07642024] and [TRIAL NCT07680790] are the studies that are currently recruiting patients for their respective trials. [TRIAL NCT07642024] is a Phase 2 and Phase 3 study recruiting patients with EGFR-mutated resectable non-small cell lung cancer, while [TRIAL NCT07680790] is also a Phase 3 study recruiting patients with EGFR-mutated non-small cell lung cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT07642024] A Study of BL-B01D1 in Combination With Osimertinib as Perioperative Therapy in Patients With EGFR-mutated Resectable Non-small Cell Lung Cancer(PANKU-Lung09) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT07680790] Study of Izalontamab Brengitecan (BMS-986507) in Combination With Osimertinib Versus Osimertinib Monotherapy or Osimertinib in Combination With Platinum-based Chemotherapy for EGFRmt Non-small Cell Lung Cancer (IZABRIGHT-Lung02) | Status: NOT_YET_RECRUITING | Phase: Phase 3\n\nVerifier note:\n- NCT07680790 is described as recruiting/open, but ClinicalTrials.gov lists its status as NOT_YET_RECRUITING.",
+    "retrieved_chunk_ids": [
+      "NCT03219970_eligibility_01",
+      "NCT03433469_eligibility_17",
+      "NCT06436144_summary_02",
+      "NCT07256509_eligibility_09",
+      "NCT04811001_eligibility_01",
+      "NCT03667820_eligibility_07",
+      "NCT07486648_eligibility_32",
+      "NCT06380348_eligibility_02",
+      "NCT07642024_eligibility_07",
+      "NCT07680790_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03219970",
+      "NCT03433469",
+      "NCT06436144",
+      "NCT07256509",
+      "NCT04811001",
+      "NCT03667820",
+      "NCT07486648",
+      "NCT06380348",
+      "NCT07642024",
+      "NCT07680790"
+    ],
+    "cited_nct_ids": [
+      "NCT07642024",
+      "NCT07680790"
+    ],
+    "valid_citations": [
+      "NCT07642024",
+      "NCT07680790"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "applied": {
+        "drugs": [
+          "osimertinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 187
+    },
+    "retrieval_seconds": 22.585,
+    "generation_seconds": 173.5,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "NCT07680790 is described as recruiting/open, but ClinicalTrials.gov lists its status as NOT_YET_RECRUITING."
+      ],
+      "citation_coverage": 1.0
+    },
+    "id": "H01",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 2 valid citations",
+      "check: ok",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 2
+    }
+  },
+  {
+    "question": "I'm looking for phase 2 studies of trastuzumab in breast cancer that are open to new patients.",
+    "answer": "[TRIAL NCT02000596] This study is open to new patients and is an open-label, single-arm phase II study combining Trastuzumab with Pertuzumab for women aged 60 and over with metastatic breast cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT02000596] 1303GCC: Trastuzmab & Pertuzumab With Hormonal Therapy or Chemotherapy in Women Aged 60 and Over. | Status: TERMINATED | Phase: Phase 2\n\nVerifier note:\n- NCT02000596 is described as recruiting/open, but ClinicalTrials.gov lists its status as TERMINATED.",
+    "retrieved_chunk_ids": [
+      "NCT01491737_summary_01",
+      "NCT04034823_summary_00",
+      "NCT02675231_summary_00",
+      "NCT02000596_summary_00",
+      "NCT00934856_eligibility_01",
+      "NCT00446030_summary_00",
+      "NCT05583110_eligibility_00",
+      "NCT06843681_summary_00",
+      "NCT03125928_eligibility_07",
+      "NCT00216073_eligibility_03"
+    ],
+    "retrieved_nct_ids": [
+      "NCT01491737",
+      "NCT04034823",
+      "NCT02675231",
+      "NCT02000596",
+      "NCT00934856",
+      "NCT00446030",
+      "NCT05583110",
+      "NCT06843681",
+      "NCT03125928",
+      "NCT00216073"
+    ],
+    "cited_nct_ids": [
+      "NCT02000596"
+    ],
+    "valid_citations": [
+      "NCT02000596"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "phase": "PHASE2",
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "trastuzumab"
+        ]
+      },
+      "applied": {
+        "phase": "PHASE2",
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "trastuzumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 309
+    },
+    "retrieval_seconds": 11.721,
+    "generation_seconds": 148.2,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "NCT02000596 is described as recruiting/open, but ClinicalTrials.gov lists its status as TERMINATED."
+      ],
+      "citation_coverage": 1.0
+    },
+    "id": "H02",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 1 valid citations",
+      "check: ok",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 4
+    }
+  },
+  {
+    "question": "What's the total of completed melanoma trials in our data?",
+    "answer": "There are 223 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, melanoma). Examples: [NCT04035447], [NCT01272817], [NCT00574977], [NCT00667082], [NCT05864144].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04035447",
+      "NCT01272817",
+      "NCT00574977",
+      "NCT00667082",
+      "NCT05864144"
+    ],
+    "cited_nct_ids": [
+      "NCT04035447",
+      "NCT01272817",
+      "NCT00574977",
+      "NCT00667082",
+      "NCT05864144"
+    ],
+    "valid_citations": [
+      "NCT04035447",
+      "NCT01272817",
+      "NCT00574977",
+      "NCT00667082",
+      "NCT05864144"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.06,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "melanoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H03",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Tally the recruiting prostate cancer trials we have.",
+    "answer": "The retrieved sources contain 10 recruiting prostate cancer trials. [NCT06282588], [NCT07578519], [NCT06866782], [NCT06334809], [NCT07831824], [NCT06096870], [NCT07112781], [NCT05129605], [NCT06072911], [NCT01194648].\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT06282588] Treatment of High-Risk Prostate Cancer Guided by Novel Diagnostic Radio- and Molecular Tracers | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT07578519] Radiation Treatment of the Prostate That is Specially Adjusted for Each Person | Status: RECRUITING | Phase: Phase 2\n- [NCT06866782] European Registry of Next Generation Imaging in Advanced Prostate Cancer | Status: RECRUITING | Phase: N/A\n- [NCT06334809] INSIDE: Identification of Genomic Screening Pathways in Cancer Patients With DNA Repair Alterations | Status: RECRUITING | Phase: N/A\n- [NCT07831824] Dose Optimization and Diagnostic Performance in Prostate Cancer (SPARROW [Staging Prostate Cancer With Advanced RM2 Radiotracer Oncologic Workup]) | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT06096870] Enzalutamide and PDS01ADC in PET Positive Recurrent Prostate Cancer (pprPC) Without Testosterone Lowering Therapy | Status: RECRUITING | Phase: Phase 2\n- [NCT07112781] Feasibility Trial of Single-Dose Radiotherapy for Localized Low and Intermediate Risk Prostate Cancer | Status: RECRUITING | Phase: NA\n- [NCT05129605] Prostate Cancer Genetic Risk Evaluation and Screening Study | Status: RECRUITING | Phase: N/A\n- [NCT06072911] Continence, Sexual Function, Fitness and the Health of Men After Surgery for Prostate Cancer | Status: RECRUITING | Phase: NA\n- [NCT01194648] Focal Therapy for Prostate Cancer Using HIFU | Status: RECRUITING | Phase: NA",
+    "retrieved_chunk_ids": [
+      "NCT06282588_summary_04",
+      "NCT07578519_summary_00",
+      "NCT06866782_summary_01",
+      "NCT06334809_summary_00",
+      "NCT07831824_eligibility_00",
+      "NCT06096870_summary_01",
+      "NCT07112781_eligibility_00",
+      "NCT05129605_outcomes_00",
+      "NCT06072911_outcomes_00",
+      "NCT01194648_summary_02"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06282588",
+      "NCT07578519",
+      "NCT06866782",
+      "NCT06334809",
+      "NCT07831824",
+      "NCT06096870",
+      "NCT07112781",
+      "NCT05129605",
+      "NCT06072911",
+      "NCT01194648"
+    ],
+    "cited_nct_ids": [
+      "NCT06282588",
+      "NCT07578519",
+      "NCT06866782",
+      "NCT06334809",
+      "NCT07831824",
+      "NCT06096870",
+      "NCT07112781",
+      "NCT05129605",
+      "NCT06072911",
+      "NCT01194648"
+    ],
+    "valid_citations": [
+      "NCT06282588",
+      "NCT07578519",
+      "NCT06866782",
+      "NCT06334809",
+      "NCT07831824",
+      "NCT06096870",
+      "NCT07112781",
+      "NCT05129605",
+      "NCT06072911",
+      "NCT01194648"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "prostate"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "prostate"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 900
+    },
+    "retrieval_seconds": 23.916,
+    "generation_seconds": 159.6,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.5
+    },
+    "id": "H04",
+    "category": "analytical",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 10 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What's the total of phase 3 lung cancer trials in our dataset?",
+    "answer": "There are 59 matching trials in our dataset of 4407 oncology trials (filters: PHASE3, lung). Examples: [NCT01902823], [NCT07828054], [NCT06305754], [NCT01040780], [NCT00002623].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01902823",
+      "NCT07828054",
+      "NCT06305754",
+      "NCT01040780",
+      "NCT00002623"
+    ],
+    "cited_nct_ids": [
+      "NCT01902823",
+      "NCT07828054",
+      "NCT06305754",
+      "NCT01040780",
+      "NCT00002623"
+    ],
+    "valid_citations": [
+      "NCT01902823",
+      "NCT07828054",
+      "NCT06305754",
+      "NCT01040780",
+      "NCT00002623"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": null,
+      "phase": "PHASE3",
+      "cancer": "lung"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H05",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Why do EGFR inhibitors like osimertinib eventually stop working in lung cancer patients?",
+    "answer": "EGFR inhibitors like osimertinib eventually stop working in lung cancer patients due to the development of resistance mechanisms. These mechanisms can be categorized into two main types: EGFR-dependent and EGFR-independent [PMID 37093192]. EGFR-dependent mechanisms include the emergence of new mutations, such as the C797S mutation in the kinase domain of EGFR [PMID 37060646]. On the other hand, EGFR-independent mechanisms involve bypass pathways, oncogenic fusions, and phenotypic transformation, such as epithelial-mesenchymal transition (EMT) [PMID 40243603]. The development of resistance is a result of the high degree of tumour heterogeneity and adaptive cellular signaling pathways in non-small cell lung cancer (NSCLC) [PMID 31564718].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 37093192",
+      "PMID 37060646",
+      "PMID 40243603",
+      "PMID 31564718"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "37093192",
+      "37060646",
+      "40243603",
+      "29462255",
+      "31564718"
+    ],
+    "cited_pmids": [
+      "37093192",
+      "37060646",
+      "40243603",
+      "31564718"
+    ],
+    "retrieval_seconds": 21.4,
+    "generation_seconds": 85.61,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.8
+    },
+    "id": "H06",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 4 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What kind of drug is pembrolizumab and what does it target?",
+    "answer": "Pembrolizumab is a humanized monoclonal antibody against the programmed death receptor-1 (PD-1) protein [PMID 26846323, 26288737]. It targets the PD-1 receptor, which is a key immunoinhibitory checkpoint protein implicated in down-regulating anti-tumour immune responses [PMID 26846323].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 26846323"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "35692130",
+      "26846323",
+      "26288737",
+      "25331768",
+      "31952453"
+    ],
+    "cited_pmids": [
+      "26846323"
+    ],
+    "retrieval_seconds": 67.12,
+    "generation_seconds": 66.76,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "H07",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What side effects are common with immune checkpoint inhibitors?",
+    "answer": "Common side effects associated with immune checkpoint inhibitors include pruritus and fatigue [PMID 25588084]. Additionally, pruritus, increased alanine transaminase, and increased aspartate aminotransferase are common among patients treated with a combination of durvalumab and tremelimumab [PMID 30013326].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 25588084",
+      "PMID 30013326"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "38244436",
+      "25588084",
+      "30013326",
+      "39364500",
+      "28823733"
+    ],
+    "cited_pmids": [
+      "25588084",
+      "30013326"
+    ],
+    "retrieval_seconds": 63.45,
+    "generation_seconds": 63.58,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "H08",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Tell me about NCT05086614.",
+    "answer": "[NCT05086614] Thymosin-alpha 1 for Adjuvant Treatment After Radical Resection of High-risk Stage II and III Colorectal Cancer\n- Sponsor: Fudan University\n- Status: RECRUITING | Phase: PHASE3\n- Conditions: Stage II Colorectal Cancer, Stage III Colorectal Cancer\n- Interventions: Thymosin Alpha1\n- Primary outcome: 3-year disease-free survival rate\n- Summary: For high-risk stage II and stage III colorectal cancer, even after radical resection and postoperative adjuvant chemo/radiotherapy, 30-40% of patients will still have recurrence and metastasis. Thymosin-alpha 1 is believed to improve immunity and may help promote tumor immunity to reduce the incidence of recurrence and metastasis. This study hopes to verify the effecacy and safety of thymosin-alph...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT05086614"
+    ],
+    "cited_nct_ids": [
+      "NCT05086614"
+    ],
+    "valid_citations": [
+      "NCT05086614"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H09",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "I have breast cancer. Should I stop my chemotherapy?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H10",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Which immunotherapy would be best for a 70-year-old with stage III melanoma like me?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "H11",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  }
+]

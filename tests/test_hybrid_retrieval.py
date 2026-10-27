@@ -28,3 +28,35 @@ def test_metrics():
     assert precision_at_k(ranked, gold, 2) == 0.5
     assert hit_at_k(ranked, gold, 1) == 0.0
     assert mrr(ranked, gold) == 0.5
+
+class FakeAdvanced:
+    """Pretends to be AdvancedRetriever: dense finds only NCT1; filters require RECRUITING."""
+
+    def __init__(self):
+        self.chunks = [
+            {"id": "NCT1_summary_00", "text": "Trial NCT1: pembrolizumab melanoma", "metadata": {"nct_id": "NCT1", "status": "RECRUITING"}},
+            {"id": "NCT2_summary_00", "text": "Trial NCT2: MK-3475 melanoma", "metadata": {"nct_id": "NCT2", "status": "RECRUITING"}},
+            {"id": "NCT3_summary_00", "text": "Trial NCT3: MK-3475 melanoma", "metadata": {"nct_id": "NCT3", "status": "COMPLETED"}},
+        ]
+        self.last_filters = {}
+
+    def search(self, query, top_k=5):
+        from src.retrieval.dense import SearchResult
+        self.last_filters = {"applied": {"status": "RECRUITING"}}
+        c = self.chunks[0]
+        return [SearchResult(c["id"], 0.9, c["text"], c["metadata"])]
+
+
+def test_hybrid_adds_bm25_trials_that_pass_the_same_filters():
+    from src.retrieval.hybrid import HybridRetriever
+    base = FakeAdvanced()
+    # a few unrelated filler chunks so BM25 word weights behave like in a real corpus
+    filler = [("F1", "breast cancer surgery"), ("F2", "prostate radiation therapy"),
+              ("F3", "colon cancer screening"), ("F4", "leukemia stem cell transplant")]
+    bm25 = BM25Index([c["id"] for c in base.chunks] + [f[0] for f in filler],
+                     [c["text"] for c in base.chunks] + [f[1] for f in filler])
+    results = HybridRetriever(base, bm25).search("MK-3475 melanoma", top_k=5)
+    ids = [r.metadata["nct_id"] for r in results]
+    assert "NCT2" in ids          # found by BM25 only (exact code MK-3475)
+    assert "NCT3" not in ids      # BM25 found it too, but it fails the RECRUITING filter
+    assert "NCT1" in ids          # found by dense

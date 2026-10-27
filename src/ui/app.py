@@ -44,15 +44,13 @@ EXAMPLES = [
 @st.cache_resource(show_spinner="Loading indexes and models (first time only, about 1 minute)...")
 def load_resources():
     from src.rag.trial_facts import load_trial_facts
-    from src.reranking.cross_encoder import RerankingRetriever
-    from src.retrieval.advanced import AdvancedRetriever
-    from src.retrieval.pubmed_search import PubMedRetriever
+    from src.retrieval.pipeline import load_retrievers
     from src.tools.count_trials import load_trials
 
-    reranker = RerankingRetriever.load_model()
+    retriever, pubmed_retriever = load_retrievers(hybrid=True, rerank=True)
     return {
-        "retriever": RerankingRetriever(AdvancedRetriever.from_disk(), reranker),
-        "pubmed_retriever": RerankingRetriever(PubMedRetriever.from_disk(), reranker),
+        "retriever": retriever,
+        "pubmed_retriever": pubmed_retriever,
         "trial_facts": load_trial_facts(),
         "all_trials": load_trials(),
     }

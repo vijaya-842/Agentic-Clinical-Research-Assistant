@@ -1,20 +1,20 @@
 [
   {
     "question": "Which clinical trial tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer? Give the NCT ID, the sponsor and the primary outcome.",
-    "answer": "[NCT05086614] The clinical trial that tests thymosin alpha 1 after surgery for high-risk stage II and III colorectal cancer is [NCT05086614]. The sponsor is Fudan University and the primary outcome is the 3-year disease-free survival rate. [NCT05086614]",
+    "answer": "[1] NCT05086614\nSponsor: Fudan University\nPrimary outcome: 3-year disease-free survival rate\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
     "retrieved_chunk_ids": [
       "NCT05086614_summary_00",
       "NCT00749450_summary_01",
       "NCT04813627_outcomes_00",
       "NCT05422547_summary_00",
-      "NCT00443573_outcomes_00"
+      "NCT04353882_summary_00"
     ],
     "retrieved_nct_ids": [
       "NCT05086614",
       "NCT00749450",
       "NCT04813627",
       "NCT05422547",
-      "NCT00443573"
+      "NCT04353882"
     ],
     "cited_nct_ids": [
       "NCT05086614"
@@ -41,9 +41,16 @@
       "relaxed": false,
       "matching_chunks": 5192
     },
-    "retrieval_seconds": 8.765,
-    "generation_seconds": 69.5,
+    "retrieval_seconds": 21.459,
+    "generation_seconds": 60.0,
     "tool": "advanced_rag",
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.0
+    },
     "id": "Q01",
     "category": "trial_lookup",
     "gold_in_retrieved": {
@@ -97,9 +104,14 @@
       "relaxed": false,
       "matching_chunks": 98
     },
-    "retrieval_seconds": 1.468,
-    "generation_seconds": 38.9,
+    "retrieval_seconds": 4.625,
+    "generation_seconds": 39.5,
     "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
     "id": "Q02",
     "category": "trial_lookup",
     "gold_in_retrieved": {
@@ -113,28 +125,26 @@
   },
   {
     "question": "Is there a trial testing dapagliflozin to prevent heart damage from anthracycline chemotherapy in breast cancer patients? Give the NCT ID, the sponsor and the primary outcome.",
-    "answer": "[1] NCT07245069\nSponsor: University Medical Centre Ljubljana\nPrimary outcome: Change in Global Longitudinal Strain (GLS); Change in Flow-Mediated Dilation (FMD) of the Brachial Artery\n\n[2] NCT06491680\nSponsor: Helwan University\nPrimary outcome: N-terminal pro-B-type natriuretic peptide (NT-pro BNP) testing",
+    "answer": "[**NCT07245069**] The sponsor for this trial is the University Medical Centre Ljubljana. The primary outcome for this trial is the change in Global Longitudinal Strain (GLS) and the change in Flow-Mediated Dilation (FMD) of the Brachial Artery. [NCT07245069] describes a clinical trial investigating the use of dapagliflozin in primary prevention of cardiotoxicity of anthracycline chemotherapy in breast cancer patients.",
     "retrieved_chunk_ids": [
       "NCT07245069_summary_04",
       "NCT06491680_summary_00",
       "NCT05732051_summary_01",
       "NCT05921279_summary_01",
-      "NCT00524459_eligibility_07"
+      "NCT00082095_eligibility_02"
     ],
     "retrieved_nct_ids": [
       "NCT07245069",
       "NCT06491680",
       "NCT05732051",
       "NCT05921279",
-      "NCT00524459"
+      "NCT00082095"
     ],
     "cited_nct_ids": [
-      "NCT07245069",
-      "NCT06491680"
+      "NCT07245069"
     ],
     "valid_citations": [
-      "NCT07245069",
-      "NCT06491680"
+      "NCT07245069"
     ],
     "invented_citations": [],
     "filters": {
@@ -151,9 +161,14 @@
       "relaxed": false,
       "matching_chunks": 5899
     },
-    "retrieval_seconds": 7.791,
-    "generation_seconds": 59.8,
+    "retrieval_seconds": 22.203,
+    "generation_seconds": 67.6,
     "tool": "advanced_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.67
+    },
     "id": "Q03",
     "category": "trial_lookup",
     "gold_in_retrieved": {
@@ -217,9 +232,14 @@
       "relaxed": false,
       "matching_chunks": 47
     },
-    "retrieval_seconds": 1.897,
+    "retrieval_seconds": 9.713,
     "generation_seconds": 106.8,
     "tool": "list_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
     "id": "Q04",
     "category": "trial_search",
     "gold_in_retrieved": {
@@ -287,9 +307,14 @@
       "relaxed": false,
       "matching_chunks": 109
     },
-    "retrieval_seconds": 3.315,
-    "generation_seconds": 74.5,
+    "retrieval_seconds": 7.075,
+    "generation_seconds": 69.1,
     "tool": "list_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
     "id": "Q05",
     "category": "trial_search",
     "gold_in_retrieved": {
@@ -367,9 +392,14 @@
       "relaxed": false,
       "matching_chunks": 187
     },
-    "retrieval_seconds": 6.19,
-    "generation_seconds": 185.8,
+    "retrieval_seconds": 13.583,
+    "generation_seconds": 147.0,
     "tool": "list_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
     "id": "Q06",
     "category": "trial_search",
     "gold_in_retrieved": {
@@ -383,38 +413,40 @@
   },
   {
     "question": "Which non-small cell lung cancer trials exclude patients with brain metastases?",
-    "answer": "[Trial NCT00887315] excludes patients with brain metastases as long as they meet all other inclusion criteria. Brain metastases must be treated with whole brain radiotherapy and stereotactic radiosurgery or surgical resection followed by whole brain radiotherapy.\n\n[Trial NCT03416231] excludes patients with active brain metastasis, carcinomatous meningitis, or spinal compression, or disease of brain or pia mater according to the screening test, imaging, CT or MRI tests. Patients who have completed the treatment and in a stable condition 21 days before screening could be included, but brain MRI, CT or venography is required to confirm that there are no brain hemorrhage symptoms.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00887315] The Synergistic Metastases Annihilation With Radiotherapy and Docetaxel (Taxotere) [SMART] Trial for Non-Small Cell Lung Cancer (NSCLC) | Status: TERMINATED | Phase: Phase 2\n- [NCT03416231] Apatinib Plus Docetaxel in Advanced Non-squamous Non-small Cell Lung Cancer(NSCLC) | Status: UNKNOWN | Phase: Phase 2",
+    "answer": "[1] Trial NCT02681549 excludes patients with brain metastases for whom complete surgical resection is clinically appropriate.\n[8] Trial NCT01516983 excludes patients with active brain metastasis, carcinomatous meningitis, or spinal compression, or disease of brain or pia mater according to the screening test, imaging, CT or MRI tests.\n[9] Trial NCT05949619 excludes patients with cancerous meningitis (meningeal metastasis).\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT02681549] Pembrolizumab Plus Bevacizumab for Treatment of Brain Metastases in Metastatic Melanoma or Non-small Cell Lung Cancer (NSCLC) | Status: COMPLETED | Phase: Phase 2\n- [NCT01516983] Icotinib Combined With WBRT For NSCLC Patients With Brain Metastases and EGFR Mutation | Status: COMPLETED | Phase: Phase 1, Phase 2\n- [NCT05949619] A Study of BL-M02D1 in Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer or Other Solid Tumors | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 1, Phase 2",
     "retrieved_chunk_ids": [
       "NCT02681549_eligibility_13",
       "NCT00048997_eligibility_03",
+      "NCT00003062_eligibility_00",
       "NCT00702182_eligibility_04",
-      "NCT07718737_eligibility_12",
-      "NCT03274479_eligibility_04",
+      "NCT03433469_eligibility_15",
+      "NCT03299088_eligibility_13",
       "NCT03416231_eligibility_03",
       "NCT01516983_eligibility_00",
       "NCT05949619_eligibility_14",
-      "NCT00191490_eligibility_01",
-      "NCT00887315_eligibility_02"
+      "NCT04081688_eligibility_15"
     ],
     "retrieved_nct_ids": [
       "NCT02681549",
       "NCT00048997",
+      "NCT00003062",
       "NCT00702182",
-      "NCT07718737",
-      "NCT03274479",
+      "NCT03433469",
+      "NCT03299088",
       "NCT03416231",
       "NCT01516983",
       "NCT05949619",
-      "NCT00191490",
-      "NCT00887315"
+      "NCT04081688"
     ],
     "cited_nct_ids": [
-      "NCT00887315",
-      "NCT03416231"
+      "NCT02681549",
+      "NCT01516983",
+      "NCT05949619"
     ],
     "valid_citations": [
-      "NCT00887315",
-      "NCT03416231"
+      "NCT02681549",
+      "NCT01516983",
+      "NCT05949619"
     ],
     "invented_citations": [],
     "filters": {
@@ -433,13 +465,18 @@
       "relaxed": false,
       "matching_chunks": 7119
     },
-    "retrieval_seconds": 11.645,
-    "generation_seconds": 152.9,
+    "retrieval_seconds": 18.231,
+    "generation_seconds": 120.6,
     "tool": "list_rag",
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
     "id": "Q07",
     "category": "eligibility",
     "gold_in_retrieved": {
-      "found": 3,
+      "found": 1,
       "total": 4
     },
     "gold_in_answer": {
@@ -473,7 +510,7 @@
       "NCT03556228"
     ],
     "invented_citations": [],
-    "retrieval_seconds": 0.07,
+    "retrieval_seconds": 0.19,
     "generation_seconds": 0.0,
     "filters": {
       "status": "RECRUITING",
@@ -481,6 +518,11 @@
       "cancer": "pancrea"
     },
     "tool": "count_trials",
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
     "id": "Q08",
     "category": "analytical",
     "gold_in_retrieved": {
@@ -494,7 +536,7 @@
   },
   {
     "question": "What is the mechanism of action of osimertinib?",
-    "answer": "Osimertinib is an orally bioavailable, third-generation EGFR-TKI that acts by irreversibly binding both EGFR activating mutations and T790M, while sparing wild-type EGFR. [PMID 37060646]",
+    "answer": "Osimertinib is an orally bioavailable, third-generation EGFR-TKI that acts by irreversibly binding both EGFR activating mutations and T790M, while sparing wild-type EGFR. [PMID 37060646]\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
     "retrieved_chunk_ids": [],
     "retrieved_nct_ids": [],
     "cited_nct_ids": [],
@@ -512,10 +554,17 @@
     "cited_pmids": [
       "37060646"
     ],
-    "retrieval_seconds": 35.14,
-    "generation_seconds": 82.92,
+    "retrieval_seconds": 39.96,
+    "generation_seconds": 64.34,
     "filters": {},
     "tool": "literature_rag",
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.0
+    },
     "id": "Q09",
     "category": "literature",
     "gold_in_retrieved": {
@@ -539,6 +588,11 @@
     "generation_seconds": 0.0,
     "filters": {},
     "tool": "safety_refusal",
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
     "id": "Q10",
     "category": "out_of_scope",
     "gold_in_retrieved": {

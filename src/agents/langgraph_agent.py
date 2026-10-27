@@ -188,23 +188,15 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
         "trials_then_papers": lambda q: answer_multi_hop(q, list_trials, search_papers, all_trials),
     }
 
-def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, rerank=True):
+def run_evaluation(output_path=OUTPUT_FILE, questions_path=QUESTIONS_FILE, rerank=True, hybrid=True):
     from src.llm.ollama_client import generate_response
     from src.rag.trial_facts import load_trial_facts
-    from src.reranking.cross_encoder import RerankingRetriever
-    from src.retrieval.advanced import AdvancedRetriever
-    from src.retrieval.pubmed_search import PubMedRetriever
+    from src.retrieval.pipeline import load_retrievers
     from src.tools.count_trials import load_trials
 
     print("Loading indexes, models and trial data...")
     all_trials = load_trials()
-    retriever = AdvancedRetriever.from_disk()
-    pubmed_retriever = PubMedRetriever.from_disk()
-    if rerank:  # same retrieval as the router agent, so only the tool choice differs
-        reranker = RerankingRetriever.load_model()
-        retriever = RerankingRetriever(retriever, reranker)
-        pubmed_retriever = RerankingRetriever(pubmed_retriever, reranker)
-        print("Reranker: ON")
+    retriever, pubmed_retriever = load_retrievers(hybrid=hybrid, rerank=rerank)
     tools = make_tools(retriever, load_trial_facts(), all_trials, pubmed_retriever)
     from src.agents.verifier import verify_answer
     agent = build_agent(tools, generate_response,
@@ -245,5 +237,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--questions", default=str(QUESTIONS_FILE))
     parser.add_argument("--output", default=str(OUTPUT_FILE))
+    parser.add_argument("--no-hybrid", action="store_true", help="dense search only (no BM25)")
     args = parser.parse_args()
-    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions))
+    run_evaluation(output_path=Path(args.output), questions_path=Path(args.questions), hybrid=not args.no_hybrid)

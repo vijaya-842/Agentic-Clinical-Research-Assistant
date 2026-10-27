@@ -31,6 +31,7 @@ VARIANTS = {
     "Agentic (+ reranker MiniLM)": EVAL_DIR / "agentic_rerank_minilm_results.json",
     "Agentic (+ reranker MedCPT)": EVAL_DIR / "agentic_rerank_medcpt_results.json",
     "Agentic (+ MedCPT + guardrail)": EVAL_DIR / "agentic_rag_results.json",
+    "Agentic (+ hybrid BM25)": EVAL_DIR / "agentic_rag_results.json",
     "Keyword router v1": EVAL_DIR / "hard_router_v1_results.json",
     "LangGraph agent v1": EVAL_DIR / "hard_langgraph_v1_results.json",
     "Keyword router v2": EVAL_DIR / "hard_router_results.json",

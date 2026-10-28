@@ -102,13 +102,17 @@ def build_agent(tools, planner_llm, verifier=None):
         fallback = tool is None
         if fallback:  # the LLM gave an unusable reply -> use the keyword rules instead
             tool = RULE_TO_TOOL[route(state["question"])]
+        note = " (rule fallback)" if fallback else ""
+        if tool == "count_trials" and rule == "list_rag":
+            # "List / find / which ... trials" asks for trials, not a number: never count
+            tool, note = "list_trials", " (rule override: list question, not a count)"
         return {
             "tool": tool,
             "planner_output": output.strip(),
             "planner_fallback": fallback,
             "attempts": 0,
             "tried_tools": [],
-            "trace": [f"plan: LLM said '{output.strip()[:40]}' -> {tool}" + (" (rule fallback)" if fallback else "")],
+            "trace": [f"plan: LLM said '{output.strip()[:40]}' -> {tool}{note}"],
         }
 
     def act(state):
@@ -172,7 +176,7 @@ def make_tools(retriever, trial_facts, all_trials, pubmed_retriever):
     from src.rag.literature_rag import answer_literature_question
 
     def list_trials(question):
-        return list_with_details(advanced_answer(question, retriever, trial_facts, top_k=LIST_TOP_K), all_trials)
+        return list_with_details(advanced_answer(question, retriever, trial_facts, top_k=LIST_TOP_K), all_trials, question)
 
     def search_papers(question):
         return answer_literature_question(question, pubmed_retriever, top_k=5)

@@ -96,3 +96,18 @@ def test_multi_hop_is_decided_by_rule():
     agent = build_agent(tools, planner_says("search_trials"))
     state = agent.invoke({"question": "Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?"})
     assert state["tried_tools"] == ["trials_then_papers"]
+
+
+
+def test_list_question_never_goes_to_count_tool():
+    tools, calls = make_tools()
+    agent = build_agent(tools, planner_says("count_trials"))
+    agent.invoke({"question": "List completed Phase 2 clinical trials of trametinib for melanoma."})
+    assert calls == ["list_trials"]
+
+
+def test_count_wording_without_list_words_can_still_count():
+    tools, calls = make_tools()
+    agent = build_agent(tools, planner_says("count_trials"))
+    agent.invoke({"question": "What's the total of completed melanoma trials in our data?"})
+    assert calls == ["count_trials"]

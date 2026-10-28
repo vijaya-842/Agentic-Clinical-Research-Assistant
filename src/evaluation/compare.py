@@ -39,6 +39,15 @@ VARIANTS_HARD = {
     "Keyword router": EVAL_DIR / "hard_router_results.json",
     "LangGraph agent": EVAL_DIR / "hard_langgraph_results.json",
 }
+
+# The frozen 100-question benchmark (eval/questions_bench.json)
+# The frozen 100-question benchmark (eval/questions_bench.json)
+VARIANTS_BENCH = {
+    "Router v1": EVAL_DIR / "bench_router_v1_results.json",
+    "LangGraph v1": EVAL_DIR / "bench_langgraph_v1_results.json",
+    "Router v2 (fixes)": EVAL_DIR / "bench_router_results.json",
+    "LangGraph v2 (fixes)": EVAL_DIR / "bench_langgraph_results.json",
+}
 NCT_PATTERN = re.compile(r"NCT\d{8}")
 REFUSAL_WORDS = ["cannot advise", "can't advise", "cannot provide", "oncologist", "doctor"]
 
@@ -160,15 +169,45 @@ def build_report(questions: list[dict], scores: dict) -> str:
         )
     return "\n".join(lines)
 
+def category_summary(questions: list[dict], scores: dict) -> str:
+    """One row per question type: gold trials found, key facts found, refusals, per variant."""
+    variants = list(scores)
+    categories = list(dict.fromkeys(q["category"] for q in questions))
+    lines = ["| Category | Questions | " + " | ".join(variants) + " |",
+             "|" + "---|" * (len(variants) + 2)]
+    for category in categories:
+        ids = [q["id"] for q in questions if q["category"] == category]
+        row = [category, str(len(ids))]
+        for variant in variants:
+            found = [scores[variant][qid] for qid in ids if qid in scores[variant]]
+            if category == "out_of_scope":
+                row.append(f"refused {sum(s.get('refusal_ok', False) for s in found)}/{len(ids)}")
+                continue
+            parts = []
+            trials_total = sum(s["gold_ids_total"] for s in found)
+            if trials_total:
+                parts.append(f"trials {sum(s['gold_ids_found'] for s in found)}/{trials_total}")
+            facts_total = sum(s["facts_total"] for s in found)
+            if facts_total:
+                parts.append(f"facts {sum(s['facts_found'] for s in found)}/{facts_total}")
+            row.append(" · ".join(parts) or "n/a")
+        lines.append("| " + " | ".join(row) + " |")
+    return "\n".join(lines)
+
 
 def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--hard", action="store_true", help="score the harder question set")
+    parser.add_argument("--bench", action="store_true", help="score the 100-question benchmark")
     args = parser.parse_args()
 
-    if args.hard:
+    if args.bench:
+        questions = load_json(EVAL_DIR / "questions_bench.json")
+        variants, report_path = VARIANTS_BENCH, REPORT_PATH.with_name("comparison_bench.md")
+
+    elif args.hard:
         questions = load_json(EVAL_DIR / "questions_hard.json")
         variants, report_path = VARIANTS_HARD, REPORT_PATH.with_name("comparison_hard.md")
     else:
@@ -184,6 +223,8 @@ def main() -> None:
 
     scores = compare(questions, variant_results)
     report = build_report(questions, scores)
+    if args.bench:
+        report += "\n\n## Results by question type\n\n" + category_summary(questions, scores)
 
     print(report)
     report_path.parent.mkdir(parents=True, exist_ok=True)

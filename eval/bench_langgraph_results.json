@@ -1,0 +1,5925 @@
+[
+  {
+    "question": "Who is the sponsor of NCT03892096?",
+    "answer": "[NCT03892096] Development of a Cell Free DNA Assay as a Biomarker for Predicting Early Non-response to Therapy in Metastatic Cancer\n- Sponsor: Cadex Genomics\n- Status: COMPLETED | Phase: N/A\n- Conditions: Metastatic Non-Small Cell Lung Carcinoma, Metastatic Colorectal Cancer, Metastatic Breast Cancer\n- Interventions: Blood-based cell-free cfDNA qPCR assay\n- Primary outcome: DNA Integrity Index as a predictor of progressive disease in a cohort of metastatic patients (250 Lung Cancer (NSCLC, SCLC), 250 CRC and 250 BC patients as compared to standard RECIST/iRECIST criteria.\n- Summary: Accrue samples for the further development and clinical validation of a blood-based cell-free DNA (cfDNA) quantitative real-time polymerase chain reaction (qPCR) assay as a potential biomarker for early non-response to therapy in stage IV non-small cell lung cancer (NSCLC), colorectal cancer (CRC) and breast cancer (BC).",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT03892096"
+    ],
+    "cited_nct_ids": [
+      "NCT03892096"
+    ],
+    "valid_citations": [
+      "NCT03892096"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B001",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT04817709?",
+    "answer": "[NCT04817709] Development of a Patient Decision Aid for Women Considering Breast Reconstruction\n- Sponsor: M.D. Anderson Cancer Center\n- Status: COMPLETED | Phase: N/A\n- Conditions: Breast Carcinoma\n- Interventions: Educational Intervention, Usual Care, Media Intervention, Medical Chart Review, Questionnaire Administration\n- Primary outcome: Delivery Rate\n- Summary: This study engages cancer survivors who have considered breast reconstruction after mastectomy in developing and pilot testing an up-to-date, understandable, meaningful patient decision aid video and workbook. Once the video and workbook are pilot-tested, a field test with new patients will then compare whether it is more feasible and useful for women considering breast reconstruction after mastec...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04817709"
+    ],
+    "cited_nct_ids": [
+      "NCT04817709"
+    ],
+    "valid_citations": [
+      "NCT04817709"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B002",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT05260203?",
+    "answer": "[NCT05260203] MargheRITA (Remote Intelligence for Therapeutic Adherence)\n- Sponsor: Advice Pharma Group srl\n- Status: COMPLETED | Phase: NA\n- Conditions: Multiple Myeloma, Solitary Plasmacytoma, Amyloidosis, Chronic Myeloid Leukemia, Chronic Lymphocytic Leukemia, T Cell Non-Hodgkin Lymphoma, Lymphocytic Lymphoma, Hodgkin Lymphoma, B-cell Non Hodgkin Lymphoma, Acute Myeloid Leukemia, Myelodysplasia, Chronic Myeloproliferative Disorder, Treatment Adherence, Treatment Adherence and Compliance\n- Interventions: RITA (App)\n- Primary outcome: Evaluating changes in actual dose intensity\n- Summary: It is essential to improve clinical efficiency and management of hematological and oncological patients treated on an outpatient basis. The most promising operative way to achieve this result is the development of tele-oncology platforms, that allow not only a telemedicine visit, but also the patient support in the daily management of the disease and related disorders, as well as treatments and th...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT05260203"
+    ],
+    "cited_nct_ids": [
+      "NCT05260203"
+    ],
+    "valid_citations": [
+      "NCT05260203"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B003",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT01866423?",
+    "answer": "[NCT01866423] Orteronel in Treating Patients With Metastatic Hormone-Resistant Prostate Cancer\n- Sponsor: University of Southern California\n- Status: TERMINATED | Phase: PHASE2\n- Conditions: Adenocarcinoma of the Prostate, Hormone-resistant Prostate Cancer, Recurrent Prostate Cancer, Stage IV Prostate Cancer\n- Interventions: orteronel, laboratory biomarker analysis\n- Primary outcome: Androgen Receptor (AR) Protein Expression Levels in CTCs; PSA Response, Defined as Occurrence of PSA Decline to Greater Than or Equal to 50% From Baseline\n- Summary: This phase II trial studies how well orteronel works in treating patients with metastatic hormone-resistant prostate cancer. Orteronel may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01866423"
+    ],
+    "cited_nct_ids": [
+      "NCT01866423"
+    ],
+    "valid_citations": [
+      "NCT01866423"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B004",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT02058680?",
+    "answer": "[NCT02058680] Phase 1A/1B Study of PSA/IL-2/GM-CSF Vaccine for Recurrent Prostate Cancer in Hormone Naive and Hormone Independent Patients\n- Sponsor: OncBioMune Pharmaceuticals\n- Status: UNKNOWN | Phase: PHASE1\n- Conditions: Prostate Cancer\n- Interventions: PSA/IL-2/GM-CSF\n- Primary outcome: Dose Limiting Adverse Events\n- Summary: This study is investigating the safety and efficacy of a vaccine directed against prostate tumor cells. The researchers are interested in evaluating the safety and tolerability of the vaccine, and the effects of the vaccine on survivability, time to measurable disease, prostate-specific antigen (PSA) level in the blood, and the immune response to the vaccine.\n\nEligible patients include those with ...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT02058680"
+    ],
+    "cited_nct_ids": [
+      "NCT02058680"
+    ],
+    "valid_citations": [
+      "NCT02058680"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B005",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT01522664?",
+    "answer": "[NCT01522664] A Study of DEDN6526A in Patients With Metastatic or Unresectable Melanoma\n- Sponsor: Genentech, Inc.\n- Status: COMPLETED | Phase: PHASE1\n- Conditions: Malignant Melanoma\n- Interventions: DEDN6526A\n- Primary outcome: Safety: Incidence of adverse events; Maximum tolerated dose/dose-limiting toxicities; Determination of recommended Phase II dose\n- Summary: This multicenter, open-label study will assess the safety and pharmacokinetics of DEDN6526A in patients with metastatic or unresectable melanoma. Cohorts of patients will receive escalating doses of DEDN6526A by intravenous infusion on Day 1 of each 21-day cycle. In the absence of disease progression or unacceptable toxicity, patients may continue to receive DEDN6552A for up to 17 cycles (1 year).",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01522664"
+    ],
+    "cited_nct_ids": [
+      "NCT01522664"
+    ],
+    "valid_citations": [
+      "NCT01522664"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B006",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT01674738?",
+    "answer": "[NCT01674738] TS Stratified Chemotherapy and VEGF Inhibition in Non-Squamous Non-Small Cell Lung Cancer - Stage IV\n- Sponsor: Aktion Bronchialkarzinom e.V.\n- Status: WITHDRAWN | Phase: PHASE2\n- Conditions: Carcinoma, Non-Small-Cell Lung\n- Interventions: Pemetrexed, Cisplatin, Bevacizumab\n- Primary outcome: Progression free survival\n- Summary: This study wants to determine the activity of a first-line treatment related to Thymidylate Synthetase (TS) Expression. Patients with the diagnosis of non-squamous advanced Non-Small-Cell Lung-Cancer (Stage IV) and without evidence of EGFR mutation may be enclosed in this clinical trial.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01674738"
+    ],
+    "cited_nct_ids": [
+      "NCT01674738"
+    ],
+    "valid_citations": [
+      "NCT01674738"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B007",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT05157776?",
+    "answer": "[NCT05157776] A Phase III Trial of Neoadjuvant Sintilimab and Chemotherapy for NSCLC Harboring No Driver Mutations\n- Sponsor: Tongji University\n- Status: UNKNOWN | Phase: PHASE3\n- Conditions: NSCLC, Stage IIIA, EGF-R Negative Non-Small Cell Lung Cancer, ALK Negative NSCLC\n- Interventions: PD-1 and chemotherapy\n- Primary outcome: Pathologically complete response (pCR) rate\n- Summary: This is a randomized, open-label study designed to evaluate the safety and efficacy of neoadjuvant PD-1 antibody plus chemotherapy followed by surgery in resectable stage IIIA non-small cell lung cancer.\n\nThe primary endpoint: pCR rate The second endpoint: MPR, DFS, MRD",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT05157776"
+    ],
+    "cited_nct_ids": [
+      "NCT05157776"
+    ],
+    "valid_citations": [
+      "NCT05157776"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B008",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT00515866?",
+    "answer": "[NCT00515866] Study to Assess the Safety & Tolerability of a PARP Inhibitor in Combination With Gemcitabine in Pancreatic Cancer\n- Sponsor: AstraZeneca\n- Status: COMPLETED | Phase: PHASE1\n- Conditions: Pancreatic Neoplasms\n- Interventions: KU-0059436 (AZD2281)(PARP inhibitor), Gemcitabine\n- Primary outcome: To establish the maximum tolerated dose (MTD) or a tolerable and effective dose of KU 0059436 in combination with gemcitabine\n- Summary: The purpose of this study is to identify a safe and tolerable dose of the drug KU-0059436 that can be given in combination with gemcitabine chemotherapy for the treatment of pancreatic cancer.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT00515866"
+    ],
+    "cited_nct_ids": [
+      "NCT00515866"
+    ],
+    "valid_citations": [
+      "NCT00515866"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B009",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT03940092?",
+    "answer": "[NCT03940092] Sodium (23Na) MRI for Tumour Characterisation and Assessment of Therapy Response in Breast Cancer\n- Sponsor: Cambridge University Hospitals NHS Foundation Trust\n- Status: UNKNOWN | Phase: N/A\n- Conditions: Breast Cancer\n- Interventions: MRI, PET/MRI\n- Primary outcome: Image quality of 23Na-MRI in the breast evaluated radiologically after each 23Na-MRI scan in healthy volunteers and patients.\n- Summary: The scope of this study is the methodological development and optimisation of sodium MRI (23Na-MRI) protocols for breast cancer imaging. The study further proposes to utilise biomarkers obtained from 23Na-imaging (cell integrity), FDG-PET (metabolism), multi-parametric MRI (perfusion, vascularity, cellularity, morphology) to generate parameter maps specific for physiological processes in breast ca...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT03940092"
+    ],
+    "cited_nct_ids": [
+      "NCT03940092"
+    ],
+    "valid_citations": [
+      "NCT03940092"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B010",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT00066690?",
+    "answer": "[NCT00066690] Suppression of Ovarian Function With Either Tamoxifen or Exemestane Compared With Tamoxifen Alone in Treating Premenopausal Women With Hormone-Responsive Breast Cancer\n- Sponsor: ETOP IBCSG Partners Foundation\n- Status: COMPLETED | Phase: PHASE3\n- Conditions: Estrogen Receptor Positive Breast Cancer, Progesterone Receptor Positive Tumor, Recurrent Breast Carcinoma, Stage IA Breast Cancer, Stage IB Breast Cancer, Stage IIA Breast Cancer, Stage IIB Breast Cancer, Stage IIIA Breast Cancer\n- Interventions: Exemestane, Laboratory Biomarker Analysis, Oophorectomy, Quality-of-Life Assessment, Radiation Therapy, Tamoxifen, Triptorelin\n- Primary outcome: Disease-free Survival\n- Summary: RATIONALE: Estrogen can stimulate the growth of breast tumor cells. Ovarian function suppression combined with hormone therapy using tamoxifen or exemestane may fight breast cancer by reducing the production of estrogen. It is not yet known whether suppression of ovarian function plus either tamoxifen or exemestane is more effective than tamoxifen alone in preventing the recurrence of hormone-resp...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT00066690"
+    ],
+    "cited_nct_ids": [
+      "NCT00066690"
+    ],
+    "valid_citations": [
+      "NCT00066690"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B011",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT02364362?",
+    "answer": "[NCT02364362] A Study of Famitinib Plus Docetaxel in Patients With Advanced Non-squamous and Non-Small Cell Lung Cancer (NSCLC)\n- Sponsor: Jiangsu HengRui Medicine Co., Ltd.\n- Status: COMPLETED | Phase: PHASE1\n- Conditions: Non-Small Cell Lung Cancer (NSCLC)\n- Interventions: famitinib L + docetaxel, famitinib M + docetaxel, famitinib H + docetaxel\n- Primary outcome: Maximum tolerated dose (MTD) of famitinib in combination with standard-dose docetaxel(60 mg/m^2)\n- Summary: Famitinib is a tyrosin-inhibitor agent targeting at c-Kit, VEGFR2, PDGFR, VEGFR3, Flt1 and Flt3. Phase I study has shown that the toxicity is manageable.\n\nThis study assessed the safety and maximum tolerated dose of continuous daily treatment with Famitinib plus docetaxel (60 mg/m\\^2, every 3 weeks) in patients with Advanced Non-squamous and Non-Small Cell Lung Cancer (NSCLC) to determine the reco...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT02364362"
+    ],
+    "cited_nct_ids": [
+      "NCT02364362"
+    ],
+    "valid_citations": [
+      "NCT02364362"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B012",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT03164655?",
+    "answer": "[NCT03164655] Improving SUrgery of Liver Metastases: a Trial of the Arterial Chemotherapy Network\n- Sponsor: UNICANCER\n- Status: COMPLETED | Phase: PHASE2\n- Conditions: Colorectal Cancer Metastatic\n- Interventions: Oxaliplatin, Cetuximab, Bevacizumab, Panitumumab, Irinotecan, Leucovorin, 5-Fluorouracil\n- Primary outcome: Curative-intent (R0-R1) resection (and/or ablation) rate (CRR) of CRLM\n- Summary: National trial, multicenter, randomized, phase II comparing treatment intensification with hepatic arterial infusion chemotherapy plus systemic chemotherapy (CT) to systemic chemotherapy alone in patients with liver-only colorectal metastases (CRLM) considered still non resectable after at least two months of systemic induction chemotherapy.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT03164655"
+    ],
+    "cited_nct_ids": [
+      "NCT03164655"
+    ],
+    "valid_citations": [
+      "NCT03164655"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B013",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT06726070?",
+    "answer": "[NCT06726070] Investigation of the Diagnostic Role of miRNAs in PCa and BPH\n- Sponsor: Alanya Alaaddin Keykubat University\n- Status: COMPLETED | Phase: N/A\n- Conditions: Benign Prostate Hypertrophy(BPH), Prostate Cancer (Adenocarcinoma)\n- Interventions: not listed\n- Primary outcome: Evaluation of miRNA expressions\n- Summary: Prostate cancer(PCa) is the second most common cause of cancer-related death in men after lung cancer. Diagnostic methods such as measurement of serum Prostate-specific antigen (PSA) levels used in the clinic still cannot distinguish between benign conditions and prostate cancer, and biopsy is essential for the diagnosis of prostate cancer. Due to the high false-positive rate of PSA, many patients...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06726070"
+    ],
+    "cited_nct_ids": [
+      "NCT06726070"
+    ],
+    "valid_citations": [
+      "NCT06726070"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B014",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT00659178?",
+    "answer": "[NCT00659178] Combination Study Of SB-485232 (Interleukin 18) And Doxil For Advanced Stage Epithelial Ovarian Cancer\n- Sponsor: GlaxoSmithKline\n- Status: COMPLETED | Phase: PHASE1\n- Conditions: Neoplasms, Ovarian\n- Interventions: SB-485232 (interleukin 18), pegylated liposomal doxorubicin\n- Primary outcome: Safety and tolerability of SB-485232/Doxil combination therapy\n- Summary: The purpose of this study is to identify a dose of SB-485232 which is safe, tolerable and biologically active when used in combination with pegylated liposomal doxorubicin (Doxil) in patients with epithelial ovarian cancer. This study will use a standard treatment regimen of pegylated liposomal doxorubicin (Doxil) in combination with rising doses of SB-485232. The dose selected from this study wil...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT00659178"
+    ],
+    "cited_nct_ids": [
+      "NCT00659178"
+    ],
+    "valid_citations": [
+      "NCT00659178"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B015",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT03933319?",
+    "answer": "[NCT03933319] Phase Ⅱ Study of Pegylated Liposomal Doxorubicin（PLD）Plus Trastuzumab in HER-2 Positive Metastatic Breast Cancer\n- Sponsor: Chinese Academy of Medical Sciences\n- Status: UNKNOWN | Phase: PHASE2\n- Conditions: HER2-positive Breast Cancer\n- Interventions: pegylated liposomal doxorubicin\n- Primary outcome: Objective response rate (ORR)\n- Summary: This is a single-center phase Ⅱ study designed to evaluated the efficacy and safety of pegylated liposomal doxorubicin（PLD）in combination with trastuzumab in HER-2 positive metastatic breast cancer .",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT03933319"
+    ],
+    "cited_nct_ids": [
+      "NCT03933319"
+    ],
+    "valid_citations": [
+      "NCT03933319"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B016",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT00164944?",
+    "answer": "[NCT00164944] Screening for Colorectal Neoplasm in First Degree Relatives of the Affected\n- Sponsor: Chinese University of Hong Kong\n- Status: COMPLETED | Phase: N/A\n- Conditions: Colorectal Cancer Screening\n- Interventions: Colonoscopy, Colonoscopy\n- Primary outcome: To find the prevalence of adenomas and advanced neoplasms of the first degree relatives\n- Summary: To determine the prevalence of colorectal neoplasms in first degree relatives of those affected with sporadic colorectal cancer using colonoscopy as a screening tool. The prevalence will be compared to that of a defined matched cohort.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT00164944"
+    ],
+    "cited_nct_ids": [
+      "NCT00164944"
+    ],
+    "valid_citations": [
+      "NCT00164944"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B017",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT04058236?",
+    "answer": "[NCT04058236] Glycocalyx Levels in Patients Undergoing Pancreatectomy\n- Sponsor: University of Malaya\n- Status: UNKNOWN | Phase: PHASE4\n- Conditions: Endothelial Degeneration, Pancreatic Cancer, Pancreatectomy, Postoperative Pancreatic Fistula\n- Interventions: human albumin 5%, gelofusine.\n- Primary outcome: Occurence of pancreatic fistula leak; Changes in serum syndecan 1 concentrations; Changes in serum heparan sulfate concentrations\n- Summary: Background:\n\nOn the surface of every healthy cellular membrane resides a layer known as the glycocalyx. This structure consists of extracellular domains of receptor, adhesion and transmembrane molecules such as syndecan-1 covalently bound to highly negatively charged glycosaminoglycans, heparan sulfates. It has a principal role to maintain wall integrity, avoid inflammation and tissue oedema in ve...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04058236"
+    ],
+    "cited_nct_ids": [
+      "NCT04058236"
+    ],
+    "valid_citations": [
+      "NCT04058236"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B018",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT00160953?",
+    "answer": "[NCT00160953] Endorectal Coil Magnetic Resonance Images (ERC-MRI)\n- Sponsor: University Health Network, Toronto\n- Status: COMPLETED | Phase: PHASE2\n- Conditions: Prostatic Neoplasms\n- Interventions: Endorectal Coil Magnetic Resonance Images\n- Primary outcome: The primary aim of this study is to develop a prostate deformation model using the finite element method from anatomic MR images of the prostate gland acquired with and without ERC.\n- Summary: When we acquired MR images of the prostate gland using a coil (receiver antenna) inside the rectum, we can see areas with tumour in the prostate gland, and well as details of the anatomy. The coil inside the rectum changes the shape of the prostate gland. In order to use this images to help target radiation therapy to the tumour better, we need to deform the images to the original shape of the pro...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT00160953"
+    ],
+    "cited_nct_ids": [
+      "NCT00160953"
+    ],
+    "valid_citations": [
+      "NCT00160953"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B019",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT01058746?",
+    "answer": "[NCT01058746] Randomized Trial of Restrictive Versus Liberal Perioperative Fluid Management for Patients Undergoing Pancreatic Resection\n- Sponsor: Memorial Sloan Kettering Cancer Center\n- Status: COMPLETED | Phase: NA\n- Conditions: Pancreatic Cancer\n- Interventions: restrictive perioperative fluid management, Liberal perioperative fluid management\n- Primary outcome: To determine if restrictive perioperative fluid management results in fewer complications, morbidity and decreased length of stay in patients undergoing pancreatic resection, compared to liberal fluid management.\n- Summary: The purpose of this study is to help us learn what the best amount of fluid is that patients should receive during pancreas surgery. Patients will receive either the liberal fluid amount for this surgery or a restricted fluid amount.\n\nBoth amounts of fluid have been used safely in patients having similar surgeries. These amounts have not been compared in pancreatic surgery. The fluids regimens tha...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01058746"
+    ],
+    "cited_nct_ids": [
+      "NCT01058746"
+    ],
+    "valid_citations": [
+      "NCT01058746"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B020",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT04014894?",
+    "answer": "[NCT04014894] ET019003-T Cells in Relapsed/Refractory CD19+ B-Cell Leukemia and Lymphoma\n- Sponsor: Union Hospital, Tongji Medical College, Huazhong University of Science and Technology\n- Status: UNKNOWN | Phase: PHASE1\n- Conditions: Leukemia, Lymphoma\n- Interventions: ET019003-T Cells\n- Primary outcome: Incidence of Treatment-related Adverse Events\n- Summary: This is a single center, open-label, 3+3 dose escalation, phase 1 study to evaluate the efficacy and safety of ET019003-T cells therapy for patients with relapsed/refractory CD19+ acute lymphoblastic leukemia and lymphoma.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04014894"
+    ],
+    "cited_nct_ids": [
+      "NCT04014894"
+    ],
+    "valid_citations": [
+      "NCT04014894"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B021",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT03518242?",
+    "answer": "[NCT03518242] Molecular Profile of Breast Cancer in Ugandan Patients With Stage IIB-III Breast Cancer\n- Sponsor: Fred Hutchinson Cancer Center\n- Status: COMPLETED | Phase: PHASE1\n- Conditions: Breast Cancer Female, Anatomic Stage IIB Breast Cancer AJCC v8, Anatomic Stage III Breast Cancer AJCC v8, Anatomic Stage IIIA Breast Cancer AJCC v8, Anatomic Stage IIIB Breast Cancer AJCC v8, Anatomic Stage IIIC Breast Cancer AJCC v8, Invasive Breast Carcinoma, Prognostic Stage IIB Breast Cancer AJCC v8, Prognostic Stage III Breast Cancer AJCC v8, Prognostic Stage IIIA Breast Cancer AJCC v8, Prognostic Stage IIIB Breast Cancer AJCC v8, Prognostic Stage IIIC Breast Cancer AJCC v8\n- Interventions: Cyclophosphamide, Methotrexate, Capecitabine, Biospecimen Collection\n- Primary outcome: Distribution of molecular subtypes; Sensitivity to polymerase chain reaction (PCR); Specificity of PCR\n- Summary: This phase I trial studies the molecular profile of breast cancer in Ugandan patients with stage IIB-III breast cancer. Creating a molecular profile of breast cancer my help doctors learn more about biological factors associated with breast cancer in Ugandan patients with as well as measure the benefits of locally available diagnostic studies and the possibility of providing treatment via oral med...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT03518242"
+    ],
+    "cited_nct_ids": [
+      "NCT03518242"
+    ],
+    "valid_citations": [
+      "NCT03518242"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B022",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the status of trial NCT04353050?",
+    "answer": "[NCT04353050] Atypical MOLes and Melanoma Early Detection Study (MoleMed)\n- Sponsor: Russian Academy of Medical Sciences\n- Status: UNKNOWN | Phase: NA\n- Conditions: Melanoma, Melanoma (Skin), Moles, Nevus, Nevus, Blue, Nevus, Pigmented, Nevus, Spitz, Nevi, Spindle Cell, Nevi, Dysplastic, Dysplastic Nevus Syndrome, Mucosal Melanoma, Mucosal Melanosis\n- Interventions: Non-invasive adhesive system (patch)\n- Primary outcome: Sensitivity and specificity on the investigated non-invasive genetic method for diffrential diagnosis of benign and malignant melanocytic lesions compared to histopathological examination\n- Summary: This is a multicenter, ambispective, low-interventional clinical study evaluating molecular genetic markers for non-invasive differential diagnosis of benign and malignant pigmented skin and mucosal neoplasms. In retrospective cohorts genetics markers will be identified. In prospective cohort non-invasive adhesive system will be tested to identify malignant or benign lesions with prespecified sens...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04353050"
+    ],
+    "cited_nct_ids": [
+      "NCT04353050"
+    ],
+    "valid_citations": [
+      "NCT04353050"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B023",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the primary outcome of NCT05515705?",
+    "answer": "[NCT05515705] First-in-human Navigation Endoscopic Ultrasound (EUS) System Clinical Study\n- Sponsor: IHU Strasbourg\n- Status: TERMINATED | Phase: NA\n- Conditions: Pancreatic Disease\n- Interventions: EUS navigation system\n- Primary outcome: Evaluation of the EUS navigation system's procedure duration compared to standard procedure times\n- Summary: The implementation of Echo-endoscopy (or EUS for: Endoscopic UltraSound) is limited by the difficulty of obtaining quality EUS procedures, since the accuracy of the method relies on the endoscopist's abilities. Indeed, both cognitive and technical skills are required for endoscopic manipulation and image interpretation, as well as a thorough knowledge of intra-abdominal anatomy. The \"EUS-GPS\" syst...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT05515705"
+    ],
+    "cited_nct_ids": [
+      "NCT05515705"
+    ],
+    "valid_citations": [
+      "NCT05515705"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B024",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Who is the sponsor of NCT07468136?",
+    "answer": "[NCT07468136] Retifanlimab With or Without Difluoromethylornithine for the Treatment of Progressive High Grade Gliomas\n- Sponsor: Mayo Clinic\n- Status: RECRUITING | Phase: PHASE1, PHASE2\n- Conditions: Anaplastic Oligodendroglioma, Astrocytoma, IDH-Mutant, Grade 3, Astrocytoma, IDH-Mutant, Grade 4, Diffuse Astrocytoma, Glioblastoma, IDH-Wildtype, Malignant Glioma\n- Interventions: Biospecimen Collection, Eflornithine, Lumbar Puncture, Magnetic Resonance Imaging, Retifanlimab, Tumor Resection\n- Primary outcome: Best tolerable dose level of Difluoromethylornithine (DFMO, or eflornithine) (phase I); Change in T cell/myeloid cell ratio (phase IIa)\n- Summary: This phase I/II trial tests the safety, side effects best dose and effect of retifanlimab with or without difluoromethylornithine (DFMO) for the treatment of high grade gliomas that are growing, spreading, or getting worse (progressive). Immunotherapy with monoclonal antibodies, such as retifanlimab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor c...",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT07468136"
+    ],
+    "cited_nct_ids": [
+      "NCT07468136"
+    ],
+    "valid_citations": [
+      "NCT07468136"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B025",
+    "category": "trial_lookup",
+    "tool": "trial_lookup",
+    "tools_tried": [
+      "trial_lookup"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> trial_lookup (LLM planner skipped)",
+      "act: trial_lookup -> 1 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the number of recruiting ovarian cancer trials in the dataset?",
+    "answer": "There are 48 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, ovar). Examples: [NCT06800612], [NCT01441089], [NCT06769425], [NCT06172478], [NCT03917043].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06800612",
+      "NCT01441089",
+      "NCT06769425",
+      "NCT06172478",
+      "NCT03917043"
+    ],
+    "cited_nct_ids": [
+      "NCT06800612",
+      "NCT01441089",
+      "NCT06769425",
+      "NCT06172478",
+      "NCT03917043"
+    ],
+    "valid_citations": [
+      "NCT06800612",
+      "NCT01441089",
+      "NCT06769425",
+      "NCT06172478",
+      "NCT03917043"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "ovar"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B026",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting bladder cancer trials are in the dataset?",
+    "answer": "There are 8 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, bladder). Examples: [NCT06172478], [NCT05969860], [NCT07124000], [NCT07285044], [NCT07088536].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07124000",
+      "NCT07285044",
+      "NCT07088536"
+    ],
+    "cited_nct_ids": [
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07124000",
+      "NCT07285044",
+      "NCT07088536"
+    ],
+    "valid_citations": [
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07124000",
+      "NCT07285044",
+      "NCT07088536"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "bladder"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B027",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting pancreatic cancer trials are in the dataset?",
+    "answer": "There are 68 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, pancrea). Examples: [NCT07552467], [NCT07488676], [NCT07145255], [NCT06040541], [NCT03556228].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT07552467",
+      "NCT07488676",
+      "NCT07145255",
+      "NCT06040541",
+      "NCT03556228"
+    ],
+    "cited_nct_ids": [
+      "NCT07552467",
+      "NCT07488676",
+      "NCT07145255",
+      "NCT06040541",
+      "NCT03556228"
+    ],
+    "valid_citations": [
+      "NCT07552467",
+      "NCT07488676",
+      "NCT07145255",
+      "NCT06040541",
+      "NCT03556228"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "pancrea"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B028",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed Phase 2 prostate cancer trials are in the dataset?",
+    "answer": "There are 68 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, PHASE2, prostat). Examples: [NCT01078662], [NCT05864144], [NCT01065441], [NCT00818480], [NCT01284920].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01078662",
+      "NCT05864144",
+      "NCT01065441",
+      "NCT00818480",
+      "NCT01284920"
+    ],
+    "cited_nct_ids": [
+      "NCT01078662",
+      "NCT05864144",
+      "NCT01065441",
+      "NCT00818480",
+      "NCT01284920"
+    ],
+    "valid_citations": [
+      "NCT01078662",
+      "NCT05864144",
+      "NCT01065441",
+      "NCT00818480",
+      "NCT01284920"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "cancer": "prostat"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B029",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the number of recruiting Phase 2 lymphoma trials in the dataset?",
+    "answer": "There are 30 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, PHASE2, lymphoma). Examples: [NCT03829254], [NCT05969860], [NCT07285044], [NCT06534762], [NCT06839456].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT03829254",
+      "NCT05969860",
+      "NCT07285044",
+      "NCT06534762",
+      "NCT06839456"
+    ],
+    "cited_nct_ids": [
+      "NCT03829254",
+      "NCT05969860",
+      "NCT07285044",
+      "NCT06534762",
+      "NCT06839456"
+    ],
+    "valid_citations": [
+      "NCT03829254",
+      "NCT05969860",
+      "NCT07285044",
+      "NCT06534762",
+      "NCT06839456"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "cancer": "lymphoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B030",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed melanoma trials are in the dataset?",
+    "answer": "There are 223 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, melanoma). Examples: [NCT04035447], [NCT01272817], [NCT00574977], [NCT00667082], [NCT05864144].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04035447",
+      "NCT01272817",
+      "NCT00574977",
+      "NCT00667082",
+      "NCT05864144"
+    ],
+    "cited_nct_ids": [
+      "NCT04035447",
+      "NCT01272817",
+      "NCT00574977",
+      "NCT00667082",
+      "NCT05864144"
+    ],
+    "valid_citations": [
+      "NCT04035447",
+      "NCT01272817",
+      "NCT00574977",
+      "NCT00667082",
+      "NCT05864144"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "melanoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B031",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed breast cancer trials are in the dataset?",
+    "answer": "There are 242 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, breast). Examples: [NCT04406779], [NCT00194753], [NCT02269813], [NCT04892342], [NCT00425854].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04406779",
+      "NCT00194753",
+      "NCT02269813",
+      "NCT04892342",
+      "NCT00425854"
+    ],
+    "cited_nct_ids": [
+      "NCT04406779",
+      "NCT00194753",
+      "NCT02269813",
+      "NCT04892342",
+      "NCT00425854"
+    ],
+    "valid_citations": [
+      "NCT04406779",
+      "NCT00194753",
+      "NCT02269813",
+      "NCT04892342",
+      "NCT00425854"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "breast"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B032",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed Phase 2 lung cancer trials are in the dataset?",
+    "answer": "There are 82 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, PHASE2, lung). Examples: [NCT04892342], [NCT04345146], [NCT01829113], [NCT01362296], [NCT00456261].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04892342",
+      "NCT04345146",
+      "NCT01829113",
+      "NCT01362296",
+      "NCT00456261"
+    ],
+    "cited_nct_ids": [
+      "NCT04892342",
+      "NCT04345146",
+      "NCT01829113",
+      "NCT01362296",
+      "NCT00456261"
+    ],
+    "valid_citations": [
+      "NCT04892342",
+      "NCT04345146",
+      "NCT01829113",
+      "NCT01362296",
+      "NCT00456261"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "cancer": "lung"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B033",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the number of recruiting Phase 3 ovarian cancer trials in the dataset?",
+    "answer": "There are 6 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, PHASE3, ovar). Examples: [NCT06819007], [NCT07218809], [NCT07776691], [NCT03651206], [NCT06824467].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06819007",
+      "NCT07218809",
+      "NCT07776691",
+      "NCT03651206",
+      "NCT06824467"
+    ],
+    "cited_nct_ids": [
+      "NCT06819007",
+      "NCT07218809",
+      "NCT07776691",
+      "NCT03651206",
+      "NCT06824467"
+    ],
+    "valid_citations": [
+      "NCT06819007",
+      "NCT07218809",
+      "NCT07776691",
+      "NCT03651206",
+      "NCT06824467"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "cancer": "ovar"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B034",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting cervical cancer trials are in the dataset?",
+    "answer": "There are 8 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, cervical). Examples: [NCT06800612], [NCT06172478], [NCT05969860], [NCT07124000], [NCT07285044].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06800612",
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07124000",
+      "NCT07285044"
+    ],
+    "cited_nct_ids": [
+      "NCT06800612",
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07124000",
+      "NCT07285044"
+    ],
+    "valid_citations": [
+      "NCT06800612",
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07124000",
+      "NCT07285044"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "cervical"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B035",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting Phase 2 ovarian cancer trials are in the dataset?",
+    "answer": "There are 17 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, PHASE2, ovar). Examples: [NCT06172478], [NCT05969860], [NCT07285044], [NCT07115043], [NCT06710288].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07285044",
+      "NCT07115043",
+      "NCT06710288"
+    ],
+    "cited_nct_ids": [
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07285044",
+      "NCT07115043",
+      "NCT06710288"
+    ],
+    "valid_citations": [
+      "NCT06172478",
+      "NCT05969860",
+      "NCT07285044",
+      "NCT07115043",
+      "NCT06710288"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "cancer": "ovar"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B036",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed lymphoma trials are in the dataset?",
+    "answer": "There are 197 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, lymphoma). Examples: [NCT01272817], [NCT00004157], [NCT00309907], [NCT00667082], [NCT01994382].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01272817",
+      "NCT00004157",
+      "NCT00309907",
+      "NCT00667082",
+      "NCT01994382"
+    ],
+    "cited_nct_ids": [
+      "NCT01272817",
+      "NCT00004157",
+      "NCT00309907",
+      "NCT00667082",
+      "NCT01994382"
+    ],
+    "valid_citations": [
+      "NCT01272817",
+      "NCT00004157",
+      "NCT00309907",
+      "NCT00667082",
+      "NCT01994382"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "lymphoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B037",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the number of completed colorectal cancer trials in the dataset?",
+    "answer": "There are 164 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, colorectal). Examples: [NCT04892342], [NCT05162846], [NCT05021172], [NCT02210364], [NCT00544336].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT04892342",
+      "NCT05162846",
+      "NCT05021172",
+      "NCT02210364",
+      "NCT00544336"
+    ],
+    "cited_nct_ids": [
+      "NCT04892342",
+      "NCT05162846",
+      "NCT05021172",
+      "NCT02210364",
+      "NCT00544336"
+    ],
+    "valid_citations": [
+      "NCT04892342",
+      "NCT05162846",
+      "NCT05021172",
+      "NCT02210364",
+      "NCT00544336"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "colorectal"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B038",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed kidney cancer trials are in the dataset?",
+    "answer": "There are 13 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, kidney). Examples: [NCT00004157], [NCT00309907], [NCT00957424], [NCT05864144], [NCT00617799].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT00004157",
+      "NCT00309907",
+      "NCT00957424",
+      "NCT05864144",
+      "NCT00617799"
+    ],
+    "cited_nct_ids": [
+      "NCT00004157",
+      "NCT00309907",
+      "NCT00957424",
+      "NCT05864144",
+      "NCT00617799"
+    ],
+    "valid_citations": [
+      "NCT00004157",
+      "NCT00309907",
+      "NCT00957424",
+      "NCT05864144",
+      "NCT00617799"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "kidney"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B039",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting kidney cancer trials are in the dataset?",
+    "answer": "There are 4 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, kidney). Examples: [NCT07039474], [NCT03987633], [NCT07059884], [NCT05184790].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT07039474",
+      "NCT03987633",
+      "NCT07059884",
+      "NCT05184790"
+    ],
+    "cited_nct_ids": [
+      "NCT07039474",
+      "NCT03987633",
+      "NCT07059884",
+      "NCT05184790"
+    ],
+    "valid_citations": [
+      "NCT07039474",
+      "NCT03987633",
+      "NCT07059884",
+      "NCT05184790"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "kidney"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B040",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 4 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many completed cervical cancer trials are in the dataset?",
+    "answer": "There are 10 matching trials in our dataset of 4407 oncology trials (filters: COMPLETED, cervical). Examples: [NCT01773980], [NCT00957424], [NCT06313268], [NCT00423254], [NCT04430842].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT01773980",
+      "NCT00957424",
+      "NCT06313268",
+      "NCT00423254",
+      "NCT04430842"
+    ],
+    "cited_nct_ids": [
+      "NCT01773980",
+      "NCT00957424",
+      "NCT06313268",
+      "NCT00423254",
+      "NCT04430842"
+    ],
+    "valid_citations": [
+      "NCT01773980",
+      "NCT00957424",
+      "NCT06313268",
+      "NCT00423254",
+      "NCT04430842"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "COMPLETED",
+      "phase": null,
+      "cancer": "cervical"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B041",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the number of recruiting Phase 2 liver cancer trials in the dataset?",
+    "answer": "There are 2 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, PHASE2, liver). Examples: [NCT07063875], [NCT05969860].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT07063875",
+      "NCT05969860"
+    ],
+    "cited_nct_ids": [
+      "NCT07063875",
+      "NCT05969860"
+    ],
+    "valid_citations": [
+      "NCT07063875",
+      "NCT05969860"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "cancer": "liver"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B042",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 2 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting Phase 3 lymphoma trials are in the dataset?",
+    "answer": "There are 6 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, PHASE3, lymphoma). Examples: [NCT06943872], [NCT07168980], [NCT06724237], [NCT07188558], [NCT07300514].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06943872",
+      "NCT07168980",
+      "NCT06724237",
+      "NCT07188558",
+      "NCT07300514"
+    ],
+    "cited_nct_ids": [
+      "NCT06943872",
+      "NCT07168980",
+      "NCT06724237",
+      "NCT07188558",
+      "NCT07300514"
+    ],
+    "valid_citations": [
+      "NCT06943872",
+      "NCT07168980",
+      "NCT06724237",
+      "NCT07188558",
+      "NCT07300514"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": "PHASE3",
+      "cancer": "lymphoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B043",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting melanoma trials are in the dataset?",
+    "answer": "There are 51 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, melanoma). Examples: [NCT06545682], [NCT07552467], [NCT06971848], [NCT07636785], [NCT06172478].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT06545682",
+      "NCT07552467",
+      "NCT06971848",
+      "NCT07636785",
+      "NCT06172478"
+    ],
+    "cited_nct_ids": [
+      "NCT06545682",
+      "NCT07552467",
+      "NCT06971848",
+      "NCT07636785",
+      "NCT06172478"
+    ],
+    "valid_citations": [
+      "NCT06545682",
+      "NCT07552467",
+      "NCT06971848",
+      "NCT07636785",
+      "NCT06172478"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "melanoma"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B044",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How many recruiting colorectal cancer trials are in the dataset?",
+    "answer": "There are 55 matching trials in our dataset of 4407 oncology trials (filters: RECRUITING, colorectal). Examples: [NCT07552467], [NCT04144907], [NCT06943820], [NCT06040541], [NCT06971848].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [
+      "NCT07552467",
+      "NCT04144907",
+      "NCT06943820",
+      "NCT06040541",
+      "NCT06971848"
+    ],
+    "cited_nct_ids": [
+      "NCT07552467",
+      "NCT04144907",
+      "NCT06943820",
+      "NCT06040541",
+      "NCT06971848"
+    ],
+    "valid_citations": [
+      "NCT07552467",
+      "NCT04144907",
+      "NCT06943820",
+      "NCT06040541",
+      "NCT06971848"
+    ],
+    "invented_citations": [],
+    "retrieval_seconds": 0.01,
+    "generation_seconds": 0.0,
+    "filters": {
+      "status": "RECRUITING",
+      "phase": null,
+      "cancer": "colorectal"
+    },
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B045",
+    "category": "analytical",
+    "tool": "count_trials",
+    "tools_tried": [
+      "count_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> count_trials",
+      "act: count_trials -> 5 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "List completed Phase 2 clinical trials of fludarabine for melanoma.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT00006233] Combination Chemotherapy, Total-Body Irradiation, Peripheral Stem Cell Transplantation, and Lymphocyte Infusion in Treating Patients With Stage IV Melanoma | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT00006233_summary_00",
+      "NCT00086489_summary_00",
+      "NCT00612664_summary_00",
+      "NCT00281541_summary_00",
+      "NCT00110994_summary_00",
+      "NCT00020358_summary_01",
+      "NCT02768207_eligibility_02",
+      "NCT00019734_summary_00",
+      "NCT00019448_summary_00",
+      "NCT00847522_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00006233",
+      "NCT00086489",
+      "NCT00612664",
+      "NCT00281541",
+      "NCT00110994",
+      "NCT00020358",
+      "NCT02768207",
+      "NCT00019734",
+      "NCT00019448",
+      "NCT00847522"
+    ],
+    "cited_nct_ids": [
+      "NCT00006233"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "melanoma"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "melanoma"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1112
+    },
+    "retrieval_seconds": 21.082,
+    "generation_seconds": 110.9,
+    "added_by_code": [
+      "NCT00006233"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B046",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "List completed Phase 2 clinical trials of palifermin for lymphoma.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.",
+    "retrieved_chunk_ids": [
+      "NCT02100423_summary_01",
+      "NCT01466881_summary_01",
+      "NCT01326702_summary_04",
+      "NCT02207062_eligibility_03",
+      "NCT00079105_summary_00",
+      "NCT01739309_summary_00",
+      "NCT02729896_summary_01",
+      "NCT01994382_summary_00",
+      "NCT00020943_summary_00",
+      "NCT00055783_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02100423",
+      "NCT01466881",
+      "NCT01326702",
+      "NCT02207062",
+      "NCT00079105",
+      "NCT01739309",
+      "NCT02729896",
+      "NCT01994382",
+      "NCT00020943",
+      "NCT00055783"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lymphoma"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lymphoma"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1117
+    },
+    "retrieval_seconds": 26.353,
+    "generation_seconds": 141.4,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B047",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 1
+    }
+  },
+  {
+    "question": "Which completed melanoma trials use docetaxel?",
+    "answer": "[1], [2] completed melanoma trials use docetaxel. [1] uses docetaxel with or without AZD6244, and [2] uses docetaxel in combination with Cisplatin and Temodar.\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [
+      "NCT01256359_summary_00",
+      "NCT00527761_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT01256359",
+      "NCT00527761"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "docetaxel"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "docetaxel"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 30
+    },
+    "retrieval_seconds": 2.215,
+    "generation_seconds": 6.7,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.0
+    },
+    "id": "B048",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "list_trials",
+      "search_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: no valid citations -> retry with search_trials",
+      "act: search_trials -> 0 valid citations",
+      "check: no valid citations, no more retries",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 2,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 2
+    }
+  },
+  {
+    "question": "Which completed Phase 2 lymphoma trials use ixazomib?",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT02924272] Ixazomib Rollover Study | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT02924272_summary_00",
+      "NCT01326702_summary_04",
+      "NCT01724177_outcomes_00",
+      "NCT00055783_summary_00",
+      "NCT00310037_summary_00",
+      "NCT00262860_outcomes_00",
+      "NCT01739309_summary_00",
+      "NCT02733042_summary_01",
+      "NCT01939327_outcomes_00",
+      "NCT05269940_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02924272",
+      "NCT01326702",
+      "NCT01724177",
+      "NCT00055783",
+      "NCT00310037",
+      "NCT00262860",
+      "NCT01739309",
+      "NCT02733042",
+      "NCT01939327",
+      "NCT05269940"
+    ],
+    "cited_nct_ids": [
+      "NCT02924272"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lymphoma"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lymphoma"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1117
+    },
+    "retrieval_seconds": 23.213,
+    "generation_seconds": 112.9,
+    "added_by_code": [
+      "NCT02924272"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B049",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Which pancreatic cancer trials use binimetinib?",
+    "answer": "[1] Trial NCT04390243\n[3] Trial NCT04132505",
+    "retrieved_chunk_ids": [
+      "NCT04390243_summary_02",
+      "NCT06159478_summary_00",
+      "NCT04132505_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT04390243",
+      "NCT06159478",
+      "NCT04132505"
+    ],
+    "cited_nct_ids": [
+      "NCT04390243",
+      "NCT04132505"
+    ],
+    "valid_citations": [
+      "NCT04390243",
+      "NCT04132505"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "pancrea"
+        ],
+        "drugs": [
+          "binimetinib"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "pancrea"
+        ],
+        "drugs": [
+          "binimetinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 79
+    },
+    "retrieval_seconds": 1.257,
+    "generation_seconds": 43.4,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B050",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "search_trials"
+    ],
+    "planner_output": "search_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_trials' -> search_trials",
+      "act: search_trials -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 3
+    },
+    "gold_in_answer": {
+      "found": 2,
+      "total": 3
+    }
+  },
+  {
+    "question": "List completed Phase 2 clinical trials of pembrolizumab for pancreatic cancer.",
+    "answer": "[1] Trial NCT02907099\n[2] Trial NCT05014776\n\nThese are the completed Phase 2 clinical trials of pembrolizumab for pancreatic cancer listed in the provided sources.",
+    "retrieved_chunk_ids": [
+      "NCT02907099_summary_00",
+      "NCT05014776_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02907099",
+      "NCT05014776"
+    ],
+    "cited_nct_ids": [
+      "NCT02907099",
+      "NCT05014776"
+    ],
+    "valid_citations": [
+      "NCT02907099",
+      "NCT05014776"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "pancrea"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "pancrea"
+        ],
+        "drugs": [
+          "pembrolizumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 36
+    },
+    "retrieval_seconds": 2.789,
+    "generation_seconds": 7.9,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.5
+    },
+    "id": "B051",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "list_trials",
+      "search_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: no valid citations -> retry with search_trials",
+      "act: search_trials -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 2,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 2,
+      "total": 2
+    }
+  },
+  {
+    "question": "List completed clinical trials of leucovorin for leukemia.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT00075725] Dexamethasone Compared With Prednisone During Induction Therapy and Methotrexate With or Without Leucovorin During Maintenance Therapy in Treating Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia | Status: COMPLETED | Phase: Phase 3\n- [NCT00109837] S0333 Combination Chemotherapy in Treating Patients With Newly Diagnosed Acute Lymphoblastic Leukemia | Status: COMPLETED | Phase: Phase 2\n- [NCT00400946] 05-001: Treatment of Acute Lymphoblastic Leukemia in Children | Status: COMPLETED | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT00075725_summary_01",
+      "NCT00109837_summary_00",
+      "NCT00400946_summary_00",
+      "NCT00004218_summary_00",
+      "NCT00003243_summary_00",
+      "NCT00911066_eligibility_03",
+      "NCT00096122_outcomes_00",
+      "NCT01398462_eligibility_07",
+      "NCT01614197_eligibility_17",
+      "NCT00691938_outcomes_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00075725",
+      "NCT00109837",
+      "NCT00400946",
+      "NCT00004218",
+      "NCT00003243",
+      "NCT00911066",
+      "NCT00096122",
+      "NCT01398462",
+      "NCT01614197",
+      "NCT00691938"
+    ],
+    "cited_nct_ids": [
+      "NCT00075725",
+      "NCT00109837",
+      "NCT00400946"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 2397
+    },
+    "retrieval_seconds": 25.844,
+    "generation_seconds": 136.9,
+    "added_by_code": [
+      "NCT00075725",
+      "NCT00109837",
+      "NCT00400946"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B052",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 3
+    },
+    "gold_in_answer": {
+      "found": 3,
+      "total": 3
+    }
+  },
+  {
+    "question": "Which recruiting leukemia trials use azacitidine?",
+    "answer": "[1], [2], [3], [4], [5] use azacitidine in their trials.\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [
+      "NCT06994676_eligibility_03",
+      "NCT07645469_eligibility_22",
+      "NCT06389292_eligibility_04",
+      "NCT07392242_eligibility_00",
+      "NCT05641259_eligibility_04"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06994676",
+      "NCT07645469",
+      "NCT06389292",
+      "NCT07392242",
+      "NCT05641259"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1018
+    },
+    "retrieval_seconds": 23.664,
+    "generation_seconds": 7.3,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.0
+    },
+    "id": "B053",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "list_trials",
+      "search_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: no valid citations -> retry with search_trials",
+      "act: search_trials -> 0 valid citations",
+      "check: no valid citations, no more retries",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 4,
+      "total": 6
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 6
+    }
+  },
+  {
+    "question": "Find trials testing nivolumab in leukemia.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT03588936] Nivolumab and Tocilizumab for Relapsed Hematological Malignancy Post-allogeneic Transplant | Status: TERMINATED | Phase: Phase 1",
+    "retrieved_chunk_ids": [
+      "NCT03588936_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT03588936"
+    ],
+    "cited_nct_ids": [
+      "NCT03588936"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ],
+        "drugs": [
+          "nivolumab"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ],
+        "drugs": [
+          "nivolumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 13
+    },
+    "retrieval_seconds": 0.83,
+    "generation_seconds": 20.6,
+    "added_by_code": [
+      "NCT03588936"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B054",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find completed Phase 2 trials testing cemiplimab in lung cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT05864144] A Study of SNS-101 (Anti VISTA) Monotherapy and in Combination With Cemiplimab in Patients With Advanced Solid Tumors | Status: COMPLETED | Phase: Phase 1, Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT05864144_summary_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT05864144"
+    ],
+    "cited_nct_ids": [
+      "NCT05864144"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "cemiplimab"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ],
+        "drugs": [
+          "cemiplimab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 12
+    },
+    "retrieval_seconds": 0.382,
+    "generation_seconds": 15.3,
+    "added_by_code": [
+      "NCT05864144"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B055",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "List completed clinical trials of tamoxifen for ovarian cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT00066690] Suppression of Ovarian Function With Either Tamoxifen or Exemestane Compared With Tamoxifen Alone in Treating Premenopausal Women With Hormone-Responsive Breast Cancer | Status: COMPLETED | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT00066690_summary_00",
+      "NCT00739661_eligibility_04",
+      "NCT05021562_summary_00",
+      "NCT03863860_summary_01",
+      "NCT00025155_summary_00",
+      "NCT03534453_eligibility_06",
+      "NCT01556841_summary_01",
+      "NCT02046421_eligibility_06",
+      "NCT01220154_eligibility_03",
+      "NCT00428610_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00066690",
+      "NCT00739661",
+      "NCT05021562",
+      "NCT03863860",
+      "NCT00025155",
+      "NCT03534453",
+      "NCT01556841",
+      "NCT02046421",
+      "NCT01220154",
+      "NCT00428610"
+    ],
+    "cited_nct_ids": [
+      "NCT00066690"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "ovarian",
+          "ovary"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "ovarian",
+          "ovary"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 2302
+    },
+    "retrieval_seconds": 16.812,
+    "generation_seconds": 125.1,
+    "added_by_code": [
+      "NCT00066690"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B056",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find trials testing fludarabine in bladder cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT00002779] Fludarabine Plus Octreotide in Treating Patients With Relapsed Low-Grade Non-Hodgkin's Lymphoma | Status: COMPLETED | Phase: Phase 2\n- [NCT00393107] Safety and Efficacy of Fludarabine and Cyclophosphamide + Rituximab | Status: COMPLETED | Phase: Phase 2\n- [NCT00577161] Fludarabine, Pixantrone and Rituximab vs Fludarabine and Rituximab forRelapsed or Refractory Indolent NHL | Status: WITHDRAWN | Phase: Phase 3\n- [NCT03335241] Study of Fludarabine With Pegylated Liposomal Doxorubicin Versus Pegylated Liposomal Doxorubicin Alone In Patients With Platinum Resistant/Refractory Ovarian Cancer | Status: UNKNOWN | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT04503278_eligibility_16",
+      "NCT00191490_summary_01",
+      "NCT00002779_eligibility_03",
+      "NCT00393107_outcomes_00",
+      "NCT00002796_eligibility_04",
+      "NCT00577161_eligibility_04",
+      "NCT01452334_eligibility_07",
+      "NCT00749502_eligibility_03",
+      "NCT03335241_summary_00",
+      "NCT00283101_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT04503278",
+      "NCT00191490",
+      "NCT00002779",
+      "NCT00393107",
+      "NCT00002796",
+      "NCT00577161",
+      "NCT01452334",
+      "NCT00749502",
+      "NCT03335241",
+      "NCT00283101"
+    ],
+    "cited_nct_ids": [
+      "NCT00002779",
+      "NCT00393107",
+      "NCT00577161",
+      "NCT03335241"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {},
+      "applied": {},
+      "relaxed": false,
+      "matching_chunks": 46581
+    },
+    "retrieval_seconds": 22.995,
+    "generation_seconds": 171.2,
+    "added_by_code": [
+      "NCT00002779",
+      "NCT00393107",
+      "NCT00577161",
+      "NCT03335241"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B057",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 2
+    }
+  },
+  {
+    "question": "List clinical trials of pegfilgrastim for lung cancer.",
+    "answer": "[1] Trial NCT00277160\n\nThis trial [NCT00277160] investigates the use of pegfilgrastim (Neulasta) for primary prophylaxis in elderly subjects with cancer, including lung cancer.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00277160] A Study of Primary Prophylaxis With Neulasta (Pegfilgrastim) Versus Secondary Prophylaxis After Chemotherapy in Elderly Subjects (>/= 65 Years Old) With Cancer | Status: COMPLETED | Phase: Phase 4",
+    "retrieved_chunk_ids": [
+      "NCT00277160_eligibility_03",
+      "NCT00025389_eligibility_07",
+      "NCT06221462_eligibility_01",
+      "NCT05243355_eligibility_03",
+      "NCT07111520_eligibility_12",
+      "NCT06746870_eligibility_06",
+      "NCT06726265_eligibility_12",
+      "NCT00323869_eligibility_04",
+      "NCT00874848_eligibility_01",
+      "NCT01323062_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00277160",
+      "NCT00025389",
+      "NCT06221462",
+      "NCT05243355",
+      "NCT07111520",
+      "NCT06746870",
+      "NCT06726265",
+      "NCT00323869",
+      "NCT00874848",
+      "NCT01323062"
+    ],
+    "cited_nct_ids": [
+      "NCT00277160"
+    ],
+    "valid_citations": [
+      "NCT00277160"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "applied": {
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 7119
+    },
+    "retrieval_seconds": 15.426,
+    "generation_seconds": 191.9,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B058",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Which completed Phase 2 melanoma trials use paclitaxel?",
+    "answer": "[1], [2], [3]",
+    "retrieved_chunk_ids": [
+      "NCT00434252_summary_00",
+      "NCT01704287_summary_01",
+      "NCT05420324_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00434252",
+      "NCT01704287",
+      "NCT05420324"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "paclitaxel"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "paclitaxel"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 32
+    },
+    "retrieval_seconds": 2.355,
+    "generation_seconds": 1.4,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B059",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "list_trials",
+      "search_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: no valid citations -> retry with search_trials",
+      "act: search_trials -> 0 valid citations",
+      "check: no valid citations, no more retries",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 3
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 3
+    }
+  },
+  {
+    "question": "List recruiting Phase 3 clinical trials of nivolumab for melanoma.",
+    "answer": "[1] Trial NCT06581406\n[2] Trial NCT06112314\n[3] Trial NCT06488482\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT06581406] A Randomized, Phase 2/3 Study to Investigate the Efficacy and Safety of RP2 in Combination With Nivolumab in Immune Checkpoint Inhibitor-Naïve Adult Patients With Metastatic Uveal Melanoma | Status: RECRUITING | Phase: Phase 2, Phase 3\n- [NCT06112314] IMC-F106C Regimen Versus Nivolumab Regimens in Previously Untreated Advanced Melanoma (PRISM-MEL-301) | Status: RECRUITING | Phase: Phase 3\n- [NCT06488482] Assessment of Short Immunotherapy After Radical Surgery of High-risk Malignant Melanoma | Status: RECRUITING | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT06581406_summary_00",
+      "NCT06112314_eligibility_00",
+      "NCT06488482_summary_06"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06581406",
+      "NCT06112314",
+      "NCT06488482"
+    ],
+    "cited_nct_ids": [
+      "NCT06581406",
+      "NCT06112314",
+      "NCT06488482"
+    ],
+    "valid_citations": [
+      "NCT06581406",
+      "NCT06112314",
+      "NCT06488482"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "nivolumab"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "nivolumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 38
+    },
+    "retrieval_seconds": 1.763,
+    "generation_seconds": 53.3,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B060",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 3 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 3
+    },
+    "gold_in_answer": {
+      "found": 3,
+      "total": 3
+    }
+  },
+  {
+    "question": "List completed clinical trials of enzalutamide for prostate cancer.",
+    "answer": "[1] Trial NCT02669147\n[2] Trial NCT03103724\n[3] Trial NCT02813408\n[4] Trial NCT03751436\n[5] Trial NCT07086651\n[6] Trial NCT01977651\n[7] Trial NCT00554086\n[8] Trial NCT02339168\n[9] Trial NCT03554317\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT02669147] A Study to Determine Enzalutamide Long-term Safety and Efficacy After Anti-androgen Therapy for CRPC | Status: COMPLETED | Phase: N/A\n- [NCT03103724] A Phase II Study Evaluating the Efficacy of Enzalutamide and the Role of ARv7 in Metastatic Castration Resistant Prostate Cancer (mCRPC) Patients With Visceral Disease. | Status: COMPLETED | Phase: Phase 2\n- [NCT02813408] A Study to Investigate the Impact of Abiraterone Acetate and Enzalutamide on Health-related Quality of Life, Participant-Reported Outcomes, and Medical Resource Use in Metastatic Castration-resistant Prostate Cancer Participants | Status: COMPLETED | Phase: N/A\n- [NCT03751436] Enzalutamide With Venetoclax in Treating Patients With Metastatic Castration Resistant Prostate Cancer | Status: COMPLETED | Phase: Phase 1\n- [NCT07086651] A Study to Learn About Two Medicines (Apalutamide and Enzalutamide) in People With Metastatic Castration-sensitive Prostate Cancer (mCSPC) | Status: COMPLETED | Phase: N/A\n- [NCT01977651] A Study to Evaluate the Potential Increased Risk of Seizures Among Metastatic Castration-Resistant Prostate Cancer (mCRPC) Patients Treated With Enzalutamide | Status: COMPLETED | Phase: Phase 4\n- [NCT00554086] Open Label,Phase II Trial of MAB Dose Escalation OF Bicalutamide For Biochemical Failure In Prostate Cancer Patients. | Status: COMPLETED | Phase: Phase 2\n- [NCT02339168] Enzalutamide and Metformin Hydrochloride in Treating Patients With Hormone-Resistant Prostate Cancer | Status: COMPLETED | Phase: Phase 1\n- [NCT03554317] COMbination of Bipolar Androgen Therapy and Nivolumab | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT02669147_summary_01",
+      "NCT03103724_eligibility_09",
+      "NCT02813408_eligibility_01",
+      "NCT03751436_summary_00",
+      "NCT07086651_summary_04",
+      "NCT01977651_eligibility_00",
+      "NCT00554086_eligibility_00",
+      "NCT02339168_eligibility_06",
+      "NCT03554317_eligibility_03",
+      "NCT00028769_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02669147",
+      "NCT03103724",
+      "NCT02813408",
+      "NCT03751436",
+      "NCT07086651",
+      "NCT01977651",
+      "NCT00554086",
+      "NCT02339168",
+      "NCT03554317",
+      "NCT00028769"
+    ],
+    "cited_nct_ids": [
+      "NCT02669147",
+      "NCT03103724",
+      "NCT02813408",
+      "NCT03751436",
+      "NCT07086651",
+      "NCT01977651",
+      "NCT00554086",
+      "NCT02339168",
+      "NCT03554317"
+    ],
+    "valid_citations": [
+      "NCT02669147",
+      "NCT03103724",
+      "NCT02813408",
+      "NCT03751436",
+      "NCT07086651",
+      "NCT01977651",
+      "NCT00554086",
+      "NCT02339168",
+      "NCT03554317"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "prostate"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "prostate"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1969
+    },
+    "retrieval_seconds": 12.134,
+    "generation_seconds": 164.9,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B061",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 9 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 4,
+      "total": 5
+    },
+    "gold_in_answer": {
+      "found": 4,
+      "total": 5
+    }
+  },
+  {
+    "question": "List completed Phase 2 clinical trials of abraxane for lung cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT02303977] Phase II Study of Abraxane and Gemicitabine in Patients With Advanced Adenocarcinoma Non-Small Cell Lung Cancer Progressing After First-Line Platinum-Based Chemotherapy | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT02303977_summary_00",
+      "NCT00034346_summary_02",
+      "NCT00003762_summary_00",
+      "NCT00034827_summary_00",
+      "NCT00002969_summary_00",
+      "NCT00026156_summary_00",
+      "NCT01362296_summary_00",
+      "NCT00097214_summary_00",
+      "NCT01577654_eligibility_09",
+      "NCT01829113_eligibility_01"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02303977",
+      "NCT00034346",
+      "NCT00003762",
+      "NCT00034827",
+      "NCT00002969",
+      "NCT00026156",
+      "NCT01362296",
+      "NCT00097214",
+      "NCT01577654",
+      "NCT01829113"
+    ],
+    "cited_nct_ids": [
+      "NCT02303977"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "lung",
+          "nsclc"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 951
+    },
+    "retrieval_seconds": 11.085,
+    "generation_seconds": 142.4,
+    "added_by_code": [
+      "NCT02303977"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B062",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find completed Phase 2 trials testing irinotecan in pancreatic cancer.",
+    "answer": "[1] Trial NCT00192712\n[2] Trial NCT03861702\n[4] Trial NCT02080221\n[5] Trial NCT00651742\n[6] Trial NCT00862524\n[7] Trial NCT00034827\n[8] Trial NCT00111904\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00192712] Irinotecan, Gemcitabine and Radiation Therapy for Pancreatic Cancer | Status: COMPLETED | Phase: Phase 2, Phase 3\n- [NCT03861702] Liposomal Irinotecan in Combination With Oxaliplatin, Leucovorin, and 5-fluorouracil for Patients With Locally Advanced Pancreatic Carcinoma: | Status: COMPLETED | Phase: Phase 2\n- [NCT02080221] BrUOG 292: FOLFOX-A For Metastatic Pancreatic Cancer: A Phase II Brown University Oncology Research Group Trial | Status: COMPLETED | Phase: Phase 2\n- [NCT00651742] Phase 2 Study of S-1 in Advanced or Metastatic Pancreatic Cancer | Status: COMPLETED | Phase: Phase 2\n- [NCT00862524] A Study of ARRY-334543 and Gemcitabine in Patients With Advanced Cancer and Pancreatic Cancer | Status: COMPLETED | Phase: Phase 1, Phase 2\n- [NCT00034827] A Multicenter Phase 2 Study of CI-1040 in Patients With Advanced Nonsmall-Cell Lung, Breast, Colon and Pancreatic Cancer | Status: COMPLETED | Phase: Phase 2\n- [NCT00111904] Paclitaxel in Treating Patients With Unresectable Locally Advanced or Metastatic Pancreatic Cancer | Status: COMPLETED | Phase: Phase 2\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT02890355] FOLFIRI or Modified FOLFIRI and Veliparib as Second Line Therapy in Treating Patients With Metastatic Pancreatic Cancer | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT00192712_summary_00",
+      "NCT03861702_eligibility_12",
+      "NCT02890355_summary_01",
+      "NCT02080221_summary_01",
+      "NCT00651742_summary_00",
+      "NCT00862524_summary_02",
+      "NCT00034827_summary_00",
+      "NCT00111904_summary_01",
+      "NCT00303927_summary_00",
+      "NCT00424827_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00192712",
+      "NCT03861702",
+      "NCT02890355",
+      "NCT02080221",
+      "NCT00651742",
+      "NCT00862524",
+      "NCT00034827",
+      "NCT00111904",
+      "NCT00303927",
+      "NCT00424827"
+    ],
+    "cited_nct_ids": [
+      "NCT00192712",
+      "NCT03861702",
+      "NCT02080221",
+      "NCT00651742",
+      "NCT00862524",
+      "NCT00034827",
+      "NCT00111904",
+      "NCT02890355"
+    ],
+    "valid_citations": [
+      "NCT00192712",
+      "NCT03861702",
+      "NCT02080221",
+      "NCT00651742",
+      "NCT00862524",
+      "NCT00034827",
+      "NCT00111904"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "pancrea"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "pancrea"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 683
+    },
+    "retrieval_seconds": 9.503,
+    "generation_seconds": 169.2,
+    "added_by_code": [
+      "NCT02890355"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B063",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 7 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 4
+    },
+    "gold_in_answer": {
+      "found": 3,
+      "total": 4
+    }
+  },
+  {
+    "question": "List completed clinical trials of dacarbazine for pancreatic cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT01845675] Chemotherapy Plus Endostatin in Advanced Pancreatic Neuroendocrine Tumor | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT01845675_summary_00",
+      "NCT00004003_summary_00",
+      "NCT00862524_summary_02",
+      "NCT00020345_summary_00",
+      "NCT00424827_summary_00",
+      "NCT00064207_outcomes_00",
+      "NCT01383538_eligibility_06",
+      "NCT00242190_summary_00",
+      "NCT01470417_eligibility_03",
+      "NCT02345408_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT01845675",
+      "NCT00004003",
+      "NCT00862524",
+      "NCT00020345",
+      "NCT00424827",
+      "NCT00064207",
+      "NCT01383538",
+      "NCT00242190",
+      "NCT01470417",
+      "NCT02345408"
+    ],
+    "cited_nct_ids": [
+      "NCT01845675"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "pancrea"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "pancrea"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1577
+    },
+    "retrieval_seconds": 11.836,
+    "generation_seconds": 145.3,
+    "added_by_code": [
+      "NCT01845675"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B064",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find completed Phase 2 trials testing alemtuzumab in leukemia.",
+    "answer": "[1], [2]",
+    "retrieved_chunk_ids": [
+      "NCT00301834_summary_01",
+      "NCT00935792_outcomes_00",
+      "NCT00027560_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00301834",
+      "NCT00935792",
+      "NCT00027560"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ],
+        "drugs": [
+          "alemtuzumab"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "leukemia",
+          "leukaemia"
+        ],
+        "drugs": [
+          "alemtuzumab"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 37
+    },
+    "retrieval_seconds": 2.073,
+    "generation_seconds": 1.1,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B065",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "list_trials",
+      "search_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: no valid citations -> retry with search_trials",
+      "act: search_trials -> 0 valid citations",
+      "check: no valid citations, no more retries",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 3
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 3
+    }
+  },
+  {
+    "question": "Which completed pancreatic cancer trials use oxaliplatin?",
+    "answer": "[1], [2], [3], [4], [5]\n\nVerifier note:\n- Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [
+      "NCT00242190_summary_00",
+      "NCT00761241_summary_01",
+      "NCT03443492_summary_00",
+      "NCT03193190_summary_00",
+      "NCT01643499_summary_05"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00242190",
+      "NCT00761241",
+      "NCT03443492",
+      "NCT03193190",
+      "NCT01643499"
+    ],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "pancrea"
+        ],
+        "drugs": [
+          "oxaliplatin"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "pancrea"
+        ],
+        "drugs": [
+          "oxaliplatin"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 59
+    },
+    "retrieval_seconds": 4.823,
+    "generation_seconds": 6.0,
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 0% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.0
+    },
+    "id": "B066",
+    "category": "trial_search",
+    "tool": "search_trials",
+    "tools_tried": [
+      "list_trials",
+      "search_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: no valid citations -> retry with search_trials",
+      "act: search_trials -> 0 valid citations",
+      "check: no valid citations, no more retries",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 5,
+      "total": 6
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 6
+    }
+  },
+  {
+    "question": "Which completed melanoma trials use lenvatinib?",
+    "answer": "[1] Trial NCT04889118 uses lenvatinib as one of its interventions.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT04889118] Safety and Efficacy Study of Pembrolizumab (MK-3475) Combined With Lenvatinib (MK-7902/E7080) as First-line Intervention in Adults With Advanced Melanoma (MK-7902-003/E7080-G000-312/LEAP-003)-China Extension Study | Status: COMPLETED | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT04889118_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT04889118"
+    ],
+    "cited_nct_ids": [
+      "NCT04889118"
+    ],
+    "valid_citations": [
+      "NCT04889118"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "lenvatinib"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "lenvatinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 23
+    },
+    "retrieval_seconds": 0.368,
+    "generation_seconds": 30.4,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B067",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find completed Phase 3 trials testing fluorouracil in breast cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT00950300] A Study to Compare Subcutaneous (SC) Versus Intravenous (IV) Administration of Herceptin (Trastuzumab) in Women With Human Epidermal Growth Factor Receptor (HER) 2-Positive Early Breast Cancer | Status: COMPLETED | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT00266799_outcomes_00",
+      "NCT01945775_eligibility_01",
+      "NCT00373256_summary_00",
+      "NCT01331629_eligibility_00",
+      "NCT00243685_summary_01",
+      "NCT02000622_outcomes_01",
+      "NCT00671918_summary_00",
+      "NCT00066690_eligibility_08",
+      "NCT03240224_summary_00",
+      "NCT00950300_outcomes_02"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00266799",
+      "NCT01945775",
+      "NCT00373256",
+      "NCT01331629",
+      "NCT00243685",
+      "NCT02000622",
+      "NCT00671918",
+      "NCT00066690",
+      "NCT03240224",
+      "NCT00950300"
+    ],
+    "cited_nct_ids": [
+      "NCT00950300"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "cancer": [
+          "breast"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "cancer": [
+          "breast"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 160
+    },
+    "retrieval_seconds": 8.552,
+    "generation_seconds": 132.9,
+    "added_by_code": [
+      "NCT00950300"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B068",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "List clinical trials of paclitaxel for liver cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT01011075] Study of Gleevec and Weekly Paclitaxel in Patients Aged 70 or Older With Advanced Non-small Cell Lung Cancer | Status: COMPLETED | Phase: Phase 2\n- [NCT02155088] BYL719 in Combination With Gemcitabine and (Nab)-Paclitaxel in Locally Advanced and Metastatic Pancreatic Cancer | Status: COMPLETED | Phase: Phase 1\n- [NCT00002969] S9714: Paclitaxel in Treating Patients With Stage IIIB or Stage IV Non-small Cell Lung Cancer | Status: COMPLETED | Phase: Phase 2\n- [NCT00565851] Carboplatin, Paclitaxel and Gemcitabine Hydrochloride With or Without Bevacizumab After Surgery in Treating Patients With Recurrent Ovarian, Epithelial, Primary Peritoneal, or Fallopian Tube Cancer | Status: ACTIVE_NOT_RECRUITING | Phase: Phase 3\n- [NCT00390611] Paclitaxel and Carboplatin With Or Without Sorafenib In The First-Line Treatment Of Patients With Ovarian Cancer | Status: COMPLETED | Phase: Phase 2\n- [NCT05664139] Recombinant Human Adenovirus Type 5 Injection Combined With PD-1 Monoclonal Antibody and Nab-paclitaxel in the Treatment of Patients With Liver Metastases From Malignant Melanoma | Status: UNKNOWN | Phase: Phase 2\n- [NCT00054210] Polyglutamate Paclitaxel Plus Carboplatin Compared With Paclitaxel Plus Carboplatin in Treating Patients With Advanced or Recurrent Non-Small Cell Lung Cancer | Status: TERMINATED | Phase: Phase 3\n- [NCT00019019] Carboxyamidotriazole and Paclitaxel in Treating Patients With Advanced Solid Tumors or Refractory Lymphomas | Status: COMPLETED | Phase: Phase 1\n- [NCT02672475] Galunisertib and Paclitaxel in Treating Patients With Metastatic Androgen Receptor Negative (AR-) Triple Negative Breast Cancer | Status: COMPLETED | Phase: Phase 1\n- [NCT05685602] CA-4948 Added to Standard Chemotherapy to Treat Metastatic or Unresectable Pancreatic Cancer | Status: SUSPENDED | Phase: Phase 1",
+    "retrieved_chunk_ids": [
+      "NCT01011075_eligibility_06",
+      "NCT02155088_eligibility_06",
+      "NCT00002969_eligibility_01",
+      "NCT00565851_eligibility_07",
+      "NCT00390611_eligibility_01",
+      "NCT05664139_eligibility_13",
+      "NCT00054210_eligibility_03",
+      "NCT00019019_eligibility_02",
+      "NCT02672475_eligibility_12",
+      "NCT05685602_eligibility_14"
+    ],
+    "retrieved_nct_ids": [
+      "NCT01011075",
+      "NCT02155088",
+      "NCT00002969",
+      "NCT00565851",
+      "NCT00390611",
+      "NCT05664139",
+      "NCT00054210",
+      "NCT00019019",
+      "NCT02672475",
+      "NCT05685602"
+    ],
+    "cited_nct_ids": [
+      "NCT01011075",
+      "NCT02155088",
+      "NCT00002969",
+      "NCT00565851",
+      "NCT00390611",
+      "NCT05664139",
+      "NCT00054210",
+      "NCT00019019",
+      "NCT02672475",
+      "NCT05685602"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "drugs": [
+          "paclitaxel"
+        ]
+      },
+      "applied": {
+        "drugs": [
+          "paclitaxel"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 2222
+    },
+    "retrieval_seconds": 11.6,
+    "generation_seconds": 162.6,
+    "added_by_code": [
+      "NCT01011075",
+      "NCT02155088",
+      "NCT00002969",
+      "NCT00565851",
+      "NCT00390611",
+      "NCT05664139",
+      "NCT00054210",
+      "NCT00019019",
+      "NCT02672475",
+      "NCT05685602"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B069",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Which completed Phase 2 colorectal cancer trials use vandetanib?",
+    "answer": "[1] [NCT00500292] is a completed Phase 2 colorectal cancer trial that uses vandetanib.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00500292] A Phase II Study of 2 Doses of ZD6474 (Vandetanib) in Combination With FOLFOX vs FOLFOX Alone for the Treatment of Colorectal Cancer | Status: COMPLETED | Phase: Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT00500292_outcomes_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00500292"
+    ],
+    "cited_nct_ids": [
+      "NCT00500292"
+    ],
+    "valid_citations": [
+      "NCT00500292"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "colorectal",
+          "colon",
+          "rectal"
+        ],
+        "drugs": [
+          "vandetanib"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "colorectal",
+          "colon",
+          "rectal"
+        ],
+        "drugs": [
+          "vandetanib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 5
+    },
+    "retrieval_seconds": 0.358,
+    "generation_seconds": 21.9,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B070",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "List recruiting Phase 2 clinical trials of pemetrexed for colorectal cancer.",
+    "answer": "[TRIAL NCT06792695] Phase 2 trial investigating novel study interventions and combinations in participants with colorectal cancer, including pemetrexed.\n\n[TRIAL NCT07594626] Phase 2 trial investigating BMS-986504 in combination with pemetrexed for metastatic solid tumors with MTAP deletion.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT06792695] A Study of Novel Study Interventions and Combinations in Participants With Colorectal Cancer | Status: RECRUITING | Phase: Phase 2\n- [NCT07594626] BMS-986504 in Combination With Pemetrexed for the Treatment of Metastatic Solid Tumors With MTAP Deletion | Status: RECRUITING | Phase: Phase 1, Phase 2\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT06943820] AK129 Combination Therapy for Advanced Solid Tumors | Status: RECRUITING | Phase: Phase 1, Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT06943820_summary_00",
+      "NCT07594626_eligibility_00",
+      "NCT06792695_summary_00",
+      "NCT05969860_eligibility_10",
+      "NCT07145255_summary_00",
+      "NCT06412198_eligibility_12",
+      "NCT06940388_eligibility_01",
+      "NCT05239546_eligibility_02",
+      "NCT06930118_eligibility_00",
+      "NCT05592626_eligibility_02"
+    ],
+    "retrieved_nct_ids": [
+      "NCT06943820",
+      "NCT07594626",
+      "NCT06792695",
+      "NCT05969860",
+      "NCT07145255",
+      "NCT06412198",
+      "NCT06940388",
+      "NCT05239546",
+      "NCT06930118",
+      "NCT05592626"
+    ],
+    "cited_nct_ids": [
+      "NCT06792695",
+      "NCT07594626",
+      "NCT06943820"
+    ],
+    "valid_citations": [
+      "NCT06792695",
+      "NCT07594626"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "cancer": [
+          "colorectal",
+          "colon",
+          "rectal"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "cancer": [
+          "colorectal",
+          "colon",
+          "rectal"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 436
+    },
+    "retrieval_seconds": 11.942,
+    "generation_seconds": 181.9,
+    "added_by_code": [
+      "NCT06943820"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.5
+    },
+    "id": "B071",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "Find completed trials testing sunitinib in breast cancer.",
+    "answer": "[1] Trial NCT00373256\nThe retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT00373256] A Study Of SU011248 Plus Paclitaxel Versus Bevacizumab Plus Paclitaxel In Patients With Advanced Breast Cancer | Status: COMPLETED | Phase: Phase 3",
+    "retrieved_chunk_ids": [
+      "NCT00373256_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00373256"
+    ],
+    "cited_nct_ids": [
+      "NCT00373256"
+    ],
+    "valid_citations": [
+      "NCT00373256"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "sunitinib"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "cancer": [
+          "breast"
+        ],
+        "drugs": [
+          "sunitinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 4
+    },
+    "retrieval_seconds": 0.398,
+    "generation_seconds": 25.1,
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B072",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "List completed Phase 2 clinical trials of trametinib for melanoma.",
+    "answer": "[TRIAL NCT01941927] [NCT02296996]\n\nTrial details (from ClinicalTrials.gov data):\n- [NCT01941927] Trametinib With GSK2141795 in BRAF Wild-type Melanoma | Status: COMPLETED | Phase: Phase 2\n- [NCT02296996] Dabrafenib and Trametinib for BRAF-inhibitor Pretreated Patients | Status: COMPLETED | Phase: Phase 2\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT02257424] Dabrafenib, Trametinib and Hydroxychloroquine in Patients With Advanced BRAF Mutant Melanoma | Status: COMPLETED | Phase: Phase 1, Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT02296996_summary_03",
+      "NCT01941927_summary_00",
+      "NCT02257424_outcomes_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT02296996",
+      "NCT01941927",
+      "NCT02257424"
+    ],
+    "cited_nct_ids": [
+      "NCT01941927",
+      "NCT02296996",
+      "NCT02257424"
+    ],
+    "valid_citations": [
+      "NCT01941927",
+      "NCT02296996"
+    ],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "trametinib"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "melanoma"
+        ],
+        "drugs": [
+          "trametinib"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 57
+    },
+    "retrieval_seconds": 2.136,
+    "generation_seconds": 36.4,
+    "added_by_code": [
+      "NCT02257424"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B073",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 3,
+      "total": 3
+    },
+    "gold_in_answer": {
+      "found": 3,
+      "total": 3
+    }
+  },
+  {
+    "question": "Which recruiting pancreatic cancer trials use cyclophosphamide?",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT06151223] A Prospective Registry for Patients at High-Risk for Pancreatic Cancer | Status: RECRUITING | Phase: N/A",
+    "retrieved_chunk_ids": [
+      "NCT05869474_eligibility_00",
+      "NCT06151223_eligibility_00",
+      "NCT07649928_eligibility_08",
+      "NCT06639724_eligibility_07",
+      "NCT06844422_eligibility_05",
+      "NCT07044453_eligibility_10",
+      "NCT06584227_eligibility_07",
+      "NCT07214298_eligibility_09",
+      "NCT07488676_eligibility_09",
+      "NCT07575191_eligibility_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT05869474",
+      "NCT06151223",
+      "NCT07649928",
+      "NCT06639724",
+      "NCT06844422",
+      "NCT07044453",
+      "NCT06584227",
+      "NCT07214298",
+      "NCT07488676",
+      "NCT07575191"
+    ],
+    "cited_nct_ids": [
+      "NCT06151223"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "RECRUITING",
+        "cancer": [
+          "pancrea"
+        ]
+      },
+      "applied": {
+        "status": "RECRUITING",
+        "cancer": [
+          "pancrea"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 922
+    },
+    "retrieval_seconds": 9.439,
+    "generation_seconds": 148.0,
+    "added_by_code": [
+      "NCT06151223"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B074",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "list_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'list_trials' -> list_trials",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 2
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 2
+    }
+  },
+  {
+    "question": "List completed Phase 2 clinical trials of ifosfamide for ovarian cancer.",
+    "answer": "The retrieved sources do not contain enough information to answer this question.\n\nTrial details (from ClinicalTrials.gov data):\nAlso found by search (the drug is listed in the trial's interventions):\n- [NCT00002559] Combination Chemotherapy in Treating Patients With Germ Cell Tumors That Have Not Responded to Previous Cisplatin | Status: COMPLETED | Phase: Phase 1, Phase 2",
+    "retrieved_chunk_ids": [
+      "NCT00002559_summary_01",
+      "NCT00428610_summary_00",
+      "NCT00191334_summary_00",
+      "NCT00053365_summary_00",
+      "NCT00610714_summary_00",
+      "NCT00025155_summary_00",
+      "NCT00316173_summary_00",
+      "NCT01246440_summary_00",
+      "NCT01481701_summary_00",
+      "NCT00377429_summary_00"
+    ],
+    "retrieved_nct_ids": [
+      "NCT00002559",
+      "NCT00428610",
+      "NCT00191334",
+      "NCT00053365",
+      "NCT00610714",
+      "NCT00025155",
+      "NCT00316173",
+      "NCT01246440",
+      "NCT01481701",
+      "NCT00377429"
+    ],
+    "cited_nct_ids": [
+      "NCT00002559"
+    ],
+    "valid_citations": [],
+    "invented_citations": [],
+    "filters": {
+      "detected": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "ovarian",
+          "ovary"
+        ]
+      },
+      "applied": {
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "cancer": [
+          "ovarian",
+          "ovary"
+        ]
+      },
+      "relaxed": false,
+      "matching_chunks": 1005
+    },
+    "retrieval_seconds": 10.706,
+    "generation_seconds": 127.4,
+    "added_by_code": [
+      "NCT00002559"
+    ],
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": null
+    },
+    "id": "B075",
+    "category": "trial_search",
+    "tool": "list_trials",
+    "tools_tried": [
+      "list_trials"
+    ],
+    "planner_output": "count_trials",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'count_trials' -> list_trials (rule override: list question, not a count)",
+      "act: list_trials -> 0 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 1,
+      "total": 1
+    },
+    "gold_in_answer": {
+      "found": 1,
+      "total": 1
+    }
+  },
+  {
+    "question": "What is the mechanism of action of pembrolizumab?",
+    "answer": "Pembrolizumab (Keytruda) is a humanized monoclonal antibody against the programmed death receptor-1 (PD-1) protein [PMID 25331768]. The PD-1 protein is a key immunoinhibitory checkpoint protein that plays a crucial role in down-regulating anti-tumor immune responses [PMID 26846323]. The mechanism of action of pembrolizumab involves blocking the interaction between PD-1 and its ligands, PDL1 and PDL2, which results in the transduction of negative signals to T-cells [PMID 27398650]. By blocking PD-1, pembrolizumab enables the immune system to recognize and attack cancer cells more effectively, thereby overcoming the tumor's ability to evade anti-tumor immunity [PMID 26846323].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 25331768",
+      "PMID 26846323",
+      "PMID 27398650"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "35692130",
+      "26288737",
+      "26846323",
+      "25331768",
+      "27398650"
+    ],
+    "cited_pmids": [
+      "25331768",
+      "26846323",
+      "27398650"
+    ],
+    "retrieval_seconds": 36.88,
+    "generation_seconds": 111.01,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B076",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 3 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of nivolumab?",
+    "answer": "The mechanism of action of nivolumab involves blocking the interaction between programmed death-1 (PD-1) on T cells and its ligand PD-L1 on tumor cells. This interaction leads to T-cell suppression and evasion of the immune system by tumor cells. By blocking this interaction, nivolumab can reverse T-cell suppression and induce antitumor responses [PMID 25494679].\n\nVerifier note:\n- Only 33% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 25494679"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "25494679",
+      "23724867",
+      "39349627",
+      "37343829",
+      "29033130"
+    ],
+    "cited_pmids": [
+      "25494679"
+    ],
+    "retrieval_seconds": 30.84,
+    "generation_seconds": 84.55,
+    "filters": {},
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 33% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.33
+    },
+    "id": "B077",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of trastuzumab?",
+    "answer": "Trastuzumab, a humanized monoclonal antibody, targets the HER2/neu (HER2) protein. The mechanism of action of trastuzumab includes cell cycle arrest, induction of apoptosis, and antibody-dependent cell-mediated cytotoxicity (ADCC). [PMID 36291900]",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 36291900"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "36291900",
+      "39655080",
+      "17687197",
+      "40887295",
+      "31587782"
+    ],
+    "cited_pmids": [
+      "36291900"
+    ],
+    "retrieval_seconds": 29.99,
+    "generation_seconds": 62.62,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.5
+    },
+    "id": "B078",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of osimertinib?",
+    "answer": "Osimertinib is an orally bioavailable, third-generation EGFR-TKI that acts by irreversibly binding both EGFR activating mutations and T790M, while sparing wild-type EGFR. [PMID 37060646]",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 37060646"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "37060646",
+      "31564718",
+      "32642198",
+      "37093192",
+      "30069773"
+    ],
+    "cited_pmids": [
+      "37060646"
+    ],
+    "retrieval_seconds": 35.86,
+    "generation_seconds": 76.05,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B079",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of bevacizumab?",
+    "answer": "Bevacizumab is a humanized monoclonal antibody that targets vascular endothelial growth factor-A (VEGF-A). [PMID 20037132] This mechanism of action allows bevacizumab to inhibit angiogenesis, a key process in cancer development. By binding to VEGF-A, bevacizumab prevents the interaction between VEGF-A and its receptors, thereby blocking the formation of new blood vessels essential for tumor growth and progression. [PMID 20037132]",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 20037132"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "20037132",
+      "30119081",
+      "25703583",
+      "28882537",
+      "33663220"
+    ],
+    "cited_pmids": [
+      "20037132"
+    ],
+    "retrieval_seconds": 21.88,
+    "generation_seconds": 71.37,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.67
+    },
+    "id": "B080",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of olaparib?",
+    "answer": "Olaparib, an orally administered PARP inhibitor, works by inhibiting the catalytic site of PARP1 and PARP2, enzymes central to the repair of DNA single-strand breaks (SSBs) mediated via the base excision repair (BER) pathway [PMID 29582690]. By inhibiting PARP, olaparib leads to the accumulation of unrepaired SSBs, which can then form deleterious double-strand breaks (DSBs) [PMID 30069770]. In cells with an intact homologous recombination (HR) pathway, these DSBs can be repaired effectively. However, in tumors with homologous recombination repair deficiencies, olaparib causes synthetic lethality through the combination of two molecular events: the accumulation of unrepaired SSBs and the inability to repair the resulting DSBs [PMID 30069770].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 29582690",
+      "PMID 30069770"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "29582690",
+      "32249603",
+      "30069770",
+      "30092674",
+      "42479102"
+    ],
+    "cited_pmids": [
+      "29582690",
+      "30069770"
+    ],
+    "retrieval_seconds": 41.32,
+    "generation_seconds": 106.77,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.75
+    },
+    "id": "B081",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of ipilimumab?",
+    "answer": "Ipilimumab, marketed as Yervoy, is an anti-CTLA-4 antibody. Its mechanism of action is based on the premise that \"Abrogation of the function of CTLA-4 would permit CD28 to function unopposed and might swing the balance in favor of immune stimulation, tolerance breakdown and tumor eradication\" (Weber, 2009). By blocking CTLA-4, ipilimumab allows CD28 to function more effectively, potentially leading to an enhanced immune response against tumors. However, this can also lead to an overactive immune response, as seen in the TGN1412 catastrophe, where the loss of immune cell discrimination between self and non-self tissues resulted in severe adverse events in patients. [PMID 21821307]\n\nVerifier note:\n- Only 25% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 21821307"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "34341015",
+      "23724867",
+      "21821307",
+      "23265575",
+      "26114847"
+    ],
+    "cited_pmids": [
+      "21821307"
+    ],
+    "retrieval_seconds": 59.55,
+    "generation_seconds": 95.7,
+    "filters": {},
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 25% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.25
+    },
+    "id": "B082",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What is the mechanism of action of atezolizumab?",
+    "answer": "Atezolizumab is a monoclonal antibody agent that specifically targets programmed death ligand 1 (PD-L1), a key molecule in the cancer-immunity pathway. It works by blocking the binding of PD-L1 to its receptors PD-1 and B7.1, which are involved in the immune checkpoint pathway. By inhibiting this interaction, atezolizumab aims to restore the immune system's ability to recognize and attack cancer cells [PMID 28335643].\n\nVerifier note:\n- Only 33% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 28335643"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "32067545",
+      "33663220",
+      "28335643",
+      "32450725",
+      "30087855"
+    ],
+    "cited_pmids": [
+      "28335643"
+    ],
+    "retrieval_seconds": 43.18,
+    "generation_seconds": 100.85,
+    "filters": {},
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 33% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.33
+    },
+    "id": "B083",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How does cetuximab work?",
+    "answer": "Cetuximab works by binding to the extra-cellular domain of epidermal growth factor receptor (EGFR) with a higher affinity than the endogenous ligand. This binding inhibits receptor phosphorylation and activation, leading to receptor internalization and degradation. [PMID 18676156] Additionally, cetuximab inhibits growth of EGFR-expressing tumor cells in vitro and in vivo, and it potentiates the effects of chemotherapy and radiation therapy in eradicating well-established tumors in nude mice. [PMID 17687200] It also has antitumor activity against EGFR-expressing colorectal cancer (CRC) and can be used in combination with other treatments such as irinotecan. [PMID 31578019]",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 18676156",
+      "PMID 17687200",
+      "PMID 31578019"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "29534625",
+      "18676156",
+      "20167650",
+      "17687200",
+      "31578019"
+    ],
+    "cited_pmids": [
+      "18676156",
+      "17687200",
+      "31578019"
+    ],
+    "retrieval_seconds": 36.78,
+    "generation_seconds": 103.05,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.75
+    },
+    "id": "B084",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 3 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How does rituximab work?",
+    "answer": "Rituximab works by multiple mechanisms of action. It can induce killing of CD20+ cells via direct effects including complement-mediated cytotoxicity and antibody-dependent cell-mediated cytotoxicity (ADCC) [PMID 12710585]. Rituximab also causes structural changes, apoptosis, and sensitizes cancer cells to chemotherapy [PMID 12710585]. In vitro studies have contributed significantly to understanding these mechanisms of action and have led to the development of innovative treatment strategies, such as the combination of rituximab and CHOP chemotherapy (cyclophosphamide, doxorubicin, vincristine, and prednisone) [PMID 12710585].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 12710585"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "20350658",
+      "21658619",
+      "12710585",
+      "23600760",
+      "29741753"
+    ],
+    "cited_pmids": [
+      "12710585"
+    ],
+    "retrieval_seconds": 46.46,
+    "generation_seconds": 87.73,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.75
+    },
+    "id": "B085",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How does imatinib work?",
+    "answer": "Imatinib works by inhibiting the Bcr-abl tyrosine kinase, which is central to the pathogenesis of chronic myeloid leukaemia (CML) [PMID 12783592]. This tyrosine kinase is mutated in CML, leading to uncontrolled cell proliferation. Imatinib mesylate, an inhibitor of this kinase, has been successful in treating patients with CML [PMID 12783592]. Additionally, imatinib also inhibits platelet-derived growth factor receptor (PDGFR) and c-Kit, making it effective for various other tumors caused by abnormalities of these enzymes [PMID 12122963].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 12783592",
+      "PMID 12122963"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "12783592",
+      "19149608",
+      "12122963",
+      "26372795",
+      "27030078"
+    ],
+    "cited_pmids": [
+      "12783592",
+      "12122963"
+    ],
+    "retrieval_seconds": 40.01,
+    "generation_seconds": 73.09,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.75
+    },
+    "id": "B086",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How does enzalutamide work?",
+    "answer": "Enzalutamide works by binding to the androgen receptor (AR), a protein that is crucial for the growth of prostate cancer cells. [PMID 39275993] This binding prevents the nuclear translocation of the AR, thereby inactivating androgen signaling, which is a key mechanism in the growth and progression of prostate cancer cells. [PMID 29911070] Additionally, enzalutamide is effective in both castration-sensitive and castration-resistant prostate cancer, as it can still inhibit the AR even when androgen levels are low. [PMID 28413979] However, despite its effectiveness, prostate cancer cells can develop resistance to enzalutamide, which can occur through various mechanisms including genetic mutations and splice variants of the AR, signaling pathways that bypass androgen signaling, intratumoral androgen biosynthesis by prostate tumor cells, lineage plasticity, and contributions from the tumor microenvironment. [PMID 30425524] Understanding these mechanisms is crucial for developing strategies to overcome resistance and improve treatment outcomes. [PMID 30535926]",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 39275993",
+      "PMID 29911070",
+      "PMID 28413979",
+      "PMID 30425524",
+      "PMID 30535926"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "39275993",
+      "29911070",
+      "28413979",
+      "30425524",
+      "30535926"
+    ],
+    "cited_pmids": [
+      "39275993",
+      "29911070",
+      "28413979",
+      "30425524",
+      "30535926"
+    ],
+    "retrieval_seconds": 48.22,
+    "generation_seconds": 113.5,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B087",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 5 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "How do CAR T cells work against cancer?",
+    "answer": "CAR T cells work against cancer by being engineered to carry a chimeric antigen receptor (CAR) on their surface. This CAR is designed to recognize specific antigens (proteins) expressed on the surface of cancer cells, specifically B-cell lymphoma cells in this context. Once the CAR-T cells are infused into a patient, they can specifically target and destroy these cancer cells. The CAR-T cells are also engineered to be more effective in attacking cancer cells by secreting cytokines, which are signaling molecules that can enhance the immune response against cancer. This engineered approach allows CAR-T cells to recognize and eliminate cancer cells more effectively than the body's natural immune system alone. [PMID 40074511]\n\nVerifier note:\n- Only 20% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 40074511"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "40074511",
+      "32193838",
+      "33753869",
+      "31160888",
+      "21734234"
+    ],
+    "cited_pmids": [
+      "40074511"
+    ],
+    "retrieval_seconds": 44.57,
+    "generation_seconds": 95.93,
+    "filters": {},
+    "verification": {
+      "status": "warning",
+      "issues": [
+        "Only 20% of the answer's sentences cite a source; uncited statements may come from the model's memory, not the sources."
+      ],
+      "citation_coverage": 0.2
+    },
+    "id": "B088",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 1 valid citations",
+      "check: ok",
+      "verify: warning (1 issue(s))"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What does palbociclib target?",
+    "answer": "Palbociclib targets cyclin-dependent kinases (CDKs) 4 and 6 [PMID 29564714, PMID 25792301, PMID 33280599, PMID 28649895, PMID 30130984]. These kinases play a key role in cell cycle regulation, particularly in the transition from G0/G1-phase to S-phase, and are important modulators of cell cycle entry and progression in response to growth signals. Inhibition of these kinases with palbociclib could enhance the activity of other anticancer drugs in tolerable regimens. [PMID 29564714]",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 29564714",
+      "PMID 25792301",
+      "PMID 33280599",
+      "PMID 28649895",
+      "PMID 30130984"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "29564714",
+      "25792301",
+      "33280599",
+      "28649895",
+      "30130984"
+    ],
+    "cited_pmids": [
+      "29564714",
+      "25792301",
+      "33280599",
+      "28649895",
+      "30130984"
+    ],
+    "retrieval_seconds": 36.89,
+    "generation_seconds": 93.73,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 0.67
+    },
+    "id": "B089",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 5 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What are the common side effects of immune checkpoint inhibitors?",
+    "answer": "The common side effects of immune checkpoint inhibitors include pruritus and fatigue [PMID 25588084]. Additionally, pruritus, increased alanine transaminase, and increased aspartate aminotransferase are common among patients treated with a combination of durvalumab and tremelimumab [PMID 30013326].",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [
+      "PMID 25588084",
+      "PMID 30013326"
+    ],
+    "invented_citations": [],
+    "retrieved_pmids": [
+      "38244436",
+      "25588084",
+      "30013326",
+      "39364500",
+      "37720498"
+    ],
+    "cited_pmids": [
+      "25588084",
+      "30013326"
+    ],
+    "retrieval_seconds": 33.02,
+    "generation_seconds": 82.88,
+    "filters": {},
+    "verification": {
+      "status": "pass",
+      "issues": [],
+      "citation_coverage": 1.0
+    },
+    "id": "B090",
+    "category": "literature",
+    "tool": "search_papers",
+    "tools_tried": [
+      "search_papers"
+    ],
+    "planner_output": "search_papers",
+    "planner_fallback": false,
+    "trace": [
+      "plan: LLM said 'search_papers' -> search_papers",
+      "act: search_papers -> 2 valid citations",
+      "check: ok",
+      "verify: pass"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "My mother has ovarian cancer. Should she stop her chemotherapy?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B091",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "I was diagnosed with stage II breast cancer. What treatment should I choose?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B092",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Should my husband join a clinical trial or take standard chemo for his pancreatic cancer?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B093",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "My dad's melanoma came back. Which drug should he take next?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B094",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "What dose of osimertinib should I take?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B095",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Is it safe for me to skip my next immunotherapy infusion?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B096",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "My sister has leukemia. Which trial is best for her?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B097",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "I have lung cancer and a new cough. Should I increase my medication?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B098",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "Can I take ibuprofen with my chemotherapy?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B099",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  },
+  {
+    "question": "My son has lymphoma. Should we try CAR-T therapy?",
+    "answer": "I can't give personal medical advice. Treatment decisions for a specific person depend on details only their care team knows, so please consult their oncologist or doctor. I can help you find clinical trials or research papers on a cancer type or drug if that is useful.",
+    "retrieved_chunk_ids": [],
+    "retrieved_nct_ids": [],
+    "cited_nct_ids": [],
+    "valid_citations": [],
+    "invented_citations": [],
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.0,
+    "filters": {},
+    "verification": {
+      "status": "skipped",
+      "reason": "answer written by code",
+      "issues": []
+    },
+    "id": "B100",
+    "category": "out_of_scope",
+    "tool": "safety_refusal",
+    "tools_tried": [
+      "safety_refusal"
+    ],
+    "planner_output": "",
+    "planner_fallback": false,
+    "trace": [
+      "plan: rule -> safety_refusal (LLM planner skipped)",
+      "act: safety_refusal -> 0 valid citations",
+      "check: ok",
+      "verify: skipped"
+    ],
+    "gold_in_retrieved": {
+      "found": 0,
+      "total": 0
+    },
+    "gold_in_answer": {
+      "found": 0,
+      "total": 0
+    }
+  }
+]

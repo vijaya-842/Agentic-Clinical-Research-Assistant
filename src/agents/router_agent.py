@@ -21,7 +21,8 @@ OUTPUT_FILE = Path("eval/agentic_rag_results.json")
 
 PERSONAL_ADVICE_PATTERN = re.compile(
     r"\b(my|our)\s+(father|mother|mom|dad|wife|husband|son|daughter|child|friend|brother|sister|partner|parent)\b"
-    r"|\bshould\s+(i|he|she|we|they)\s+(take|get|start|stop|choose|try|use)\b"
+    r"|\bshould\s+(i|he|she|we|they)\s+(take|get|start|stop|choose|try|use|join|skip|change|switch|continue"
+    r"|increase|decrease|reduce|raise|lower)\b"
     r"|\bwhat\s+should\s+(i|he|she|we)\b"
     r"|\b(for|like)\s+me\b"
     r"|\bmy\s+(cancer|tumou?r|diagnosis|condition|treatment|chemo\w*)\b",
@@ -102,11 +103,39 @@ def trial_details(nct_ids, all_trials):
         lines.append(f"- [{nct}] {t.get('title', '')} | Status: {t.get('status', '')} | Phase: {phases}")
     return "\n".join(lines)
 
-def list_with_details(result, all_trials):
-    """Add code-written status/phase lines for every valid cited trial."""
-    if result["valid_citations"]:
-        details = trial_details(result["valid_citations"], all_trials)
-        result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
+GENERIC_WORDS = {
+    "trial", "trials", "clinical", "recruiting", "completed", "phase", "cancer", "testing", "which",
+    "patients", "study", "studies", "include", "intervention", "treatment", "therapy", "about",
+}
+
+
+def drug_matches(question, nct_ids, all_trials):
+    """Retrieved trials whose interventions contain a word from the question (e.g. the drug name).
+    Checked by code against the raw data, so these are safe to show even if the LLM left them out."""
+    words = set(re.findall(r"[a-z][a-z0-9-]{4,}", question.lower())) - GENERIC_WORDS
+    by_id = {t["nct_id"]: t for t in all_trials}
+    found = []
+    for nct in nct_ids:
+        interventions = " ".join(str(i) for i in (by_id.get(nct) or {}).get("interventions") or []).lower()
+        if words and any(w in interventions for w in words):
+            found.append(nct)
+    return found
+
+
+def list_with_details(result, all_trials, question=""):
+    """Add code-written status/phase lines for every valid cited trial, plus retrieved trials
+    that the LLM left out but whose interventions contain the drug named in the question."""
+    cited = result["valid_citations"]
+    extra = [n for n in drug_matches(question, result.get("retrieved_nct_ids", []), all_trials) if n not in cited]
+    if cited or extra:
+        result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):"
+    if cited:
+        result["answer"] += "\n" + trial_details(cited, all_trials)
+    if extra:
+        result["answer"] += ("\nAlso found by search (the drug is listed in the trial's interventions):\n"
+                             + trial_details(extra, all_trials))
+        result["cited_nct_ids"] = list(dict.fromkeys(result.get("cited_nct_ids", []) + extra))
+        result["added_by_code"] = extra
     return result
 
 def safety_refusal_result(question):
@@ -142,7 +171,7 @@ def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriev
         from src.rag.literature_rag import answer_literature_question
         result = answer_multi_hop(
             question,
-            trial_tool=lambda q: list_with_details(advanced_answer(q, retriever, trial_facts, top_k=LIST_TOP_K), all_trials),
+            trial_tool=lambda q: list_with_details(advanced_answer(q, retriever, trial_facts, top_k=LIST_TOP_K), all_trials, q),
             paper_tool=lambda q: answer_literature_question(q, pubmed_retriever, top_k=top_k),
             all_trials=all_trials,
         )
@@ -153,9 +182,8 @@ def answer_question(question, retriever, trial_facts, all_trials, pubmed_retriev
         from src.rag.advanced_rag import answer_question as advanced_answer
         k = LIST_TOP_K if tool == "list_rag" else top_k
         result = advanced_answer(question, retriever, trial_facts, top_k=k)
-        if tool == "list_rag" and result["valid_citations"]:
-            details = trial_details(result["valid_citations"], all_trials)
-            result["answer"] += "\n\nTrial details (from ClinicalTrials.gov data):\n" + details
+        if tool == "list_rag":
+            result = list_with_details(result, all_trials, question)
     result["tool"] = tool
     return verify_answer(result, all_trials, tool)
 

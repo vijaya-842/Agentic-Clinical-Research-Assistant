@@ -79,3 +79,23 @@ def test_greeting_goes_to_small_talk():
 def test_multi_hop_route():
     assert route("Which recruiting melanoma trials test pembrolizumab, and how does pembrolizumab work?") == "multi_hop"
     assert route("What is the mechanism of action of osimertinib?") == "literature_rag"
+
+
+
+def test_guardrail_catches_dose_changes():
+    assert route("I have lung cancer and a new cough. Should I increase my medication?") == "safety_refusal"
+    assert route("Should she skip her next infusion?") == "safety_refusal"
+
+
+def test_list_adds_retrieved_trials_that_name_the_drug():
+    from src.agents.router_agent import list_with_details
+    trials = [
+        {"nct_id": "NCT001", "title": "A", "status": "RECRUITING", "phases": [], "interventions": ["Drug: Azacitidine"]},
+        {"nct_id": "NCT002", "title": "B", "status": "RECRUITING", "phases": [], "interventions": ["Venetoclax"]},
+        {"nct_id": "NCT003", "title": "C", "status": "RECRUITING", "phases": [], "interventions": ["Placebo"]},
+    ]
+    result = {"answer": "Not enough information.", "valid_citations": [], "cited_nct_ids": [],
+              "retrieved_nct_ids": ["NCT001", "NCT002", "NCT003"]}
+    result = list_with_details(result, trials, "Which recruiting leukemia trials use azacitidine?")
+    assert result["added_by_code"] == ["NCT001"]
+    assert "NCT001" in result["answer"] and "NCT003" not in result["answer"]
